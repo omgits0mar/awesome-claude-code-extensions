@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Search and filter a source-backed catalog of Claude Code plugins, skills, agents, commands, hooks, workflows, MCP servers, and tools."
+    >
+    <meta name="theme-color" content="#0b1020">
+    <meta name="color-scheme" content="dark">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Awesome Claude Code Extensions">
+    <meta
+      property="og:description"
+      content="Search the Claude Code ecosystem across plugins, skills, agents, MCP servers, tools, and more."
+    >
+    <title>Awesome Claude Code Extensions — Search the ecosystem</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="./assets/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog-results">Skip to catalog results</a>
+
+    <header class="hero">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="brand" href="./" aria-label="Awesome Claude Code Extensions home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M7.25 8.25h9.5v7.5h-9.5z"></path>
+              <path d="M9 8.25V5.5m6 2.75V5.5M9 18.5v-2.75m6 2.75v-2.75M7.25 10H4.5m2.75 4H4.5m15-4h-2.75m2.75 4h-2.75"></path>
+            </svg>
+          </span>
+          <span>Awesome CC Extensions</span>
+        </a>
+        <div class="nav-links">
+          <a href="https://github.com/omgits0mar/awesome-claude-code-extensions" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a href="./catalog/catalog.json" download>JSON</a>
+          <a href="./catalog/catalog.csv" download>CSV</a>
+        </div>
+      </nav>
+
+      <div class="hero-inner">
+        <span class="eyebrow">✦ Plugins / Skills / Agents / MCP</span>
+        <h1>The Claude Code<br><span>extensions directory.</span></h1>
+        <p class="lede">
+          One source-backed index for discovering the tools that extend Claude Code.
+          <span class="lede-detail">
+            Search every name, description, tag, author, and repository—then narrow by
+            type, provenance, stars, category, or verified license.
+          </span>
+        </p>
+
+        <dl class="stats" aria-label="Catalog statistics">
+          <div class="stat">
+            <dt>extensions</dt>
+            <dd id="stat-total">—</dd>
+          </div>
+          <div class="stat">
+            <dt>repositories</dt>
+            <dd id="stat-repositories">—</dd>
+          </div>
+          <div class="stat">
+            <dt>MCP servers</dt>
+            <dd id="stat-mcp">—</dd>
+          </div>
+          <div class="stat">
+            <dt>plugins</dt>
+            <dd id="stat-plugins">—</dd>
+          </div>
+          <div class="stat">
+            <dt>official directory</dt>
+            <dd id="stat-official">—</dd>
+          </div>
+        </dl>
+
+        <div class="catalog-pulse" aria-label="Catalog composition by extension type">
+          <span class="pulse-label">Catalog pulse</span>
+          <div class="pulse-track" id="catalog-pulse" aria-hidden="true"></div>
+          <span class="pulse-label" id="pulse-summary">Loading the ecosystem…</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Catalog search and filters">
+        <div class="controls-inner">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="6.5"></circle>
+              <path d="m16 16 4 4"></path>
+            </svg>
+            <label class="sr-only" for="search-input">Search all extensions</label>
+            <input
+              id="search-input"
+              type="search"
+              inputmode="search"
+              autocomplete="off"
+              placeholder="Search extensions… e.g. ponytail, Wikipedia, browser"
+              aria-describedby="search-hint"
+            >
+            <span class="search-shortcut" aria-hidden="true">⌘ K</span>
+          </div>
+
+          <button
+            class="filter-toggle"
+            id="filter-toggle"
+            type="button"
+            aria-controls="filter-panel"
+            aria-expanded="false"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h16M7 12h10m-7 5h4"></path>
+            </svg>
+            Filters
+            <span class="filter-count" id="filter-count" hidden>0</span>
+          </button>
+
+          <div class="kind-chips" id="kind-chips" aria-label="Filter by extension type">
+            <button class="chip is-active" type="button" data-kind="all" aria-pressed="true">
+              All <span id="count-all">—</span>
+            </button>
+            <button class="chip" type="button" data-kind="plugin" aria-pressed="false">
+              Plugins <span id="count-plugin">—</span>
+            </button>
+            <button class="chip" type="button" data-kind="mcp-server" aria-pressed="false">
+              MCP <span id="count-mcp-server">—</span>
+            </button>
+            <button class="chip" type="button" data-kind="skills" aria-pressed="false">
+              Skills <span id="count-skills">—</span>
+            </button>
+            <button class="chip" type="button" data-kind="agents" aria-pressed="false">
+              Agents <span id="count-agents">—</span>
+            </button>
+            <button class="chip" type="button" data-kind="tools" aria-pressed="false">
+              Tools <span id="count-tools">—</span>
+            </button>
+          </div>
+
+          <div class="filter-panel" id="filter-panel">
+            <label class="field">
+              <span>Source tier</span>
+              <select id="tier-filter">
+                <option value="all">All provenance tiers</option>
+                <option value="official">Official directory</option>
+                <option value="popular">Popular source (1k+)</option>
+                <option value="curated">Curated</option>
+                <option value="community">Community</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Category</span>
+              <select id="category-filter">
+                <option value="all">All categories</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>
+                GitHub stars
+                <small id="stars-coverage">loading</small>
+              </span>
+              <select id="stars-filter" disabled>
+                <option value="all">Any star count</option>
+                <option value="10">10+ stars</option>
+                <option value="100">100+ stars</option>
+                <option value="1000">1,000+ stars</option>
+                <option value="10000">10,000+ stars</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Sort results</span>
+              <select id="sort-select">
+                <option value="featured">Featured</option>
+                <option value="stars">Most starred</option>
+                <option value="name">Name A–Z</option>
+                <option value="updated">Recently pushed</option>
+              </select>
+            </label>
+
+            <label class="check-field">
+              <input id="official-filter" type="checkbox">
+              <span class="check-control" aria-hidden="true"></span>
+              <span>
+                First-party only
+                <small>Marked official by an upstream source</small>
+              </span>
+            </label>
+
+            <label class="check-field">
+              <input id="license-filter" type="checkbox">
+              <span class="check-control" aria-hidden="true"></span>
+              <span>
+                Verified license
+                <small>Artifact-level evidence checked</small>
+              </span>
+            </label>
+
+            <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
+          </div>
+        </div>
+        <p class="sr-only" id="search-hint">
+          Search covers extension names, aliases, descriptions, categories, tags, authors, and repository names.
+        </p>
+      </section>
+
+      <div class="catalog-wrap">
+        <section class="results-heading" aria-labelledby="results-title">
+          <div>
+            <p class="section-kicker">Explore the ecosystem</p>
+            <h2 id="results-title">All extensions</h2>
+            <p class="results-copy" id="results-copy" aria-live="polite">Loading catalog…</p>
+          </div>
+          <div class="metadata-note" id="metadata-note">
+            <span class="status-dot is-loading" aria-hidden="true"></span>
+            <span>Loading repository signals</span>
+          </div>
+        </section>
+
+        <div class="active-filters" id="active-filters" aria-label="Active filters"></div>
+
+        <section
+          class="catalog-grid is-loading"
+          id="catalog-results"
+          aria-label="Extension results"
+          aria-busy="true"
+        >
+          <article class="skeleton-card" aria-hidden="true"></article>
+          <article class="skeleton-card" aria-hidden="true"></article>
+          <article class="skeleton-card" aria-hidden="true"></article>
+          <article class="skeleton-card" aria-hidden="true"></article>
+          <article class="skeleton-card" aria-hidden="true"></article>
+          <article class="skeleton-card" aria-hidden="true"></article>
+        </section>
+
+        <section class="empty-state" id="empty-state" hidden>
+          <span class="empty-mark" aria-hidden="true">⌁</span>
+          <h2>No extensions found</h2>
+          <p>Try a broader phrase, lower the star threshold, or clear one of the active filters.</p>
+          <button type="button" id="empty-clear">Reset the catalog</button>
+        </section>
+
+        <div class="load-more-wrap">
+          <button class="load-more" id="load-more" type="button" hidden>
+            Load more
+            <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-title">Awesome Claude Code Extensions</p>
+          <p>
+            A community catalog, not a security endorsement. Review source code,
+            hooks, permissions, and install commands before adopting any extension.
+          </p>
+        </div>
+        <nav class="footer-links" aria-label="Project links">
+          <a href="https://github.com/omgits0mar/awesome-claude-code-extensions" target="_blank" rel="noopener noreferrer">Repository</a>
+          <a href="https://github.com/omgits0mar/awesome-claude-code-extensions/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contribute</a>
+          <a href="https://github.com/omgits0mar/awesome-claude-code-extensions/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">Methodology</a>
+          <a href="https://github.com/omgits0mar/awesome-claude-code-extensions/blob/main/docs/TRUST_AND_SAFETY.md" target="_blank" rel="noopener noreferrer">Trust &amp; safety</a>
+        </nav>
+      </div>
+      <p class="footer-meta">
+        Catalog checked <span id="catalog-date">—</span>
+        <span aria-hidden="true">·</span>
+        Repository stars are dated signals, not quality scores.
+      </p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <noscript>
+      <div class="noscript">
+        This catalog needs JavaScript for client-side search and filtering. The
+        complete data remains available in <a href="./catalog/catalog.json">JSON</a>
+        and <a href="./catalog/catalog.csv">CSV</a>.
+      </div>
+    </noscript>
+  </body>
+</html>

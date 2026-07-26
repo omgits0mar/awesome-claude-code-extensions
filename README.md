@@ -13,9 +13,15 @@ A large, source-backed index of Claude Code plugins, skills, agents, commands, h
 **2,462 entries** · **2,380 GitHub repositories** · **311 plugins** · **1,642 MCP servers** · **268 official-directory entries**
 <!-- catalog-stats:end -->
 
-[Browse the catalog](CATALOG.md) · [License-verified](catalog/verified-open-source.md) · [JSON](catalog/catalog.json) · [CSV](catalog/catalog.csv) · [Contribute](CONTRIBUTING.md) · [Methodology](docs/METHODOLOGY.md)
+[Search the web catalog](https://omgits0mar.github.io/awesome-claude-code-extensions/) · [Browse as Markdown](CATALOG.md) · [License-verified](catalog/verified-open-source.md) · [JSON](catalog/catalog.json) · [CSV](catalog/catalog.csv) · [Contribute](CONTRIBUTING.md) · [Methodology](docs/METHODOLOGY.md)
 
 </div>
+
+## Search on the web
+
+The [interactive catalog](https://omgits0mar.github.io/awesome-claude-code-extensions/) searches every entry in the generated dataset and filters by artifact type, provenance tier, category, current GitHub stars, first-party status, and verified license evidence. It is a dependency-free static site hosted with GitHub Pages; repository stars and avatars are refreshed during deployment without changing the deterministic catalog.
+
+See [Website architecture and local preview](docs/WEBSITE.md) for implementation and deployment details.
 
 ## Start here
 

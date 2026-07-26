@@ -4,5 +4,6 @@ __pycache__/
 *.py[cod]
 .venv/
 catalog/link-report.json
+catalog/github-metadata.json
 research/github-discovery-candidates.json
 research/official-mcp-registry-candidates.json
