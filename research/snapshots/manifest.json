@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "checked_at": "2026-07-26",
+  "description": "Committed upstream snapshots used for deterministic catalog builds.",
+  "sources": {
+    "anthropic-marketplace.json": {
+      "url": "https://api.github.com/repos/anthropics/claude-plugins-official/contents/.claude-plugin/marketplace.json",
+      "sha256": "07bcf70dd0ab8b101d27cf063243aa4f2b4ab1503812b2c3878b77666e5bd0e9"
+    },
+    "appcypher-mcp.md.txt": {
+      "url": "https://api.github.com/repos/appcypher/awesome-mcp-servers/readme",
+      "sha256": "1345bae910873dea7c40d1f8765a6f192a1db8d5f5c4c59c10b3e7ecae63908a"
+    },
+    "punkpeye-mcp.md.txt": {
+      "url": "https://api.github.com/repos/punkpeye/awesome-mcp-servers/readme",
+      "sha256": "7861d9b81a6bf0779cb72cb985c7b8c11f95bbb40ad5a5aa2ecd3eb3066efd2f"
+    },
+    "subinium-awesome.md.txt": {
+      "url": "https://api.github.com/repos/subinium/awesome-claude-code/readme",
+      "sha256": "5a8ac380040f1342993b6a8c35663fdace80be5aba32777739d97aee957d689a"
+    }
+  }
+}

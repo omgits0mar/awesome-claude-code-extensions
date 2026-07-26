@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive security report
+    url: https://github.com/omgits0mar/awesome-claude-code-extensions/security/advisories/new
+    about: Report malware, credential theft, compromise, or exploit details privately.

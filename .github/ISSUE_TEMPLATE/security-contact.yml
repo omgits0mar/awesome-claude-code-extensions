@@ -1,0 +1,23 @@
+name: Request private security contact
+description: Ask the maintainers for a private reporting route without publishing sensitive details.
+title: "[Security contact]: "
+labels: ["security-contact"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include exploit steps, secrets, victim details, or other sensitive information here. This form only opens a private-contact request.
+  - type: input
+    id: project
+    attributes:
+      label: Catalog project name or URL
+      description: Provide only enough information to identify the affected entry.
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Safe disclosure
+      options:
+        - label: I have not included exploit details, credentials, personal data, or other sensitive information.
+          required: true

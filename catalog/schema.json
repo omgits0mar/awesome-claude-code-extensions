@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/omgits0mar/awesome-claude-code-extensions/raw/main/catalog/schema.json",
+  "title": "Awesome Claude Code Extensions Catalog",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "description",
+    "counts",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "total",
+        "official_directory",
+        "official_provider",
+        "license_verified",
+        "github_repositories",
+        "by_kind",
+        "by_tier",
+        "by_category"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "official_directory": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Entries whose strongest provenance tier is Anthropic's official plugin directory."
+        },
+        "official_provider": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Entries marked first-party or official by their recorded upstream source; broader than the Anthropic directory."
+        },
+        "license_verified": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "github_repositories": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "by_kind": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_tier": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "by_category": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "url",
+        "repository_url",
+        "description",
+        "kind",
+        "category",
+        "tags",
+        "compatibility",
+        "source_tier",
+        "official",
+        "install",
+        "install_commands",
+        "author",
+        "license",
+        "license_verified",
+        "license_checked_at",
+        "verification",
+        "last_checked",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://github\\.com/"
+        },
+        "repository_url": {
+          "type": "string",
+          "pattern": "^https://github\\.com/[^/]+/[^/]+$"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 15,
+          "maxLength": 320
+        },
+        "kind": {
+          "enum": [
+            "plugin",
+            "skill",
+            "command",
+            "hook",
+            "agent",
+            "workflow",
+            "mcp-server",
+            "mcp-tooling",
+            "interface",
+            "monitoring",
+            "learning",
+            "tool",
+            "collection"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "compatibility": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "agent-skills",
+              "claude-code",
+              "mcp"
+            ]
+          }
+        },
+        "source_tier": {
+          "enum": [
+            "official",
+            "popular",
+            "curated",
+            "community"
+          ]
+        },
+        "official": {
+          "type": "boolean",
+          "description": "Marked first-party or official by at least one recorded upstream source; not a safety endorsement."
+        },
+        "install": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "install_commands": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": "string"
+        },
+        "license_verified": {
+          "type": "boolean"
+        },
+        "license_checked_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date",
+          "description": "Date the artifact-level license evidence was checked; null when unverified."
+        },
+        "verification": {
+          "type": "string"
+        },
+        "last_checked": {
+          "type": "string",
+          "format": "date"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "notes": {
+          "type": "string",
+          "maxLength": 325
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

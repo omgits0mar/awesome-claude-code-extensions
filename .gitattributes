@@ -1,0 +1,4 @@
+*.csv text eol=lf
+
+# Preserve source snapshots byte-for-byte; upstream formatting is not ours to fix.
+research/snapshots/*.txt -whitespace

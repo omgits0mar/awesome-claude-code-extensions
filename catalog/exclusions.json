@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://github.com/aarsiv-groups/shipi-mcp-server",
+    "reason": "The hosted product remains available but its canonical source repository was withdrawn.",
+    "evidence": "https://myshipi.com/mcp",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/baba786/phabricator-mcp-server",
+    "reason": "The canonical repository was deleted; surviving copies are unattributed third-party mirrors.",
+    "evidence": "https://github.com/baba786/phabricator-mcp-server",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/calclavia/mcp-obsidian",
+    "reason": "The repository was deleted and no canonical successor for the same implementation was found.",
+    "evidence": "https://github.com/calclavia/mcp-obsidian",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/doobidoo/mcp-memory-service",
+    "reason": "The project moved to Codeberg and no canonical public GitHub replacement exists.",
+    "evidence": "https://pypi.org/project/mcp-memory-service/11.5.1/",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/edgarriba/prolink",
+    "reason": "The repository was removed or made private, and no canonical successor was identified.",
+    "evidence": "https://github.com/edgarriba/prolink",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/Elmoaid/TempoGraph",
+    "reason": "The canonical repository returned HTTP 404 and no public successor was identified.",
+    "evidence": "https://github.com/Elmoaid/TempoGraph",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/getrupt/ashra-mcp",
+    "reason": "The repository is no longer in the owner's public inventory and no canonical successor was found.",
+    "evidence": "https://github.com/getrupt/ashra-mcp",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/IO-Aerospace-software-engineering/mcp-server",
+    "reason": "The MCP repository was removed; the remaining public Astrodynamics library is a dependency, not a replacement server.",
+    "evidence": "https://github.com/IO-Aerospace-software-engineering/Astrodynamics",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/malamutemayhem/unclick",
+    "reason": "The service remains online but its canonical public source repository was withdrawn.",
+    "evidence": "https://unclick.world",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/MerabyLabs/promptarchitect-mcp",
+    "reason": "The canonical GitHub repository is unavailable, and current package-directory metadata identifies the implementation as proprietary.",
+    "evidence": "https://glama.ai/mcp/servers/MerabyLabs/promptarchitect-mcp",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps",
+    "reason": "The reference server is archived; Google's current replacement is hosted and has no public implementation repository.",
+    "evidence": "https://github.com/google/mcp",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "reason": "The reference server is archived, unmaintained, and has no declared canonical successor.",
+    "evidence": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "reason": "The reference server is archived, unmaintained, and has no declared one-to-one open-source successor.",
+    "evidence": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite",
+    "reason": "The reference server is archived, unmaintained, and has no declared canonical successor.",
+    "evidence": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/Moresl/cchub",
+    "reason": "The repository and owner are unavailable on GitHub, with no accessible canonical successor.",
+    "evidence": "https://linux.do/t/topic/2013349?tl=en",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol",
+    "reason": "Pipedream deliberately removed the unmaintained source in favor of a hosted remote MCP service.",
+    "evidence": "https://github.com/PipedreamHQ/pipedream/commit/22fe22c5e2eb88a93e7e4e228abed60936f79fc4",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/shayaShav/flatten-mcp",
+    "reason": "The canonical GitHub URL remains unavailable and no alternate public source repository was found.",
+    "evidence": "https://github.com/shayaShav/flatten-mcp",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/simplypixi/bugbug-mcp-server",
+    "reason": "The repository was withdrawn; package metadata still points to the dead URL and only noncanonical copies remain.",
+    "evidence": "https://github.com/simplypixi/bugbug-mcp-server",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/softvoyagers/ogforge-api",
+    "reason": "The product remains online but its canonical public source repository was withdrawn.",
+    "evidence": "https://github.com/softvoyagers/ogforge-api",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/softvoyagers/pageshot-api",
+    "reason": "The product remains online but its canonical public source repository was withdrawn.",
+    "evidence": "https://github.com/softvoyagers/pageshot-api",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/softvoyagers/pdfspark-api",
+    "reason": "The product remains online but its canonical public source repository was withdrawn.",
+    "evidence": "https://github.com/softvoyagers/pdfspark-api",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/subhatta123/twilize",
+    "reason": "The owner and repository are unavailable and no canonical public successor was found.",
+    "evidence": "https://github.com/subhatta123/twilize",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/tom28881/mcp-jira-server",
+    "reason": "The repository was deleted and no attributable renamed repository or successor was found.",
+    "evidence": "https://github.com/tom28881/mcp-jira-server",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  },
+  {
+    "url": "https://github.com/vkhanhqui/figma-mcp-go",
+    "reason": "GitHub blocks access to the repository under a DMCA takedown, and no owner-designated successor exists.",
+    "evidence": "https://github.com/github/dmca/blob/master/2026/07/2026-07-01-figma-mcp-bridge.md",
+    "checked_at": "2026-07-26",
+    "review_after": "2026-08-26"
+  }
+]

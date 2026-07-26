@@ -1,0 +1,74 @@
+name: Add a project
+description: Propose an open-source Claude Code extension, skill, agent, hook, MCP server, or related tool.
+title: "[Add]: "
+labels: ["catalog:add", "needs-review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Canonical GitHub URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Artifact kind
+      options:
+        - Plugin
+        - Skill
+        - Command
+        - Hook
+        - Agent
+        - Workflow
+        - MCP server
+        - MCP tooling
+        - Interface or monitoring tool
+        - Learning resource
+        - Collection
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License and license-file URL
+      placeholder: Apache-2.0 — https://github.com/owner/repo/blob/main/LICENSE
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence factual description
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Claude Code compatibility and installation evidence
+      description: Link to the relevant manifest, SKILL.md, docs, MCP configuration, or README section.
+    validations:
+      required: true
+  - type: checkboxes
+    id: risk
+    attributes:
+      label: Security-relevant behavior
+      options:
+        - label: Runs automatic lifecycle hooks
+        - label: Executes shell commands or downloads code
+        - label: Uses broad filesystem, browser, cloud, or production credentials
+        - label: Exposes destructive or externally visible actions
+        - label: None of the above is documented
+  - type: checkboxes
+    id: affiliation
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am an author, maintainer, sponsor, or otherwise affiliated with this project.
+        - label: I have read the contribution and security requirements.
+          required: true

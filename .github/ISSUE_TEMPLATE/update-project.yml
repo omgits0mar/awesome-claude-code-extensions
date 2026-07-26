@@ -1,0 +1,32 @@
+name: Correct or update an entry
+description: Report a moved, renamed, archived, duplicated, stale, or incorrectly described project.
+title: "[Update]: "
+labels: ["catalog:update", "needs-review"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Current catalog URL
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: Change type
+      options:
+        - Broken or moved link
+        - Rename or successor
+        - Description correction
+        - License change
+        - Archived or unmaintained
+        - Duplicate or fork
+        - Removal request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Requested change and evidence
+    validations:
+      required: true

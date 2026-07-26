@@ -1,0 +1,3837 @@
+[
+  {
+    "name": ".NET Types Explorer",
+    "url": "https://github.com/V0v1kkk/DotNetMetadataMcpServer",
+    "description": ".NET Types Explorer exposes assembly, namespace, type, and NuGet metadata from .NET projects to coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "dotnet",
+      "csharp",
+      "development",
+      "type-system"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dotnet-types-explorer/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 5994893b47c0; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Airbnb Search",
+    "url": "https://github.com/openbnb-org/mcp-server-airbnb",
+    "description": "Airbnb Search provides listing search and listing-detail retrieval through MCP.",
+    "category": "Travel & Maps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "travel-and-maps",
+      "license-mit",
+      "airbnb",
+      "openbnb"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/openbnb-airbnb/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 4e3ffe9daab7; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Airtable",
+    "url": "https://github.com/domdomegg/airtable-mcp-server",
+    "description": "Airtable MCP lets agents inspect base schemas and query records.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/airtable-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 2a5896d0891d; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Alfresco",
+    "url": "https://github.com/AlfrescoLabs/alfresco-mcp-server",
+    "description": "A minimal Model Context Protocol (MCP) server for Alfresco providing tools via the Alfresco REST API.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-apache-2-0",
+      "alfresco",
+      "document-management"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/alfresco/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 141731818b6b; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Alpaca MCP Server",
+    "url": "https://github.com/alpacahq/alpaca-mcp-server",
+    "description": "The official Alpaca MCP server provides market data, trading, portfolio, and strategy operations for stocks, ETFs, crypto, and options.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "finance",
+      "alpaca",
+      "trading",
+      "market-data",
+      "portfolio",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 891 stars and declared license MIT (last push 2026-07-23 13:27:30 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "AntV MCP Server Chart",
+    "url": "https://github.com/antvis/mcp-server-chart",
+    "description": "AntV MCP Server Chart generates more than 25 chart types for visualization and data analysis.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "charts",
+      "visualization",
+      "analytics",
+      "antv",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 4,260 stars and declared license MIT (last push 2026-05-06 07:58:59 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "AnySearch MCP Server",
+    "url": "https://github.com/anysearch-ai/anysearch-mcp-server",
+    "description": "AnySearch MCP Server provides a unified real-time search interface for AI agents.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "search",
+      "real-time",
+      "web",
+      "agents",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,562 stars and declared license Apache-2.0 (last push 2026-07-10 10:55:05 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "API Gateway",
+    "url": "https://github.com/rflpazini/mcp-api-gateway",
+    "description": "API Gateway turns configured APIs into MCP tools for Claude and other MCP clients.",
+    "category": "Integration & Orchestration",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "integration-and-orchestration",
+      "license-mit",
+      "api-gateway",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-api-gateway/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f197f8db4f49; a pinned-revision audit found mit license text in README.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Apify",
+    "url": "https://github.com/apify/actors-mcp-server",
+    "description": "Apify MCP gives agents access to Store actors for web scraping, data extraction, and browser automation.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "productivity",
+      "search",
+      "automation",
+      "web-scraping"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/apify-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8e36bb38ea39; a pinned-revision audit found mit license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Apollo",
+    "url": "https://github.com/apollographql/apollo-mcp-server",
+    "description": "Enable graph-based API orchestration with AI.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/apollo-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f481f5910596; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Arm",
+    "url": "https://github.com/arm/mcp",
+    "description": "Provides AI assistants with specialized tools for Arm architecture development, migration, optimization, and profiling.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "arm",
+      "migration",
+      "docker",
+      "architecture"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/arm-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f579c0867221; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "ArXiv",
+    "url": "https://github.com/jasonleinart/arxiv-mcp-server",
+    "description": "ArXiv MCP Server supports paper search, local download, reading, and research workflows over the arXiv corpus.",
+    "category": "Research & Education",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "research-and-education",
+      "license-apache-2-0",
+      "arxiv",
+      "research",
+      "academic",
+      "papers"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/arxiv-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit fe977e538dc2; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "arXiv MCP Server",
+    "url": "https://github.com/blazickjp/arxiv-mcp-server",
+    "description": "This MCP server searches and analyzes papers from arXiv.",
+    "category": "Research & Education",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "research-and-education",
+      "arxiv",
+      "papers",
+      "academic-search",
+      "research",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 2,985 stars and declared license Apache-2.0 (last push 2026-07-26 02:01:11 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "ast-grep",
+    "url": "https://github.com/dgageot/mcp-ast-grep",
+    "description": "Ast-grep is a fast and polyglot tool for code structural search, lint, rewriting at large scale.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "code",
+      "refactoring",
+      "grep"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/ast-grep/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c0a1edaf9cd6; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Astra DB",
+    "url": "https://github.com/datastax/astra-db-mcp",
+    "description": "Astra DB MCP exposes database, collection, and vector-search operations backed by DataStax Astra DB.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "astra-db",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/astra-db/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit da7da00667ed; a pinned-revision audit found apache license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Atlan",
+    "url": "https://github.com/atlanhq/agent-toolkit",
+    "description": "Atlan Agent Toolkit exposes asset search, updates, and lineage traversal for data-governance workflows.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "atlan",
+      "metadata"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/atlan/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 86bb1ad27f80; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Atlas Docs",
+    "url": "https://github.com/CartographAI/atlas-docs-mcp",
+    "description": "Atlas Docs MCP supplies indexed technical documentation context to coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "atlas-docs",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/atlas-docs/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ce4c4fe8ef23; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Atlassian",
+    "url": "https://github.com/sooperset/mcp-atlassian",
+    "description": "Tools for Atlassian products (Confluence and Jira).",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "atlassian",
+      "confluence",
+      "jira"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/atlassian/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 35b1da00c920; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Atlassian MCP Server",
+    "url": "https://github.com/atlassian/atlassian-mcp-server",
+    "description": "The official Atlassian MCP server connects Jira, Confluence, Jira Service Management, Bitbucket, and Compass to MCP clients.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "productivity",
+      "atlassian",
+      "jira",
+      "confluence",
+      "bitbucket",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 906 stars and declared license Apache-2.0 (last push 2026-07-08 18:14:03 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Audiense Insights",
+    "url": "https://github.com/AudienseCo/mcp-audiense-insights",
+    "description": "Audiense Insights MCP exposes audience segments and consumer-insight data to agents.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-apache-2-0",
+      "audiense-insights",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/audiense-insights/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f18ffa6ddf94; a pinned-revision audit found apache license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "AWS Labs MCP Servers",
+    "url": "https://github.com/awslabs/mcp",
+    "description": "AWS Labs MCP is a collection of servers for AWS documentation, infrastructure, databases, observability, data processing, AI, and cost management.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "aws",
+      "cloud",
+      "infrastructure",
+      "observability"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/tree/main/servers",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and contains 35 entries with pinned source commits; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Azure",
+    "url": "https://github.com/microsoft/mcp",
+    "description": "Microsoft MCP provides Azure resource and developer-service operations to MCP clients.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "azure",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/azure/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e27932b2b73b; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Azure Kubernetes Service (AKS)",
+    "url": "https://github.com/Azure/aks-mcp",
+    "description": "Azure Kubernetes Service (AKS) official MCP server.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "devops",
+      "azure",
+      "kubernetes",
+      "aks"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/aks/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e60444c3d739; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Beagle Security",
+    "url": "https://github.com/beaglesecurity/beagle-security-mcp-server",
+    "description": "Connects with the Beagle Security backend using a user token to manage applications, run automated security tests, track vulnerabilities across environments, and gain intelligence from Application and API vulnerability data.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/beagle-security/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 4b0e0ee2f309; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "BioMCP",
+    "url": "https://github.com/genomoncology/biomcp",
+    "description": "BioMCP provides biomedical search and retrieval tools through the Model Context Protocol.",
+    "category": "Healthcare & Bio",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "healthcare-and-bio",
+      "biomedical",
+      "research",
+      "papers",
+      "clinical-data",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 557 stars and declared license MIT (last push 2026-07-26 14:31:39 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Bitrefill",
+    "url": "https://github.com/bitrefill/bitrefill-mcp-server",
+    "description": "Bitrefill MCP connects agents to Bitrefill's gift-card and mobile-refill services.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "bitrefill",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/bitrefill/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3bc6123a829f; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Brave Search",
+    "url": "https://github.com/brave/brave-search-mcp-server",
+    "description": "Search the Web for pages, images, news, videos, and more using the Brave Search API.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "brave",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/brave/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit fd28e3e7b3e1; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Bright Data MCP",
+    "url": "https://github.com/brightdata/brightdata-mcp",
+    "description": "Bright Data MCP gives agents access to public web data through search, scraping, and browser tools.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "web-data",
+      "scraping",
+      "search",
+      "browser",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 2,536 stars and declared license MIT (last push 2026-06-21 08:55:29 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Browser MCP",
+    "url": "https://github.com/BrowserMCP/mcp",
+    "description": "Browser MCP lets MCP clients control a browser session.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "browser-automation",
+      "browser",
+      "automation",
+      "extension",
+      "web",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 6,884 stars and declared license Apache-2.0 (last push 2025-04-24 21:49:44 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Browserbase",
+    "url": "https://github.com/browserbase/mcp-server-browserbase",
+    "description": "Browserbase MCP lets agents control cloud browsers for web automation, data extraction, and screenshots.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "browser-automation",
+      "license-apache-2-0",
+      "browserbase",
+      "web-scraping",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/browserbase/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 1e196b3d3c4d; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "BrowserTools MCP",
+    "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+    "description": "BrowserTools MCP exposes browser logs to MCP-compatible coding tools.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "browser-automation",
+      "browser",
+      "logs",
+      "debugging",
+      "developer-tools",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 7,273 stars and declared license MIT (last push 2026-03-18 06:11:12 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Buildkite",
+    "url": "https://github.com/buildkite/buildkite-mcp-server",
+    "description": "Buildkite MCP lets agents interact with Buildkite Builds, Jobs, Logs, Packages and Test Suites.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/buildkite/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 4f1600654886; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Camunda BPM Process Engine",
+    "url": "https://github.com/lepoco/mcp-camunda",
+    "description": "Tools to interact with the Camunda 7 Community Edition Engine using the Model Context Protocol (MCP).",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/camunda/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 4b50f37af26a; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "CharmHealth",
+    "url": "https://github.com/CharmHealth/charm-mcp-server",
+    "description": "An MCP server for CharmHealth EHR that allows LLMs and MCP clients to interact with patient records, encounters, and practice information.",
+    "category": "Healthcare & Bio",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "healthcare-and-bio",
+      "license-mit",
+      "charmhealth",
+      "ehr",
+      "medical",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/charmhealth-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit dae9f695b9ba; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Chroma",
+    "url": "https://github.com/chroma-core/chroma-mcp",
+    "description": "Chroma MCP exposes collection, document, embedding, and vector-search operations backed by Chroma.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "chroma",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/chroma/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 98ff67589bdc; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Chrome DevTools MCP",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools MCP lets coding agents inspect, debug, and automate a live Chrome browser.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "browser-automation",
+      "chrome",
+      "devtools",
+      "browser",
+      "debugging",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 47,630 stars and declared license Apache-2.0 (last push 2026-07-26 02:07:08 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://github.com/cmrigney/mcp-server-circleci",
+    "description": "CircleCI MCP lets agents inspect pipelines, workflows, jobs, and build results.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "circleci",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/circleci/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 34ac141d8ceb; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Claude Talk to Figma MCP",
+    "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp",
+    "description": "Claude Talk to Figma MCP lets AI tools read, analyze, and modify Figma designs.",
+    "category": "Games & Creative",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "games-and-creative",
+      "figma",
+      "design",
+      "ui",
+      "automation",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 637 stars and declared license MIT (last push 2026-04-18 15:43:38 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Cloud Run",
+    "url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+    "description": "MCP server to deploy apps to Cloud Run.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/cloud-run-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 674cee61086d; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Cloudflare MCP",
+    "url": "https://github.com/cloudflare/mcp",
+    "description": "Cloudflare MCP exposes Cloudflare API operations to MCP clients.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "cloud-and-devops",
+      "cloudflare",
+      "cloud",
+      "api",
+      "infrastructure",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 663 stars and declared license Apache-2.0 (last push 2026-07-25 23:02:54 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "CockroachDB",
+    "url": "https://github.com/amineelkouhen/mcp-cockroachdb",
+    "description": "Enable AI agents to manage, monitor, and query CockroachDB using natural language.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "cockroachdb",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/cockroachdb/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 5c323e49ef52; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Codanna",
+    "url": "https://github.com/bartolli/codanna",
+    "description": "Codanna is a local code-intelligence MCP server and command-line interface for coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "code-intelligence",
+      "local",
+      "cli",
+      "coding-agent",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 711 stars and declared license Apache-2.0 (last push 2026-07-25 18:48:55 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Codebase Memory MCP",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "description": "Codebase Memory MCP indexes source code into a persistent knowledge graph for semantic retrieval by coding agents.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "knowledge-and-memory",
+      "code-intelligence",
+      "knowledge-graph",
+      "semantic-search",
+      "memory",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 35,498 stars and declared license MIT (last push 2026-07-26 14:46:54 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Couchbase",
+    "url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+    "description": "Couchbase MCP exposes document, search, and analytics operations backed by Couchbase.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "couchbase",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/couchbase/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 1454b7b57b85; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Cylera",
+    "url": "https://github.com/Cylera/cylera-mcp-server",
+    "description": "Brings context about device inventory, threats, risks and utilization powered by the Cylera Partner API into an LLM.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/cylera-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit aca7cc749298; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Dappier",
+    "url": "https://github.com/dappierai/dappier-mcp",
+    "description": "Dappier MCP exposes real-time web search and licensed content retrieval to agents.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "dappier",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dappier/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 38bbde12ef9e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Dart AI",
+    "url": "https://github.com/its-dart/dart-mcp-server",
+    "description": "Dart MCP lets agents create, inspect, and update tasks and project work in Dart.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "dart",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dart/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d45aa23008bd; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Data API Builder",
+    "url": "https://github.com/Azure/data-api-builder",
+    "description": "Data API Builder exposes REST, GraphQL, and MCP tools for Azure and on-premises databases.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "databases",
+      "azure",
+      "rest",
+      "graphql",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,477 stars and declared license MIT (last push 2026-07-24 12:09:35 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "data.gouv.fr MCP",
+    "url": "https://github.com/datagouv/datagouv-mcp",
+    "description": "The official data.gouv.fr MCP server lets agents search, explore, and analyze French public datasets.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "open-data",
+      "datasets",
+      "france",
+      "data-analysis",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,572 stars and declared license MIT (last push 2026-07-17 16:10:21 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Databutton",
+    "url": "https://github.com/databutton/databutton-mcp",
+    "description": "Databutton MCP connects coding agents to Databutton application-development projects.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "databutton",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/databutton/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3dde0e0dfcb9; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "DBHub",
+    "url": "https://github.com/bytebase/dbhub",
+    "description": "DBHub is a token-efficient MCP database server for PostgreSQL, MySQL, SQL Server, MariaDB, and SQLite.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "databases",
+      "postgresql",
+      "mysql",
+      "sql-server",
+      "sqlite",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 3,231 stars and declared license MIT (last push 2026-07-22 11:24:56 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "dbt MCP",
+    "url": "https://github.com/dbt-labs/dbt-mcp",
+    "description": "The dbt MCP server lets agents interact with dbt projects, metadata, metrics, and development workflows.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "dbt",
+      "analytics-engineering",
+      "metadata",
+      "data",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 595 stars and declared license Apache-2.0 (last push 2026-07-24 19:23:49 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Deep Research",
+    "url": "https://github.com/u14app/deep-research",
+    "description": "Deep Research provides an MCP server for LLM-driven multi-step web research.",
+    "category": "Research & Education",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "research-and-education",
+      "research",
+      "web-search",
+      "llm",
+      "sse",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 4,682 stars and declared license MIT (last push 2026-06-18 14:43:29 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Descope",
+    "url": "https://github.com/descope-sample-apps/descope-mcp-server",
+    "description": "The Descope Model Context Protocol (MCP) server provides an interface to interact with Descope's Management APIs, enabling the search and retrieval of project-related information.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "descope",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/descope/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e983c18dd340; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Desktop Commander",
+    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "description": "Search, update, manage files and run terminal commands with AI.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "desktop-commander",
+      "devops",
+      "filesystem",
+      "terminal"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/desktop-commander/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 0ad919bc1889; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Discord",
+    "url": "https://github.com/slimslenderslacks/mcp-discord",
+    "description": "Interact with the Discord platform.",
+    "category": "Communication",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "communication",
+      "license-mit",
+      "discord",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-discord/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ab1e64668681; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://github.com/docker/hub-mcp",
+    "description": "Docker Hub official MCP server.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "docker",
+      "dockerhub"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dockerhub/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ad806e2cab04; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "DreamFactory",
+    "url": "https://github.com/dreamfactorysoftware/df-mcp",
+    "description": "DreamFactory is a REST API generation platform with support for hundreds of data sources, including Microsoft SQL Server, MySQL, PostgreSQL, and MongoDB.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dreamfactory-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 9d570ce98363; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Dynatrace",
+    "url": "https://github.com/dynatrace-oss/dynatrace-mcp",
+    "description": "Dynatrace MCP exposes observability data and platform operations to development agents.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-mit",
+      "dynatrace",
+      "observability",
+      "monitoring"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/dynatrace-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 35db4695ce24; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "E2B",
+    "url": "https://github.com/e2b-dev/mcp-server",
+    "description": "E2B MCP lets agents execute code in isolated cloud sandboxes.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "e2b",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/e2b/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit dba87432caca; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "EduBase",
+    "url": "https://github.com/EduBase/MCP",
+    "description": "EduBase MCP exposes education-platform data and operations to MCP clients.",
+    "category": "Research & Education",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "research-and-education",
+      "license-mit",
+      "edubase",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/edubase/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 327a66790b2a; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Effect",
+    "url": "https://github.com/tim-smart/effect-mcp",
+    "description": "Tools and resources for writing Effect code in Typescript.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/effect-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 05c19d789d4c; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Elasticsearch",
+    "url": "https://github.com/elastic/mcp-server-elasticsearch",
+    "description": "Elasticsearch MCP lets agents inspect and query Elasticsearch indices.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "elasticsearch",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/elasticsearch/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit b2912b2ba544; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://github.com/elevenlabs/elevenlabs-mcp",
+    "description": "The official ElevenLabs MCP server exposes text-to-speech and audio-processing APIs.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "elevenlabs",
+      "elevenlabs-api"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/elevenlabs/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit afc22357432d; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Exa",
+    "url": "https://github.com/exa-labs/exa-mcp-server",
+    "description": "Exa MCP provides neural web search and content retrieval to agents.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "exa",
+      "devops",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/exa/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 9c69a3b45b22; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Excel MCP Server",
+    "url": "https://github.com/haris-musa/excel-mcp-server",
+    "description": "Excel MCP Server exposes Excel workbook and file manipulation to MCP clients.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "productivity",
+      "excel",
+      "spreadsheets",
+      "workbooks",
+      "files",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 4,061 stars and declared license MIT (last push 2026-04-12 06:14:45 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "ExecuteAutomation Playwright",
+    "url": "https://github.com/executeautomation/mcp-playwright",
+    "description": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "browser-automation",
+      "license-mit",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/playwright-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 51b2725f06f6; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Explorium B2B Data",
+    "url": "https://github.com/explorium-ai/mcp-explorium",
+    "description": "Discover companies, contacts, and business insights—powered by dozens of trusted external data sources.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-mit",
+      "search",
+      "explorium",
+      "b2b-data",
+      "business"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/explorium/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7aafdff8b373; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "FastAPI MCP",
+    "url": "https://github.com/tadata-org/fastapi_mcp",
+    "description": "FastAPI MCP converts FastAPI endpoints into authenticated MCP tools.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "fastapi",
+      "python",
+      "api",
+      "authentication",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 11,956 stars and declared license MIT (last push 2025-11-24 14:51:54 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Fibery",
+    "url": "https://github.com/Fibery-inc/fibery-mcp-server",
+    "description": "Fibery MCP lets agents interact with entities and workflows in a Fibery workspace.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "fibery",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/fibery/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3d21ca04e771; a pinned-revision audit found permission is hereby granted text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Firecrawl",
+    "url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "description": "Firecrawl MCP exposes web search, scraping, crawling, and content extraction.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "firecrawl",
+      "search",
+      "scraping"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/firecrawl/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 2bab1cc2f960; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Firecrawl MCP Server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "description": "The official Firecrawl MCP server exposes web search, scraping, and crawling capabilities.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "web-scraping",
+      "crawling",
+      "search",
+      "firecrawl",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 7,045 stars and declared license MIT (last push 2026-07-26 06:47:42 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Firewalla",
+    "url": "https://github.com/amittell/firewalla-mcp-server",
+    "description": "Real-time network monitoring, security analysis, and firewall management through 28 specialized tools.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "firewall",
+      "monitoring",
+      "network",
+      "threat-detection"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/firewalla-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d6f8c6ac2570; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "FlexPrice",
+    "url": "https://github.com/flexprice/mcp-server",
+    "description": "FlexPrice MCP exposes billing, pricing, metering, and subscription operations to agents.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-apache-2-0",
+      "flexprice",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/flexprice/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 87482b1f6c18; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "FunASR",
+    "url": "https://github.com/modelscope/FunASR",
+    "description": "FunASR provides speech recognition, voice activity detection, punctuation, and diarization pipelines with MCP serving support.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "speech-recognition",
+      "audio",
+      "diarization",
+      "machine-learning",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 19,482 stars and declared license MIT (last push 2026-07-26 12:07:56 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Gemini API Docs",
+    "url": "https://github.com/kgprs/gemini-api-docs-mcp",
+    "description": "Provides tools to search and retrieve Google Gemini API documentation.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/gemini-api-docs/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8e8aa1543e1c; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Ghidra MCP",
+    "url": "https://github.com/bethington/ghidra-mcp",
+    "description": "Ghidra MCP exposes reverse-engineering and binary-analysis operations from Ghidra to MCP clients.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "ghidra",
+      "reverse-engineering",
+      "binary-analysis",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 2,959 stars and declared license Apache-2.0 (last push 2026-07-25 10:28:56 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "GitHub Chat",
+    "url": "https://github.com/AsyncFuncAI/github-chat-mcp",
+    "description": "GitHub Chat MCP lets agents ask repository-aware questions about GitHub code.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "github-chat",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/github-chat/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8c1a390f10ab; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "GitHub Official",
+    "url": "https://github.com/github/github-mcp-server",
+    "description": "Official GitHub MCP Server, by GitHub.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "github",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/github-official/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 23fa0dd1a821; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "GitHub PRs and Issues Analyser",
+    "url": "https://github.com/saidsef/mcp-github-pr-issue-analyser",
+    "description": "A Model Context Protocol (MCP) application for automated GitHub PR analysis and issue management.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "devops",
+      "productivity",
+      "github",
+      "integration"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-github-pr-issue-analyser/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit eaa15813df0a; a pinned-revision audit found apache license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "glif.app",
+    "url": "https://github.com/glifxyz/glif-mcp-server",
+    "description": "Glif MCP lets agents discover and run AI workflows hosted on glif.app.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "glif",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/glif/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 91fc5343911e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Google Flights",
+    "url": "https://github.com/kgprs/Google-Flights-MCP-Server",
+    "description": "Interact with Google Flights data to search for one-way, round-trip, and date range flight options between airports.",
+    "category": "Travel & Maps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "travel-and-maps",
+      "license-mit",
+      "travel",
+      "flights",
+      "google-flights",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/google-flights/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit a0d0a88ee8b1; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Google Sheets MCP",
+    "url": "https://github.com/xing5/mcp-google-sheets",
+    "description": "Google Sheets MCP lets agents create and modify spreadsheets stored in Google Drive.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "productivity",
+      "google-sheets",
+      "spreadsheets",
+      "google-drive",
+      "automation",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 960 stars and declared license MIT (last push 2026-05-14 21:12:23 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Google Workspace MCP",
+    "url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+    "description": "Google Workspace MCP connects agents to Gmail, Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search, and Drive.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "productivity",
+      "google-workspace",
+      "gmail",
+      "calendar",
+      "drive",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 2,912 stars and declared license MIT (last push 2026-07-23 16:33:09 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Grafana",
+    "url": "https://github.com/grafana/mcp-grafana",
+    "description": "Grafana MCP lets agents query dashboards, data sources, incidents, alerts, logs, and metrics.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "grafana",
+      "monitoring"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/grafana/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 76ed7dba5a18; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Gyazo",
+    "url": "https://github.com/nota/gyazo-mcp-server",
+    "description": "Gyazo MCP lets agents search, retrieve, upload, and manage images stored in Gyazo.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "gyazo",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/gyazo/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit b1590092f6d5; a pinned-revision audit found permission is hereby granted text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Hackle",
+    "url": "https://github.com/hackle-io/hackle-mcp",
+    "description": "Hackle MCP connects agents to feature flags, experiments, and product analytics.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "hackle",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hackle/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 5ecf4dd4443d; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Hashicorp Terraform",
+    "url": "https://github.com/hashicorp/terraform-mcp-server",
+    "description": "The official Terraform MCP server exposes Terraform Registry and HCP Terraform workflows to coding agents.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mpl",
+      "hashicorp",
+      "terraform"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/terraform/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3aa58e49d7e0; a pinned-revision audit found mozilla public license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Heroku",
+    "url": "https://github.com/heroku/heroku-mcp-server",
+    "description": "Heroku MCP lets agents inspect and manage Heroku applications, add-ons, deployments, and logs.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "heroku",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/heroku/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f4949381035a; a pinned-revision audit found apache license text in LICENSE.txt. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "HexStrike AI",
+    "url": "https://github.com/0x4m4/hexstrike-ai",
+    "description": "HexStrike AI exposes cybersecurity tools through an MCP server for authorized penetration testing and vulnerability research.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "penetration-testing",
+      "vulnerability-research",
+      "security-tools",
+      "agents",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 10,498 stars and declared license MIT (last push 2026-04-27 08:56:07 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Hostinger API",
+    "url": "https://github.com/hostinger/api-mcp-server",
+    "description": "Interact with Hostinger services over the Hostinger API.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hostinger-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 5a9123722ac4; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Hoverfly",
+    "url": "https://github.com/kapishmalik/hoverfly-mcp-server",
+    "description": "A Model Context Protocol (MCP) server that exposes Hoverfly as a programmable tool for AI assistants like Cursor, Claude, GitHub Copilot, and others supporting MCP.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "ai",
+      "service-virtualization",
+      "http-mocking",
+      "devtools"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hoverfly-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 34e9607ed71f; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Humanitarian Data Exchange",
+    "url": "https://github.com/dividor/hdx-mcp",
+    "description": "HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hdx/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c625bf9ae120; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Hummingbot: Trading Agent",
+    "url": "https://github.com/hummingbot/mcp",
+    "description": "Hummingbot MCP lets agents control and monitor Hummingbot trading bots.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hummingbot-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ad24846aa3d6; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Hyperbrowser",
+    "url": "https://github.com/hyperbrowserai/mcp",
+    "description": "Hyperbrowser MCP provides cloud-browser automation, scraping, and structured extraction tools.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "browser-automation",
+      "license-mit",
+      "hyperbrowser",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/hyperbrowser/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7492e83cf182; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Iaptic",
+    "url": "https://github.com/iaptic/mcp-server-iaptic",
+    "description": "Iaptic MCP exposes in-app purchase, subscription, customer, and revenue data to agents.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-mit",
+      "iaptic",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/iaptic/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 707213243c56; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "IDA Pro MCP",
+    "url": "https://github.com/mrexodia/ida-pro-mcp",
+    "description": "IDA Pro MCP connects AI agents to IDA Pro for reverse-engineering analysis.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "reverse-engineering",
+      "ida-pro",
+      "binary-analysis",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 10,779 stars and declared license MIT (last push 2026-07-25 12:28:38 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Inspektor Gadget",
+    "url": "https://github.com/inspektor-gadget/ig-mcp-server",
+    "description": "AI interface to troubleshoot and observe Kubernetes/Container workloads.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "inspektor-gadget",
+      "kubernetes",
+      "monitoring",
+      "ebpf"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/inspektor-gadget/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 32e48f93ef84; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "JetBrains",
+    "url": "https://github.com/GannaChernyshova/mcp-jetbrains",
+    "description": "JetBrains MCP connects agents to project and editor operations in JetBrains IDEs.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "jetbrains",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/jetbrains/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit cd2dcb76144c; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "JetBrains MCP",
+    "url": "https://github.com/JetBrains/mcp-jetbrains",
+    "description": "JetBrains MCP connects agents to IntelliJ IDEA, PyCharm, WebStorm, Android Studio, and other JetBrains IDEs.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "jetbrains",
+      "ide",
+      "intellij",
+      "android-studio",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 963 stars and declared license Apache-2.0 (last push 2026-01-07 16:21:45 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Jina AI MCP",
+    "url": "https://github.com/jina-ai/MCP",
+    "description": "The official Jina AI remote MCP server exposes web-reading, search, and related retrieval capabilities.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "jina-ai",
+      "web-reading",
+      "search",
+      "retrieval",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 775 stars and declared license Apache-2.0 (last push 2026-06-02 06:41:59 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Jupyter MCP Server",
+    "url": "https://github.com/datalayer/jupyter-mcp-server",
+    "description": "Jupyter MCP Server lets agents interact with Jupyter notebooks and execute notebook code through MCP.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "jupyter",
+      "notebooks",
+      "python",
+      "code-execution",
+      "license-bsd-3-clause"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,227 stars and declared license BSD-3-Clause (last push 2026-07-26 14:55:31 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Kafka Schema Registry",
+    "url": "https://github.com/aywengo/kafka-schema-reg-mcp",
+    "description": "Kafka Schema Registry MCP provides schema listing, validation, compatibility, migration, and multi-registry operations.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "kafka",
+      "schema-registry",
+      "database",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kafka-schema-reg-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e145fb8dd68d; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Kagi Search",
+    "url": "https://github.com/kagisearch/kagimcp",
+    "description": "Kagi MCP exposes Kagi web search and summarization to agents.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "kagisearch",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kagisearch/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 17c4dfd25fbf; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Keboola",
+    "url": "https://github.com/keboola/mcp-server",
+    "description": "Keboola MCP connects agents to Keboola projects, data, components, transformations, and workflows.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "data-platform",
+      "etl-pipeline",
+      "storage"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/keboola-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 270829986072; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Keeper",
+    "url": "https://github.com/ridafkih/keeper.sh",
+    "description": "Keeper is a calendar synchronization tool and MCP server for Google, Outlook, Office 365, iCloud, CalDAV, and ICS calendars.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "productivity",
+      "calendar",
+      "caldav",
+      "google-calendar",
+      "outlook",
+      "license-agpl-3-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,211 stars and declared license AGPL-3.0 (last push 2026-07-20 20:56:20 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Knowledge Graph",
+    "url": "https://github.com/gzileni/kgrag_mcp_server",
+    "description": "Manage, ingest, and query structured/unstructured data.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "knowledge-and-memory",
+      "license-mit",
+      "knowledge-graph",
+      "search",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kgrag-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 79ae98a75fb5; a pinned-revision audit found mit license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Kong Konnect",
+    "url": "https://github.com/Kong/mcp-konnect",
+    "description": "Kong Konnect MCP exposes gateway services, routes, consumers, analytics, and control-plane operations.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "kong",
+      "devops",
+      "service-mesh"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kong/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 1710e9d575c5; a pinned-revision audit found apache license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Kubectl",
+    "url": "https://github.com/rohitg00/kubectl-mcp-server",
+    "description": "MCP Server that enables AI assistants to interact with Kubernetes clusters via kubectl operations.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "kubectl-mcp-server",
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kubectl-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 14f9c138a7ef; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Kubernetes",
+    "url": "https://github.com/Flux159/mcp-server-kubernetes",
+    "description": "Connect to a Kubernetes cluster and manage it.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "kubernetes",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/kubernetes/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 662a19193fa7; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Lara Translate",
+    "url": "https://github.com/translated/lara-mcp",
+    "description": "Lara MCP exposes translation and language-detection operations from the Lara Translate API.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "lara",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/lara/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 2a1c0767cd5a; a pinned-revision audit found permission is hereby granted text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "LINE",
+    "url": "https://github.com/line/line-bot-mcp-server",
+    "description": "LINE Bot MCP lets agents send and manage messages through the LINE Messaging API.",
+    "category": "Communication",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "communication",
+      "license-apache-2-0",
+      "line",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/line/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ada7c33eac55; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "description": "LinkedIn MCP exposes profile and company data to Claude and other MCP clients.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-apache-2-0",
+      "linkedin",
+      "business",
+      "scraping",
+      "profiles"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/linkedin-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c54e3fa518d2; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Maestro",
+    "url": "https://github.com/maestro-org/maestro-mcp-server",
+    "description": "A Model Context Protocol (MCP) server exposing Bitcoin blockchain data through the Maestro API platform.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-apache-2-0",
+      "monitoring",
+      "blockchain",
+      "bitcoin",
+      "rpc"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/maestro-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 760bb4be7b64; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Mapbox",
+    "url": "https://github.com/mapbox/mcp-server",
+    "description": "Transform any AI agent into a geospatially-aware system with Mapbox APIs.",
+    "category": "Travel & Maps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "travel-and-maps",
+      "license-mit",
+      "mapbox",
+      "maps",
+      "geospatial",
+      "navigation"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mapbox/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ceb53a6704aa; a pinned-revision audit found mit license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Mapbox Developer",
+    "url": "https://github.com/mapbox/mcp-devkit-server",
+    "description": "Direct access to Mapbox developer APIs for AI assistants.",
+    "category": "Travel & Maps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "travel-and-maps",
+      "license-mit",
+      "mapbox",
+      "development",
+      "devtools",
+      "api"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mapbox-devkit/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit fa7ddeb21c19; a pinned-revision audit found mit license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Markdownify",
+    "url": "https://github.com/zcaceres/markdownify-mcp",
+    "description": "A Model Context Protocol server for converting almost anything to Markdown.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "markdown",
+      "conversion",
+      "pdf",
+      "docx"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/markdownify/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 024f97cea9a9; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "description": "A lightweight MCP server for calling MarkItDown.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "markdown",
+      "conversion",
+      "pdf",
+      "docx"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/markitdown/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e144e0a2be95; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Maven Tools",
+    "url": "https://github.com/arvindand/maven-tools-mcp",
+    "description": "JVM dependency intelligence for any build tool using Maven Central Repository.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "maven",
+      "dependencies",
+      "java",
+      "gradle"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/maven-tools-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d419a7bfeb19; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MCP Database Server",
+    "url": "https://github.com/Souhar-dya/mcp-db-server",
+    "description": "MCP Database Server supports PostgreSQL, MySQL, and SQLite queries through SQL or natural language.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "database",
+      "sql",
+      "postgresql",
+      "mysql"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/database-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d47b7ae3bf16; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MCP for Argo CD",
+    "url": "https://github.com/argoproj-labs/mcp-for-argocd",
+    "description": "MCP for Argo CD exposes Argo CD application and deployment operations to MCP clients.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "cloud-and-devops",
+      "argo-cd",
+      "kubernetes",
+      "gitops",
+      "deployment",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 546 stars and declared license Apache-2.0 (last push 2026-07-09 20:41:47 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "MCP Language Server",
+    "url": "https://github.com/isaacphi/mcp-language-server",
+    "description": "MCP Language Server exposes definitions, references, rename operations, and diagnostics from language servers.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "language-server",
+      "lsp",
+      "code-navigation",
+      "diagnostics",
+      "license-bsd-3-clause"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,570 stars and declared license BSD-3-Clause (last push 2026-03-01 23:27:09 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "MCP Security Hub",
+    "url": "https://github.com/FuzzingLabs/mcp-security-hub",
+    "description": "MCP Security Hub collects MCP integrations for authorized use of tools such as Nmap, Ghidra, Nuclei, SQLMap, and Hashcat.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "nmap",
+      "ghidra",
+      "nuclei",
+      "security-tools",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 752 stars and declared license MIT (last push 2026-04-08 01:44:15 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Metabase",
+    "url": "https://github.com/easecloudio/mcp-metabase-server",
+    "description": "Metabase MCP exposes dashboard, question, database, and analytics operations through more than 70 tools.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "data-visualization"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/metabase/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8a4dfce8afd4; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MiniMax MCP",
+    "url": "https://github.com/MiniMax-AI/MiniMax-MCP",
+    "description": "The official MiniMax MCP server exposes text-to-speech, image-generation, and video-generation APIs.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "data-and-ai",
+      "minimax",
+      "text-to-speech",
+      "image-generation",
+      "video-generation",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,541 stars and declared license MIT (last push 2026-05-21 03:40:18 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Model Context Protocol Reference Servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "description": "This official repository contains MCP reference servers and archived integrations for files, Git, memory, time, fetch, databases, browsers, and external services.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "reference",
+      "filesystem",
+      "git",
+      "memory",
+      "archived"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/tree/main/servers",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and contains 15 entries with pinned source commits; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MongoDB",
+    "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+    "description": "The official MongoDB MCP server exposes database, collection, query, aggregation, and schema operations.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "mongodb",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mongodb/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e99ccd0fde6b; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MultiversX",
+    "url": "https://github.com/multiversx/mx-mcp",
+    "description": "MultiversX MCP exposes blockchain accounts, transactions, tokens, and network data to agents.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "multiversx-mx",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/multiversx-mx/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7ed06c2bbc7b; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "MySQL MCP Server",
+    "url": "https://github.com/designcomputer/mysql_mcp_server",
+    "description": "MySQL MCP Server enables controlled database queries and schema access through MCP.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "databases",
+      "mysql",
+      "sql",
+      "database",
+      "schema",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,342 stars and declared license MIT (last push 2026-06-20 15:25:08 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "n8n",
+    "url": "https://github.com/czlonkowski/n8n-mcp",
+    "description": "Bridges n8n's workflow automation platform with AI models, providing access to 543 n8n nodes, workflow templates, and AI-capable automation tools.",
+    "category": "Integration & Orchestration",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "integration-and-orchestration",
+      "license-mit",
+      "n8n",
+      "workflow-automation",
+      "automation"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/n8n/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 1bbfaabbc20f; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Nasdaq Data Link",
+    "url": "https://github.com/stefanoamorelli/nasdaq-data-link-mcp",
+    "description": "MCP server to interact with the data feeds provided by the Nasdaq Data Link.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "nasdaq",
+      "data",
+      "intelligence"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/nasdaq-data-link/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ba0f129f2ef2; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Needle",
+    "url": "https://github.com/needle-ai/needle-mcp",
+    "description": "Needle MCP provides retrieval-augmented search over indexed documents.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "knowledge-and-memory",
+      "license-mit",
+      "needle",
+      "search",
+      "productivity",
+      "rag"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/needle-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 96d82632e3c7; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Neo4j",
+    "url": "https://github.com/neo4j/mcp",
+    "description": "Official MCP server for Neo4j.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-gpl",
+      "neo4j",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/neo4j/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 385f4ef1bc19; a pinned-revision audit found gnu general public license text in LICENSE.txt. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Neo4j Community MCP Servers",
+    "url": "https://github.com/neo4j-contrib/mcp-neo4j",
+    "description": "Neo4j Community MCP provides servers for Cypher queries, graph data modeling, memory, and Neo4j Aura administration.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "neo4j",
+      "graph-database",
+      "cypher",
+      "memory"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/tree/main/servers",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and contains 4 entries with pinned source commits; a pinned-revision audit found mit license text in LICENSE.txt. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Neon",
+    "url": "https://github.com/neondatabase-labs/mcp-server-neon",
+    "description": "Neon MCP lets agents manage Neon projects and branches and run queries against Neon Postgres.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "neon",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/neon/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit dbfa184afd9f; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Next.js DevTools",
+    "url": "https://github.com/kgprs/next-devtools-mcp",
+    "description": "Next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and utilities for AI coding assistants.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "devtools",
+      "nextjs"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/next-devtools-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 9ed2aab35ef3; a pinned-revision audit found mit license text in README.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Nocturne Memory",
+    "url": "https://github.com/Dataojitori/nocturne_memory",
+    "description": "Nocturne Memory is a local MCP server for persistent, structured, rollbackable agent memory.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "knowledge-and-memory",
+      "memory",
+      "local",
+      "rollback",
+      "knowledge-graph",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,276 stars and declared license MIT (last push 2026-07-20 21:42:41 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Node.js Sandbox",
+    "url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
+    "description": "Node.js Sandbox MCP executes JavaScript and TypeScript code in an isolated runtime.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "node-code-sandbox",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/node-code-sandbox/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 60f3e52c239f; a pinned-revision audit found mit license text in README.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Notion",
+    "url": "https://github.com/makenotion/notion-mcp-server",
+    "description": "The official Notion MCP server lets agents search, read, create, and update Notion workspace content.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "notion",
+      "secrets"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/notion/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d7e3bbd62890; a pinned-revision audit found permission is hereby granted text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Novita",
+    "url": "https://github.com/novitalabs/novita-mcp-server",
+    "description": "Novita MCP exposes Novita AI platform resources to MCP clients.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "novita",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/novita/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 64efc99e8b05; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "NPM Sentinel",
+    "url": "https://github.com/Nekzus/npm-sentinel-mcp",
+    "description": "NPM Sentinel MCP analyzes npm packages and dependency metadata.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "npm",
+      "npm-package"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/npm-sentinel/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit a90c07650284; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Obsidian",
+    "url": "https://github.com/docker/mcp-obsidian",
+    "description": "Obsidian MCP lets agents read, search, create, and update notes in an Obsidian vault.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "knowledge-and-memory",
+      "license-mit",
+      "obsidian",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/obsidian/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit b20ad46eea43; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Obsidian MCP Tools",
+    "url": "https://github.com/jacksteamdev/obsidian-mcp-tools",
+    "description": "Obsidian MCP Tools adds semantic search and Templater prompt integrations for Obsidian vaults.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "knowledge-and-memory",
+      "obsidian",
+      "notes",
+      "semantic-search",
+      "templater",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=3",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 834 stars and declared license MIT (last push 2026-05-13 16:13:25 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Official ClickHouse",
+    "url": "https://github.com/ClickHouse/mcp-clickhouse",
+    "description": "Official ClickHouse MCP Server.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-apache-2-0",
+      "database",
+      "clickhouse"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/clickhouse/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 21e6cb2b0758; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Okta",
+    "url": "https://github.com/fctr-id/okta-mcp-server",
+    "description": "Secure Okta identity and access management via Model Context Protocol (MCP).",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-apache-2-0",
+      "ai",
+      "okta",
+      "identity",
+      "access-management"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/okta-mcp-fctr/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 969116dfb2f4; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Okta",
+    "url": "https://github.com/okta/okta-mcp-server",
+    "description": "The official Okta MCP server exposes identity, user, group, application, policy, and system-log operations.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-apache-2-0",
+      "ai",
+      "okta",
+      "identity",
+      "access-management"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/okta-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f9f6157f62d3; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Omi",
+    "url": "https://github.com/BasedHardware/omi",
+    "description": "A Model Context Protocol server for Omi interaction and automation.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "knowledge-and-memory",
+      "license-mit",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/omi/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 144a166dda34; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "ONLYOFFICE DocSpace",
+    "url": "https://github.com/ONLYOFFICE/docspace-mcp",
+    "description": "ONLYOFFICE DocSpace MCP lets agents work with rooms, files, and collaborative document spaces.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "onlyoffice",
+      "docspace"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/onlyoffice-docspace/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ece977d0e47e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "OpenAPI Toolkit",
+    "url": "https://github.com/lepoco/openapi.client",
+    "description": "Fetch, validate, and generate code or curl from any OpenAPI or Swagger spec - all from a single URL.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/openapi/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 30bc5dfc95c7; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "OpenOSINT",
+    "url": "https://github.com/OpenOSINT/OpenOSINT",
+    "description": "OpenOSINT provides an MCP server and command-line tools for authorized open-source intelligence research.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "osint",
+      "research",
+      "cli",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,184 stars and declared license MIT (last push 2026-07-25 13:56:08 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Openweather",
+    "url": "https://github.com/mschneider82/mcp-openweather",
+    "description": "A simple MCP service that provides current weather and 5-day forecast using the free OpenWeatherMap API.",
+    "category": "Travel & Maps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "travel-and-maps",
+      "license-mit",
+      "weather-api"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/openweather/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e032683574a0; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Opik",
+    "url": "https://github.com/comet-ml/opik-mcp",
+    "description": "Opik MCP exposes LLM traces, experiments, prompts, and evaluation data for observability workflows.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "opik",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/opik/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ea3b4862c5d9; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Opine",
+    "url": "https://github.com/cody-docker/opine-mcp-server",
+    "description": "A Model Context Protocol (MCP) server for querying deals and evaluations from the Opine CRM API.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-apache-2-0",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/opine-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ad127be725f1; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Oracle Database",
+    "url": "https://github.com/samscarrow/oracle-mcp-server",
+    "description": "Oracle Database MCP provides read-only schema exploration, query execution, and metadata inspection.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "oracle",
+      "database",
+      "sql",
+      "enterprise"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/oracle/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c3ff6e8fc97e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "OSP Marketing Tools",
+    "url": "https://github.com/open-strategy-partners/osp_marketing_tools",
+    "description": "OSP Marketing Tools provides reusable marketing strategy, positioning, editing, and content-development resources through MCP.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-creative-commons",
+      "osp-marketing-tools",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/osp_marketing_tools/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 83f55198c4d4; a pinned-revision audit found creative commons text in README.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Oxylabs",
+    "url": "https://github.com/oxylabs/oxylabs-mcp",
+    "description": "Oxylabs MCP gives agents access to public web data through Oxylabs scraping APIs.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "oxylabs",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/oxylabs/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 0e738c89335e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Paper Search",
+    "url": "https://github.com/openags/paper-search-mcp",
+    "description": "Paper Search MCP searches academic papers and retrieves publication metadata and content.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "academic",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/paper-search/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c8b642183bb7; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://github.com/ppl-ai/modelcontextprotocol",
+    "description": "Connector for Perplexity API, to enable real-time, web-wide research.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "perplexity-ask",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/perplexity-ask/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f0a927c250e0; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Pinecone Assistant",
+    "url": "https://github.com/pinecone-io/assistant-mcp",
+    "description": "Pinecone Assistant MCP lets agents query knowledge bases backed by Pinecone Assistant.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "database",
+      "machine-learning"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/pinecone/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7e32e35c20fe; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Playwright",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "description": "Playwright MCP gives coding agents structured browser navigation, interaction, and inspection tools.",
+    "category": "Browser Automation",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "browser-automation",
+      "license-apache-2-0",
+      "playwright",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/playwright/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 2d446f9e1b79; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Plugged.in Proxy",
+    "url": "https://github.com/VeriTeknik/pluggedin-mcp-proxy",
+    "description": "Plugged.in Proxy aggregates multiple MCP servers behind one tool-discovery and management interface.",
+    "category": "Integration & Orchestration",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "integration-and-orchestration",
+      "license-apache-2-0",
+      "productivity",
+      "proxy",
+      "management",
+      "tools"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/pluggedin-mcp-proxy/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ea42ab826a97; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "PomoDash",
+    "url": "https://github.com/dannyytv/pomodash-mcp-server",
+    "description": "PomoDash MCP exposes task and project management operations to AI assistants.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "tasks",
+      "pomodoro",
+      "notes",
+      "projects"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/pomodash/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3c24d42aef5d; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Postman",
+    "url": "https://github.com/postmanlabs/postman-mcp-server",
+    "description": "The Postman MCP server connects agents to APIs, workspaces, collections, and other resources managed in Postman.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/postman/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 89d87667898d; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Pref Editor",
+    "url": "https://github.com/charlesmuchene/pref-editor-mcp-server",
+    "description": "Pref Editor is a tool for viewing and editing Android app preferences during development.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "android-preferences",
+      "android-development",
+      "preferences-datastore",
+      "shared-preferences"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/pref-editor/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8a795f068654; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Private Web Search",
+    "url": "https://github.com/nickclyde/duckduckgo-mcp-server",
+    "description": "Community-maintained server for DuckDuckGo search.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "duckduckgo",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/duckduckgo/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8992977d65a0; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Program Integrity Alliance",
+    "url": "https://github.com/Program-Integrity-Alliance/pia-mcp-local",
+    "description": "An MCP server to help make U.S.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-mit",
+      "ai"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/pia/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f10cab6874a3; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Prometheus",
+    "url": "https://github.com/pab1it0/prometheus-mcp-server",
+    "description": "A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Prometheus metrics through standardized interfaces.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-mit",
+      "ai",
+      "devops",
+      "llm",
+      "model-context-protocol"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/prometheus/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 219d4f0772cf; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Proxmox VE",
+    "url": "https://github.com/GethosTheWalrus/proxmox-mcp",
+    "description": "Manage Proxmox VE infrastructure including virtual machines, containers, storage, networking, firewall rules, high availability, and more.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "proxmox",
+      "virtualization",
+      "infrastructure",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/proxmox/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 060b7f5bbbf1; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Python Interpreter",
+    "url": "https://github.com/akuadane/mcp-code-interpreter",
+    "description": "A Python-based execution tool that mimics a Jupyter notebook environment.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-code-interpreter/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 209ddfca8c7a; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Python Refactoring Assistant",
+    "url": "https://github.com/slamer59/mcp-python-refactoring",
+    "description": "Educational Python refactoring assistant that provides guided suggestions for AI assistants.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "python",
+      "refactoring",
+      "code-analysis",
+      "education"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-python-refactoring/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit b66781d58674; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Qdrant MCP Server",
+    "url": "https://github.com/qdrant/mcp-server-qdrant",
+    "description": "The official Qdrant MCP server provides semantic memory and vector-search operations backed by Qdrant.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "databases",
+      "qdrant",
+      "vector-database",
+      "semantic-search",
+      "memory",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,481 stars and declared license Apache-2.0 (last push 2026-07-24 00:13:53 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "QuantConnect",
+    "url": "https://github.com/QuantConnect/mcp-server",
+    "description": "The QuantConnect MCP Server is a bridge for AIs (such as Claude and OpenAI o3 Pro) to interact with our cloud platform.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/quantconnect/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 1f0fa4e4f465; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Ramparts Security Scanner",
+    "url": "https://github.com/getjavelin/ramparts",
+    "description": "Ramparts scans MCP servers with YARA rules and static analysis.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-apache-2-0",
+      "vulnerability-scanning",
+      "mcp-server-analysis",
+      "yara-rules"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/ramparts/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit f206d33e6fe7; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Razorpay",
+    "url": "https://github.com/razorpay/razorpay-mcp-server",
+    "description": "Razorpay MCP exposes payment, order, refund, settlement, and related account operations.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "razorpay",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/razorpay/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7950d51d118c; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Reddit",
+    "url": "https://github.com/KrishnaRandad2023/mcp-reddit",
+    "description": "This server provides AI agents with tools to fetch, post and search on Reddit.",
+    "category": "Communication",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "communication",
+      "license-mit"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/mcp-reddit/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 127870e8c661; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Redis",
+    "url": "https://github.com/redis/mcp-redis",
+    "description": "Access to Redis database operations.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "redis",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/redis/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 53df2bcb7754; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Redis Cloud",
+    "url": "https://github.com/redis/mcp-redis-cloud",
+    "description": "Redis Cloud MCP exposes resource-management operations from the Redis Cloud API.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "redis-cloud",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/redis-cloud/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 015aaa6bfeec; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Ref - Up-To-Date Docs",
+    "url": "https://github.com/ref-tools/ref-tools-mcp",
+    "description": "Ref MCP searches current public and private technical documentation for coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "devops",
+      "documentation"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/ref/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 83970a356277; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Render",
+    "url": "https://github.com/render-oss/render-mcp-server",
+    "description": "Render MCP lets agents inspect and manage services and resources hosted on Render.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-apache-2-0",
+      "render",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/render/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 031b72358705; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "RISKEN",
+    "url": "https://github.com/ca-risken/risken-mcp-server",
+    "description": "RISKEN MCP gives agents access to cloud-security findings and risk data from RISKEN.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "risken",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/risken/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit e1a0ceefa761; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Rust Filesystem",
+    "url": "https://github.com/rust-mcp-stack/rust-mcp-filesystem",
+    "description": "The Rust MCP Filesystem is a high-performance, asynchronous, and lightweight Model Context Protocol (MCP) server built in Rust for secure and efficient filesystem operations.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "productivity"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/rust-mcp-filesystem/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 27e63b734d89; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "SchemaCrawler AI",
+    "url": "https://github.com/schemacrawler/SchemaCrawler-AI",
+    "description": "SchemaCrawler AI lets MCP clients inspect and reason over database schemas.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-epl",
+      "ai",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/schemacrawler-ai/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3dda2c1d154b; a pinned-revision audit found eclipse public license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "ScrapeGraph",
+    "url": "https://github.com/ScrapeGraphAI/scrapegraph-mcp",
+    "description": "ScrapeGraph MCP turns webpages into structured data through agent-accessible scraping tools.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "scrapegraph",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/scrapegraph/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3579efb4afc8; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Scrapezy",
+    "url": "https://github.com/Scrapezy/mcp",
+    "description": "A Model Context Protocol server for Scrapezy that enables AI models to extract structured data from websites.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "scrapezy",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/scrapezy/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit a8d31506d1f9; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "SearXNG MCP",
+    "url": "https://github.com/ihor-sokoliuk/mcp-searxng",
+    "description": "SearXNG MCP gives AI assistants private web search through a SearXNG instance.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "searxng",
+      "private-search",
+      "web-search",
+      "self-hosted",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,077 stars and declared license MIT (last push 2026-07-26 01:53:52 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Sequa.AI",
+    "url": "https://github.com/sequa-ai/sequa-mcp",
+    "description": "Sequa MCP gives coding agents access to indexed codebase and documentation context.",
+    "category": "Knowledge & Memory",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "knowledge-and-memory",
+      "license-mit",
+      "search",
+      "ai",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/sequa/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7ae4b43b37aa; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Serena",
+    "url": "https://github.com/oraios/serena",
+    "description": "Serena provides semantic code retrieval and editing tools to MCP-compatible coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "coding-agent",
+      "semantic-search",
+      "code-editing",
+      "language-server",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 26,934 stars and declared license MIT (last push 2026-07-26 13:09:55 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Shodan",
+    "url": "https://github.com/Cyreslab-AI/shodan-mcp-server",
+    "description": "Shodan MCP lets agents search and inspect internet-exposed hosts and services through the Shodan API.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "cyreslab-ai-shodan",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/cyreslab-ai-shodan/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 935f7044f605; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "SimpleCheckList",
+    "url": "https://github.com/DevMayur/SimpleCheckList",
+    "description": "SimpleCheckList exposes hierarchical projects, task lists, tasks, and subtasks through MCP.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "task-management",
+      "checklist",
+      "sqlite",
+      "docker-stable"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/simplechecklist/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 176694570a11; a pinned-revision audit found mit license text in README.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Singlestore",
+    "url": "https://github.com/singlestore-labs/mcp-server-singlestore",
+    "description": "SingleStore MCP exposes SQL queries and database metadata backed by SingleStore.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "databases",
+      "license-mit",
+      "singlestore",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/singlestore/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ace067f127d2; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Slack MCP Server",
+    "url": "https://github.com/korotovsky/slack-mcp-server",
+    "description": "Slack MCP Server provides channel, direct-message, and conversation-history access for Slack and GovSlack.",
+    "category": "Communication",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "communication",
+      "slack",
+      "govslack",
+      "messages",
+      "history",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,752 stars and declared license MIT (last push 2026-07-16 17:14:22 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "SmartBear",
+    "url": "https://github.com/SmartBear/smartbear-mcp",
+    "description": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, API Hub, PactFlow.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "smartbear",
+      "devops",
+      "api-testing",
+      "monitoring"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/smartbear/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 46b43e73069b; a pinned-revision audit found mit license text in LICENSE.txt. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "StackHawk",
+    "url": "https://github.com/stackhawk/stackhawk-mcp",
+    "description": "A Model Context Protocol (MCP) server for integrating with StackHawk's security scanning platform.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-apache-2-0",
+      "devops",
+      "stackhawk",
+      "appsec"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/stackhawk/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 28755aa34af5; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Stripe",
+    "url": "https://github.com/stripe/agent-toolkit",
+    "description": "Interact with Stripe services over the Stripe API.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "stripe"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/stripe/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 5af4bcd15813; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Supadata",
+    "url": "https://github.com/supadata-ai/mcp",
+    "description": "Supadata MCP provides video and social-media transcripts, metadata, and web extraction tools.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "supadata",
+      "transcript",
+      "scraping",
+      "youtube"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/supadata/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 373484ea837e; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Suzieq",
+    "url": "https://github.com/PovedaAqui/suzieq-mcp",
+    "description": "MCP Server to interact with a SuzieQ network observability instance via its REST API.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-mit",
+      "observability"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/suzieq/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 42e74a941237; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Tabularis",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "description": "Tabularis includes an MCP server for working with PostgreSQL, MySQL, SQLite, and other databases.",
+    "category": "Databases",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "databases",
+      "sql",
+      "postgresql",
+      "mysql",
+      "sqlite",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 3,912 stars and declared license Apache-2.0 (last push 2026-07-26 13:52:33 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Task Orchestrator",
+    "url": "https://github.com/jpicklyk/task-orchestrator",
+    "description": "Task Orchestrator provides structured task, feature, dependency, and project-context management through MCP.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "tasks",
+      "database"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/task-orchestrator/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 919f3762d13c; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Tavily",
+    "url": "https://github.com/tavily-ai/tavily-mcp",
+    "description": "Tavily MCP exposes real-time web search and webpage extraction tools.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "tavily",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/tavily/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8c02eedf0fbf; a pinned-revision audit found mit license text in LICENCE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Teamwork",
+    "url": "https://github.com/teamwork/mcp",
+    "description": "Tools for Teamwork.com products.",
+    "category": "Productivity",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "productivity",
+      "license-mit",
+      "ai",
+      "artificial-intelligence",
+      "teamwork"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/teamwork/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 9e26e66a0592; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Temporal",
+    "url": "https://github.com/GethosTheWalrus/temporal-mcp",
+    "description": "MCP support for Temporal.",
+    "category": "Integration & Orchestration",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "integration-and-orchestration",
+      "license-apache-2-0",
+      "temporal",
+      "workflow",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/temporal/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit bbe92ebc4375; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Testkube",
+    "url": "https://github.com/kubeshop/testkube",
+    "description": "Testkube MCP exposes continuous-testing orchestration, execution, results, and troubleshooting workflows.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-mit",
+      "devops",
+      "testing",
+      "automation",
+      "orchestration"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/testkube/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit d392deb5bf68; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Text-to-GraphQL",
+    "url": "https://github.com/Arize-ai/text-to-graphql-mcp",
+    "description": "Transform natural language queries into GraphQL queries using an AI agent.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-mit",
+      "graphql",
+      "ai",
+      "natural-language",
+      "api"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/text-to-graphql/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 69669c1bc00b; a pinned-revision audit found permission is hereby granted text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "ThingsBoard",
+    "url": "https://github.com/thingsboard/thingsboard-mcp",
+    "description": "ThingsBoard MCP lets agents query telemetry and manage IoT entities in ThingsBoard.",
+    "category": "IoT & Hardware",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "iot-and-hardware",
+      "license-apache-2-0",
+      "thingsboard",
+      "iot-platform",
+      "monitoring",
+      "data-visualization"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/thingsboard/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit adac2d247c40; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Tigris Data",
+    "url": "https://github.com/tigrisdata/tigris-mcp-server",
+    "description": "Tigris is a globally distributed S3-compatible object storage service that provides low latency anywhere in the world, enabling developers to store and access any amount of data for a wide range of use cases.",
+    "category": "Cloud & DevOps",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "cloud-and-devops",
+      "license-mit",
+      "s3-storage",
+      "storage",
+      "tigris",
+      "tigris-data"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/tigris/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 9fbdc7955d58; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "TradingView MCP",
+    "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+    "description": "TradingView MCP provides market data, technical analysis, screeners, and backtesting tools to MCP clients.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "finance",
+      "trading",
+      "market-data",
+      "technical-analysis",
+      "backtesting",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 3,677 stars and declared license MIT (last push 2026-07-23 18:35:46 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "TrendRadar",
+    "url": "https://github.com/sansan0/TrendRadar",
+    "description": "TrendRadar exposes multi-platform news aggregation, filtering, trend analysis, and alert data through MCP.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "news",
+      "trends",
+      "monitoring",
+      "rss",
+      "license-gpl-3-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 60,900 stars and declared license GPL-3.0 (last push 2026-07-17 13:54:28 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Uberall",
+    "url": "https://github.com/uberall/uberall-mcp-server",
+    "description": "Manage multi-location presence, including listings, reviews, and social posting, via uberall.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-mit",
+      "ecommerce",
+      "location-presence",
+      "listings",
+      "reviews"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/uberall/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 2015d2554576; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Unity MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "description": "Unity MCP connects coding agents to the Unity Editor for creating and testing game projects.",
+    "category": "Games & Creative",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "games-and-creative",
+      "unity",
+      "game-development",
+      "editor",
+      "testing",
+      "license-apache-2-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 3,674 stars and declared license Apache-2.0 (last push 2026-07-26 02:48:27 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Unreal Engine",
+    "url": "https://github.com/ChiR24/Unreal_mcp",
+    "description": "Unreal Engine MCP lets agents control Unreal Engine through its Remote Control API.",
+    "category": "Games & Creative",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "games-and-creative",
+      "license-mit",
+      "games",
+      "unreal-engine",
+      "game-development",
+      "automation"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/unreal-engine-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 8645bb8330b3; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Vectra AI RUX MCP Server",
+    "url": "https://github.com/vectra-ai-research/vectra-ai-mcp-server",
+    "description": "Vectra AI MCP connects agents to Vectra security data for threat analysis and incident-response workflows.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "vectra"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/vectra-ai-rux-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit df7e65b3e424; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "VictoriaLogs",
+    "url": "https://github.com/VictoriaMetrics-Community/mcp-victorialogs",
+    "description": "VictoriaLogs MCP exposes log queries, diagnostics, APIs, and documentation from a VictoriaLogs instance.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "monitoring",
+      "observability",
+      "logs",
+      "victorialogs"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/victorialogs/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 44923aafa325; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "VictoriaMetrics",
+    "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriametrics",
+    "description": "VictoriaMetrics MCP exposes metric queries, diagnostics, APIs, and documentation from a VictoriaMetrics instance.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "monitoring",
+      "observability",
+      "metrics",
+      "victoriametrics"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/victoriametrics/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 4db876ab9d9c; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "VictoriaTraces",
+    "url": "https://github.com/VictoriaMetrics-Community/mcp-victoriatraces",
+    "description": "VictoriaTraces MCP exposes trace queries, diagnostics, APIs, and documentation from a VictoriaTraces instance.",
+    "category": "Monitoring & Observability",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "monitoring-and-observability",
+      "license-apache-2-0",
+      "monitoring",
+      "observability",
+      "traces",
+      "distributed-tracing"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/victoriatraces/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 19e84f1819a0; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Vizro",
+    "url": "https://github.com/mckinsey/vizro",
+    "description": "Provides tools and templates to create a functioning Vizro chart or dashboard step by step.",
+    "category": "Data & AI",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "data-and-ai",
+      "license-apache-2-0",
+      "dashboard",
+      "data-visualization",
+      "plotly",
+      "plotly-dash"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/vizro/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit c88f5e62478d; a pinned-revision audit found apache license text in LICENSE.txt. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Vuln NIST",
+    "url": "https://github.com/HaroldFinchIFT/vuln-nist-mcp-server",
+    "description": "This MCP server exposes tools to query the NVD/CVE REST API and return formatted text results suitable for LLM consumption via the MCP protocol.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "search",
+      "cybersecurity",
+      "vulns",
+      "cves"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/vuln-nist-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 71a45579c7df; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Wassette",
+    "url": "https://github.com/microsoft/wassette",
+    "description": "Wassette is a security-oriented runtime that executes WebAssembly components through MCP.",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "security",
+      "webassembly",
+      "sandbox",
+      "runtime",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 929 stars and declared license MIT (last push 2026-07-25 15:55:47 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Webclaw",
+    "url": "https://github.com/0xMassi/webclaw",
+    "description": "Webclaw is a local-first MCP server and command-line tool for scraping, crawling, and structured web-data extraction.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "web-and-search",
+      "scraping",
+      "crawling",
+      "structured-data",
+      "rust",
+      "license-agpl-3-0"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 2,071 stars and declared license AGPL-3.0 (last push 2026-07-23 15:31:32 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Webflow",
+    "url": "https://github.com/slimslenderslacks/mcp-server",
+    "description": "Webflow MCP lets agents inspect and manage Webflow sites and CMS content.",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "commerce-and-marketing",
+      "license-mit",
+      "webflow",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/webflow/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit ed02aacd1063; a pinned-revision audit found mit license text in LICENSE.md. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Wikipedia",
+    "url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+    "description": "Wikipedia MCP lets agents search Wikipedia and retrieve article content.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "wikipedia-mcp",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/wikipedia-mcp/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 88579193daa4; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "WiseVision ROS2",
+    "url": "https://github.com/wise-vision/mcp_server_ros_2",
+    "description": "Python server implementing Model Context Protocol (MCP) for ROS2.",
+    "category": "IoT & Hardware",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "iot-and-hardware",
+      "license-mpl",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/ros2/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit a4d248c63980; a pinned-revision audit found mozilla public license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "WolframAlpha",
+    "url": "https://github.com/SecretiveShell/MCP-wolfram-alpha",
+    "description": "WolframAlpha MCP sends computational queries to WolframAlpha and returns structured results.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "wolfram-alpha",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/wolfram-alpha/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 0aa2530c8da8; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "XcodeBuildMCP",
+    "url": "https://github.com/getsentry/XcodeBuildMCP",
+    "description": "XcodeBuildMCP provides build and test tools for iOS and macOS projects to coding agents.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "developer-tools",
+      "xcode",
+      "ios",
+      "macos",
+      "testing",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=1",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 6,148 stars and declared license MIT (last push 2026-07-23 14:06:02 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "YouTube Transcripts",
+    "url": "https://github.com/jkawamoto/mcp-youtube-transcript",
+    "description": "Retrieves transcripts for given YouTube video URLs.",
+    "category": "Web & Search",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "web-and-search",
+      "license-mit",
+      "youtube",
+      "search"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/youtube_transcript/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 0a42884fc8e5; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Zen",
+    "url": "https://github.com/beehiveinnovations/zen-mcp-server",
+    "description": "Bridges multiple AI models and CLIs, enabling orchestrated workflows across Claude Code, Gemini CLI, Codex CLI, and other AI development tools.",
+    "category": "Developer Tools",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "developer-tools",
+      "license-apache-2-0",
+      "ai-orchestration",
+      "multi-model",
+      "workflows",
+      "devops"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/zen/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 7afc7c1cc96e; a pinned-revision audit found apache license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Zerodha Kite Connect",
+    "url": "https://github.com/anshuljain90/zerodha-kite-mcp",
+    "description": "MCP server for Zerodha Kite Connect API - India's leading stock broker trading platform.",
+    "category": "Finance",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "finance",
+      "license-mit",
+      "trading",
+      "stocks",
+      "india"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/zerodha-kite/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit 3902c5283c2c; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  },
+  {
+    "name": "Zotero MCP",
+    "url": "https://github.com/cookjohn/zotero-mcp",
+    "description": "Zotero MCP connects agents to Zotero for literature search, metadata management, and document analysis.",
+    "category": "Research & Education",
+    "tags": [
+      "mcp",
+      "github-popular",
+      "research-and-education",
+      "zotero",
+      "citations",
+      "literature",
+      "research",
+      "license-mit"
+    ],
+    "source_list_url": "https://api.github.com/search/repositories?q=topic%3Amcp-server&sort=stars&order=desc&per_page=100&page=2",
+    "evidence_note": "GitHub's public repository search API returned this mcp-server-topic repository with 1,040 stars and declared license MIT (last push 2026-06-11 00:33:18 UTC); the repository description identifies the MCP capability summarized here."
+  },
+  {
+    "name": "Zscaler",
+    "url": "https://github.com/zscaler/zscaler-mcp-server",
+    "description": "Manage the Zscaler Zero Trust Exchange platform via 300+ tools across ZPA (private access), ZIA (internet access), ZDX (digital experience), ZCC (client connector), ZTW (workload segmentation), ZMS (microsegmentation), EASM (attack surface management), Z-Insights (security analytics), and ZIdentity (identity management).",
+    "category": "Security",
+    "tags": [
+      "mcp",
+      "docker-registry",
+      "security",
+      "license-mit",
+      "zero-trust",
+      "cloud-security",
+      "network-security",
+      "sase"
+    ],
+    "source_list_url": "https://github.com/docker/mcp-registry/blob/main/servers/zscaler-mcp-server/server.yaml",
+    "evidence_note": "Docker's curated MCP Registry lists this repository as the source and pins source commit a2162c384e1f; a pinned-revision audit found mit license text in LICENSE. The registry also requires documentation, Docker deployment, MCP compatibility, CI, and Docker-team review."
+  }
+]

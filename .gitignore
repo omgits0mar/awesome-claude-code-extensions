@@ -1,0 +1,8 @@
+.DS_Store
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+catalog/link-report.json
+research/github-discovery-candidates.json
+research/official-mcp-registry-candidates.json

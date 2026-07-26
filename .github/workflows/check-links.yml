@@ -1,0 +1,27 @@
+name: Sample link check
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check a deterministic catalog sample
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_links.py --limit 250 --workers 4 --max-unknown-rate 0.10
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-report
+          path: catalog/link-report.json

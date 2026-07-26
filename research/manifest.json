@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "datasets": {
+    "claude-native.json": {
+      "checked_at": "2026-07-26",
+      "sha256": "2f4dc011ac6deb9d470569efeef7180be2eb79df767b0e5612868f2055b5576b"
+    },
+    "mcp-servers.json": {
+      "checked_at": "2026-07-26",
+      "sha256": "3ad1627e109eea78ad81a88f8bf1d37c6e2f070febd2bbc8359b137d114d7ddc"
+    },
+    "ecosystem-sources.json": {
+      "checked_at": "2026-07-26",
+      "sha256": "123409995df1cb2890f987861b3618fe1c4236ad336a4bd350486995fd18410b"
+    }
+  }
+}

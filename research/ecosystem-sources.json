@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Claude Code: Extend Claude Code",
+    "url": "https://code.claude.com/docs/en/features-overview",
+    "type": "official_documentation",
+    "scope": "Canonical map of Claude Code extension mechanisms: plugins, skills, subagents, hooks, MCP, agent teams, rules, and CLAUDE.md.",
+    "why_useful": "Use as the top-level taxonomy authority and to avoid conflating components that have different lifecycles and trust boundaries.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Create plugins",
+    "url": "https://code.claude.com/docs/en/plugins",
+    "type": "official_documentation",
+    "scope": "Plugin anatomy, supported component directories, development, testing, validation, and distribution.",
+    "why_useful": "Defines what qualifies as a native Claude Code plugin and supplies structural validation rules for ingestion.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Plugins reference",
+    "url": "https://code.claude.com/docs/en/plugins-reference",
+    "type": "official_documentation",
+    "scope": "Detailed plugin manifest, component, path, CLI, MCP, LSP, hook, and troubleshooting reference.",
+    "why_useful": "Primary source for parsing plugin.json and for detecting invalid or obsolete plugin layouts.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Discover and install plugins",
+    "url": "https://code.claude.com/docs/en/discover-plugins",
+    "type": "official_documentation",
+    "scope": "Official and third-party marketplace discovery, installation, scopes, updates, and security warning.",
+    "why_useful": "Establishes install semantics and the distinction between registering a marketplace and installing a plugin.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Create and distribute a plugin marketplace",
+    "url": "https://code.claude.com/docs/en/plugin-marketplaces",
+    "type": "official_documentation",
+    "scope": "Marketplace JSON format, source types, version resolution, validation, hosting, and managed restrictions.",
+    "why_useful": "Canonical schema guide for harvesting marketplace entries and resolving git, git-subdir, URL, npm, and local sources.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Extend Claude with skills",
+    "url": "https://code.claude.com/docs/en/skills",
+    "type": "official_documentation",
+    "scope": "SKILL.md format, locations, invocation, supporting files, subagent execution, tool grants, evaluation, and command compatibility.",
+    "why_useful": "Canonical Claude Code skill rules; also records that custom commands were merged into skills while .claude/commands remains compatible.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Create custom subagents",
+    "url": "https://code.claude.com/docs/en/sub-agents",
+    "type": "official_documentation",
+    "scope": "Custom subagent definitions, frontmatter, storage scopes, tools, permissions, models, and invocation.",
+    "why_useful": "Defines a valid Claude Code subagent and helps distinguish agents from skills that fork into an agent context.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Automate workflows with hooks",
+    "url": "https://code.claude.com/docs/en/hooks-guide",
+    "type": "official_documentation",
+    "scope": "Practical hook creation patterns for command, prompt, HTTP, and agent hooks.",
+    "why_useful": "Useful for capability descriptions and risk classification of extensions that execute automatically on lifecycle events.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Hooks reference",
+    "url": "https://code.claude.com/docs/en/hooks",
+    "type": "official_documentation",
+    "scope": "Hook events, matchers, JSON input/output, exit codes, plugin hooks, MCP hooks, and asynchronous behavior.",
+    "why_useful": "Canonical validation and security reference for hooks.json and settings-based hook declarations.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code: Connect to tools via MCP",
+    "url": "https://code.claude.com/docs/en/mcp",
+    "type": "official_documentation",
+    "scope": "Claude Code MCP transports, scopes, configuration, authentication, prompts, plugin-provided servers, and management.",
+    "why_useful": "Determines whether a generic MCP server is installable in Claude Code and how its configuration should be described.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code CLI reference",
+    "url": "https://code.claude.com/docs/en/cli-usage",
+    "type": "official_documentation",
+    "scope": "Current Claude Code command-line flags and plugin/MCP management entry points.",
+    "why_useful": "Allows generated install examples to be checked against current CLI syntax and flags stale npm-era instructions.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Agent SDK: Agent Skills",
+    "url": "https://code.claude.com/docs/en/agent-sdk/skills",
+    "type": "official_documentation",
+    "scope": "Using Agent Skills through the Claude Agent SDK.",
+    "why_useful": "Captures SDK compatibility separately from native interactive Claude Code installation.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude plugin directory",
+    "url": "https://claude.com/plugins",
+    "type": "official_registry",
+    "scope": "Anthropic-hosted directory of plugins, including Claude Code compatibility, verified labels, descriptions, and install counts.",
+    "why_useful": "Best canonical popularity and compatibility surface for official-directory plugins; install counts are more meaningful here than stars alone.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic Claude Code repository",
+    "url": "https://github.com/anthropics/claude-code",
+    "type": "official_repository",
+    "scope": "Claude Code repository, bundled plugins, changelog, issues, examples, and demo marketplace.",
+    "why_useful": "Primary source for bundled extensions, current deprecations, version history, and real plugin examples.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic bundled plugin marketplace manifest",
+    "url": "https://github.com/anthropics/claude-code/blob/main/.claude-plugin/marketplace.json",
+    "type": "official_manifest",
+    "scope": "Machine-readable marketplace bundled in the Claude Code repository.",
+    "why_useful": "Direct structured feed for bundled plugin names, descriptions, categories, authors, and source paths.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic official Claude Code plugins directory",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "type": "official_repository",
+    "scope": "Anthropic-managed directory containing first-party plugins and pinned third-party plugin sources.",
+    "why_useful": "Highest-value structured upstream for official and partner plugins; also documents that each linked plugin has its own license and trust profile.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic official plugins marketplace manifest",
+    "url": "https://github.com/anthropics/claude-plugins-official/blob/main/.claude-plugin/marketplace.json",
+    "type": "official_manifest",
+    "scope": "Machine-readable official marketplace with descriptions, categories, authors, homepages, sources, refs, and commit SHAs.",
+    "why_useful": "Preferred seed feed for deterministic source resolution and deduplication of official-directory entries.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic Agent Skills examples",
+    "url": "https://github.com/anthropics/skills",
+    "type": "official_repository",
+    "scope": "Anthropic skill examples, templates, marketplace packaging, specification pointers, and document skills.",
+    "why_useful": "Canonical examples and useful seed set, but individual subdirectories have different licensing, including source-available document skills.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Anthropic knowledge-work plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "type": "official_repository",
+    "scope": "Open-source role-oriented plugins built for Cowork and documented as compatible with Claude Code.",
+    "why_useful": "Adds non-coding use cases and demonstrates plugins combining skills, connectors, commands, and subagents.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude unified skills, connectors, and plugins directory help",
+    "url": "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory",
+    "type": "official_documentation",
+    "scope": "Claude account directory behavior across skills, connectors, plugins, organizations, and supported surfaces.",
+    "why_useful": "Helps label Claude-wide entries that are not necessarily local open-source Claude Code extensions.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Agent Skills specification",
+    "url": "https://agentskills.io/specification",
+    "type": "official_specification",
+    "scope": "Open Agent Skills directory and SKILL.md specification.",
+    "why_useful": "Normative baseline for parsing and validating portable skills before applying Claude Code-specific extensions.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Agent Skills specification repository",
+    "url": "https://github.com/agentskills/agentskills",
+    "type": "official_repository",
+    "scope": "Specification source, reference validator, documentation, issues, and proposals for Agent Skills.",
+    "why_useful": "Machine-actionable validation reference and changelog for format evolution; code is Apache-2.0 and documentation is CC-BY-4.0.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Official MCP Registry",
+    "url": "https://registry.modelcontextprotocol.io/",
+    "type": "official_registry",
+    "scope": "Searchable canonical registry of published Model Context Protocol servers and versions.",
+    "why_useful": "Preferred canonical identity and version source for MCP entries before enrichment from community directories.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Official MCP Registry repository",
+    "url": "https://github.com/modelcontextprotocol/registry",
+    "type": "official_repository",
+    "scope": "Open-source registry service, API documentation, publishing workflow, schemas, and ecosystem roadmap.",
+    "why_useful": "Supports programmatic ingestion and clarifies registry maturity, API versions, validation, and publish semantics.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Model Context Protocol servers repository",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "type": "official_repository",
+    "scope": "Reference MCP server implementations and links to official and community servers.",
+    "why_useful": "Canonical reference examples and a useful seed, while its README explicitly redirects broad discovery to the Registry.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "MCP security best practices",
+    "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+    "type": "official_security_guidance",
+    "scope": "MCP attack vectors and mitigations covering authorization, confused-deputy risks, SSRF, sessions, and dynamic tools.",
+    "why_useful": "Provides the risk vocabulary and review checklist for MCP server entries.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Official MCP Registry terms",
+    "url": "https://modelcontextprotocol.io/registry/terms-of-service",
+    "type": "official_policy",
+    "scope": "Terms governing use and publication of official MCP Registry data.",
+    "why_useful": "Must be reviewed before bulk reuse, redistribution, or mirroring of registry metadata.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code marketplace JSON Schema",
+    "url": "https://json.schemastore.org/claude-code-marketplace.json",
+    "type": "official_schema",
+    "scope": "JSON Schema for Claude Code marketplace manifests.",
+    "why_useful": "Enables deterministic validation of harvested marketplace.json files and clear rejection reasons.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub REST search API",
+    "url": "https://docs.github.com/en/rest/search/search",
+    "type": "platform_documentation",
+    "scope": "GitHub REST repository and code search endpoints, pagination, result caps, query limits, and rate limits.",
+    "why_useful": "Essential crawler reference; notably exposes 1,000-result, repository-scope, default-branch, file-size, and rate-limit constraints.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub Code Search syntax",
+    "url": "https://docs.github.com/en/search-github/github-code-search/understanding-github-code-search-syntax",
+    "type": "platform_documentation",
+    "scope": "Code search qualifiers including path, language, repository, organization, symbols, regex, and boolean expressions.",
+    "why_useful": "Basis for high-recall searches for marketplace.json, plugin.json, SKILL.md, agents, commands, hooks, and .mcp.json.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub repository search syntax",
+    "url": "https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories",
+    "type": "platform_documentation",
+    "scope": "Repository search qualifiers for stars, forks, activity, topics, license, archived status, and metadata.",
+    "why_useful": "Enables popularity and freshness slices without relying only on code search.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub repository license API",
+    "url": "https://docs.github.com/en/rest/licenses/licenses",
+    "type": "platform_documentation",
+    "scope": "GitHub license detection and SPDX-aligned repository license endpoints.",
+    "why_useful": "Primary automated license signal, with an explicit warning that root-file detection misses dependencies, subdirectories, and other license declarations.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub REST API best practices",
+    "url": "https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api",
+    "type": "platform_documentation",
+    "scope": "Conditional requests, caching, polling avoidance, authentication, concurrency, and secondary rate-limit guidance.",
+    "why_useful": "Operational guardrails for a recurring catalog refresh job that does not overload GitHub.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub Acceptable Use Policies",
+    "url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+    "type": "platform_policy",
+    "scope": "Restrictions covering automated bulk activity, scraping, information use, privacy, spam, and excessive bandwidth.",
+    "why_useful": "Sets legal and operational boundaries; the crawler should prefer the API, avoid personal-data collection, and honor removal requests.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: claude-code",
+    "url": "https://github.com/topics/claude-code",
+    "type": "github_topic",
+    "scope": "Broad self-classified Claude Code repositories sortable by stars, forks, and update time.",
+    "why_useful": "High-recall discovery and popularity input, but noisy enough to require artifact and license verification.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: claude-code-plugin",
+    "url": "https://github.com/topics/claude-code-plugin",
+    "type": "github_topic",
+    "scope": "Repositories self-classified as Claude Code plugins.",
+    "why_useful": "Useful repository-level seed for plugin discovery beyond known marketplaces.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: claude-code-skills",
+    "url": "https://github.com/topics/claude-code-skills",
+    "type": "github_topic",
+    "scope": "Repositories self-classified as Claude Code skill collections or individual skills.",
+    "why_useful": "Strong skill-discovery surface that complements exact SKILL.md code searches.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: claude-code-hooks",
+    "url": "https://github.com/topics/claude-code-hooks",
+    "type": "github_topic",
+    "scope": "Repositories self-classified as Claude Code hook tooling or collections.",
+    "why_useful": "Finds lifecycle automation that general plugin and skill lists frequently omit.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: claude-code-subagents",
+    "url": "https://github.com/topics/claude-code-subagents",
+    "type": "github_topic",
+    "scope": "Repositories self-classified as Claude Code subagent collections.",
+    "why_useful": "Focused seed for agent-definition discovery and category coverage.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: model-context-protocol",
+    "url": "https://github.com/topics/model-context-protocol",
+    "type": "github_topic",
+    "scope": "Repositories related to MCP clients, servers, SDKs, gateways, and tooling.",
+    "why_useful": "Broad MCP discovery feed, requiring server/client/tool classification and Claude Code compatibility checks.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub topic: mcp-server",
+    "url": "https://github.com/topics/mcp-server",
+    "type": "github_topic",
+    "scope": "Repositories self-classified specifically as MCP servers.",
+    "why_useful": "Higher-precision MCP-server seed than the broader protocol topic.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Claude Code marketplace manifests",
+    "url": "https://github.com/search?q=path%3A.claude-plugin%2Fmarketplace.json&type=code",
+    "type": "github_search",
+    "scope": "Public code containing .claude-plugin/marketplace.json.",
+    "why_useful": "Direct discovery of marketplace repositories, including those absent from directories and topic pages.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Claude Code plugin manifests",
+    "url": "https://github.com/search?q=path%3A.claude-plugin%2Fplugin.json&type=code",
+    "type": "github_search",
+    "scope": "Public code containing .claude-plugin/plugin.json.",
+    "why_useful": "Direct discovery of standalone plugins and plugin subdirectories in monorepos.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Agent Skills",
+    "url": "https://github.com/search?q=path%3ASKILL.md+%22description%3A%22&type=code",
+    "type": "github_search",
+    "scope": "Public SKILL.md files containing standard description frontmatter.",
+    "why_useful": "High-recall long-tail skill discovery that is not limited to repositories with Claude-specific topics.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Claude Code agents",
+    "url": "https://github.com/search?q=path%3A.claude%2Fagents+extension%3Amd&type=code",
+    "type": "github_search",
+    "scope": "Markdown agent definitions under .claude/agents.",
+    "why_useful": "Discovers project-scoped subagents that are rarely published as standalone repositories.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Claude Code commands",
+    "url": "https://github.com/search?q=path%3A.claude%2Fcommands+extension%3Amd&type=code",
+    "type": "github_search",
+    "scope": "Legacy-compatible custom command files under .claude/commands.",
+    "why_useful": "Captures the large pre-SKILL.md command ecosystem while allowing entries to be labeled legacy-compatible.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "GitHub code search: Claude Code plugin hooks",
+    "url": "https://github.com/search?q=path%3Ahooks%2Fhooks.json&type=code",
+    "type": "github_search",
+    "scope": "Plugin hook declarations in hooks/hooks.json.",
+    "why_useful": "Finds plugins with automatic execution behavior and supports early security triage.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "type": "awesome_list",
+    "scope": "Large hand-curated Claude Code list spanning skills, agents, plugins, hooks, status lines, tooling, and workflows.",
+    "why_useful": "One of the most established high-signal community indexes and a strong source for descriptions and category ideas.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code Plugins by CCPlugins",
+    "url": "https://github.com/ccplugins/awesome-claude-code-plugins",
+    "type": "awesome_list",
+    "scope": "Curated native Claude Code plugins across commands, subagents, MCP servers, hooks, and use-case categories.",
+    "why_useful": "Plugin-focused list with a broad functional taxonomy and contribution flow.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Plugins by Composio",
+    "url": "https://github.com/ComposioHQ/awesome-claude-plugins",
+    "type": "awesome_list",
+    "scope": "Curated Claude Code plugins bundling commands, agents, hooks, and MCP servers.",
+    "why_useful": "Independent plugin list useful for cross-checking omissions and duplicate descriptions.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Skills by Travis VN",
+    "url": "https://github.com/travisvn/awesome-claude-skills",
+    "type": "awesome_list",
+    "scope": "Curated Claude skills, resources, tools, and workflow extensions with a Claude Code emphasis.",
+    "why_useful": "Popular skill-specific list with contribution guidelines and a mature category structure.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Skills by Composio",
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "type": "awesome_list",
+    "scope": "Curated Claude and cross-agent skills, MCP resources, and workflow tools.",
+    "why_useful": "Large independently maintained skill index that surfaces popular cross-agent repositories.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code and Skills by GetBindu",
+    "url": "https://github.com/GetBindu/awesome-claude-code-and-skills",
+    "type": "awesome_list",
+    "scope": "Broad collection of Claude Code projects, skills, security tools, domain packs, and skill-development tooling.",
+    "why_useful": "High-recall secondary source with useful per-entry capability notes and explicit quality-oriented contribution criteria.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code by subinium",
+    "url": "https://github.com/subinium/awesome-claude-code",
+    "type": "awesome_list",
+    "scope": "Curated tools, configurations, skills, plugins, MCP servers, and workflows.",
+    "why_useful": "Compact cross-check source with practical groupings for configurations versus installable extensions.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code Skills by itgoyo",
+    "url": "https://github.com/itgoyo/awesome-claude-code-skills",
+    "type": "awesome_list",
+    "scope": "Star-ranked Claude Code skills, plugins, tools, and capability extensions.",
+    "why_useful": "Useful popularity-oriented discovery source, but star counts and generated summaries require independent verification.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome Claude Code Subagents by VoltAgent",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "type": "curated_collection",
+    "scope": "Large installable collection of specialized Claude Code subagents grouped into domain plugins.",
+    "why_useful": "Primary high-volume seed for subagent definitions, with clear categories, contribution rules, and an MIT license.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "wshobson Agentic Plugin Marketplace",
+    "url": "https://github.com/wshobson/agents",
+    "type": "curated_collection",
+    "scope": "Large multi-harness marketplace of Claude Code plugins, agents, skills, commands, and orchestrators.",
+    "why_useful": "High-quality structured source with native marketplace metadata, component catalogs, validation tooling, and a rich functional taxonomy.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code Templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "type": "curated_collection",
+    "scope": "CLI and catalog for agents, commands, settings, hooks, MCP integrations, skills, and project templates.",
+    "why_useful": "Broad component coverage and machine-installable categories make it valuable for discovering non-plugin artifacts.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Everything Claude Code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "type": "curated_collection",
+    "scope": "Production-oriented agents, skills, hooks, rules, MCP configs, command shims, memory, and security tooling.",
+    "why_useful": "Popular real-world configuration corpus and migration reference across Claude Code and other harnesses.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Daymade Claude Code Skills",
+    "url": "https://github.com/daymade/claude-code-skills",
+    "type": "curated_collection",
+    "scope": "Documented marketplace of production-oriented Claude Code skills and skill bundles.",
+    "why_useful": "Strong example of marketplace packaging, skill validation, demos, and bundle-level installation semantics.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Agentic Awesome Skills",
+    "url": "https://github.com/sickn33/agentic-awesome-skills",
+    "type": "curated_collection",
+    "scope": "Large cross-agent skill catalog with Claude Code plugin distribution, bundles, CLI, and local MCP discovery.",
+    "why_useful": "Very high recall for SKILL.md content and bundles; requires filtering for Claude Code readiness and original provenance.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Agents, Skills, and Plugins collection by Eric Grill",
+    "url": "https://github.com/EricGrill/agents-skills-plugins",
+    "type": "curated_collection",
+    "scope": "Curated collection of Claude Code skills, agents, plugins, and upstream repositories.",
+    "why_useful": "Secondary cross-reference for less-visible collections and author attribution.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome MCP Servers by punkpeye",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "type": "awesome_list",
+    "scope": "Large community-curated list of local and remote MCP servers across many categories.",
+    "why_useful": "One of the most established broad MCP discovery sources and a key complement to the official Registry.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome MCP Servers by TensorBlock",
+    "url": "https://github.com/TensorBlock/awesome-mcp-servers",
+    "type": "awesome_list",
+    "scope": "Large community collection of MCP servers and related tools.",
+    "why_useful": "Independent high-recall feed for cross-checking servers missing from the official Registry or other lists.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome MCP Servers by habitoai",
+    "url": "https://github.com/habitoai/awesome-mcp-servers",
+    "type": "awesome_list",
+    "scope": "Community-curated MCP server and tool list.",
+    "why_useful": "Additional deduplication and discovery source for the MCP long tail.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "ClaudePluginHub",
+    "url": "https://www.claudepluginhub.com/",
+    "type": "community_registry",
+    "scope": "Automated directory of Claude Code marketplaces, plugins, and component-level metadata with trust signals.",
+    "why_useful": "Extremely high recall for public marketplace manifests and useful component extraction; duplicates and auto-discovered noise must be filtered.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Marketplaces",
+    "url": "https://claudemarketplaces.com/",
+    "type": "community_registry",
+    "scope": "Searchable directory of Claude Code skills, plugin marketplaces, and MCP servers.",
+    "why_useful": "Large-scale discovery surface and useful estimate of ecosystem breadth; counts and classifications need canonical-source verification.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Plugins community registry",
+    "url": "https://claude-plugins.dev/",
+    "type": "community_registry",
+    "scope": "Community registry and CLI for Claude Code plugins and Agent Skills.",
+    "why_useful": "Adds installation-oriented metadata and helps find standalone skills not packaged in conventional marketplaces.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Code Marketplace",
+    "url": "https://claudecodemarketplace.net/",
+    "type": "community_registry",
+    "scope": "Community directory and installable marketplace spanning agents, commands, hooks, MCP servers, and skills.",
+    "why_useful": "Useful category-specific feed and source of links to other marketplace collections.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "built4claude",
+    "url": "https://builtforclaude.com/",
+    "type": "community_directory",
+    "scope": "Broad directory of Claude plugins, MCP servers, skills, agents, workflows, prompt libraries, and learning resources.",
+    "why_useful": "Provides non-developer and workflow-oriented coverage often missing from GitHub-only lists.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "AgentHub Claude Code marketplace",
+    "url": "https://agenthub.nullorder.org/",
+    "type": "community_registry",
+    "scope": "Searchable Claude Code plugin marketplace with component types, authors, licenses, and repository links.",
+    "why_useful": "Useful enrichment source for explicit license and component metadata, subject to verification against upstream repositories.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Skills Playground",
+    "url": "https://skillsplayground.com/",
+    "type": "community_directory",
+    "scope": "Claude Code skill marketplace and MCP server directory with GitHub-oriented browsing.",
+    "why_useful": "Secondary discovery source for popular and category-specific skills.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claudeable",
+    "url": "https://claudeable.co/",
+    "type": "community_directory",
+    "scope": "Curated Claude Code directory covering skills, MCP servers, subagents, hooks, CLAUDE.md configs, commands, output styles, and rules.",
+    "why_useful": "Good breadth across artifact types that large skill/plugin indexes underrepresent, with concise human-written use-case descriptions.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "ClaudSkills open SKILL.md registry",
+    "url": "https://claudskills.com/",
+    "type": "community_registry",
+    "scope": "Large automatically mined registry of Claude Code and cross-agent SKILL.md submissions.",
+    "why_useful": "Very high-recall skill source with categories and source links; automated counts and quality claims require local verification.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Claude Skills Hub directory",
+    "url": "https://claudeskills.info/agent-skills/directory/",
+    "type": "community_registry",
+    "scope": "GitHub-backed Agent Skills directory for Claude Code and other compatible agents.",
+    "why_useful": "Useful discovery and cross-agent compatibility source with direct upstream links.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "skills.sh Agent Skills directory",
+    "url": "https://www.skills.sh/",
+    "type": "community_registry",
+    "scope": "Large install-oriented directory of Agent Skills sourced from public repositories.",
+    "why_useful": "Important cross-agent source for popular SKILL.md packages and installation demand signals.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "MCP.so",
+    "url": "https://mcp.so/",
+    "type": "community_registry",
+    "scope": "MCP server, client, CLI, workflow, and Agent Skills marketplace with categories and rankings.",
+    "why_useful": "Broad discovery and cross-linking source for MCP servers and adjacent reusable capabilities.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "PulseMCP server directory",
+    "url": "https://www.pulsemcp.com/servers",
+    "type": "community_registry",
+    "scope": "Large MCP server directory with official/reference/community classification, popularity estimates, and recency sorting.",
+    "why_useful": "High-recall MCP discovery with useful provider and freshness facets; popularity estimates are non-canonical.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Glama MCP registry",
+    "url": "https://glama.ai/",
+    "type": "community_registry",
+    "scope": "MCP server, connector, and tool-level index with build, license, quality, and safety metadata.",
+    "why_useful": "Tool-level search and continuously rebuilt server metadata provide capabilities that repository-only indexes miss.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Smithery",
+    "url": "https://smithery.ai/",
+    "type": "community_registry",
+    "scope": "MCP server registry, hosting, connection metadata, CLI installation, and security scan signals.",
+    "why_useful": "Useful for MCP deployment and tool metadata enrichment; hosted and closed-source entries must be separated from open-source servers.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "MCPFind",
+    "url": "https://mcpfind.org/",
+    "type": "community_directory",
+    "scope": "MCP server search, comparisons, installation guidance, and multi-client configuration.",
+    "why_useful": "Useful secondary discovery and setup-verification source, especially for Claude Code-specific install instructions.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "MCP Servers directory",
+    "url": "https://mcpservers.org/",
+    "type": "community_directory",
+    "scope": "Searchable categorized directory of featured, official, and community MCP servers.",
+    "why_useful": "Human-browsable cross-check for provider attribution and category coverage.",
+    "trust_level": "medium",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Awesome list manifesto",
+    "url": "https://github.com/sindresorhus/awesome/blob/main/awesome.md",
+    "type": "curation_guidance",
+    "scope": "Widely used standards for focused scope, curation, descriptions, categories, contribution rules, and list licensing.",
+    "why_useful": "Provides a quality bar for building an actual curated awesome list rather than publishing an unreviewed scrape.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "OSI approved licenses",
+    "url": "https://opensource.org/licenses",
+    "type": "license_reference",
+    "scope": "Canonical Open Source Initiative list of approved licenses and SPDX identifiers.",
+    "why_useful": "Supports a defensible verified-open-source gate instead of treating every public repository as open source.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "SPDX License List",
+    "url": "https://spdx.org/licenses/",
+    "type": "license_reference",
+    "scope": "Standard license identifiers, canonical URLs, exceptions, and OSI/FSF flags.",
+    "why_useful": "Canonical normalization source for license fields and mixed SPDX expressions.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "OWASP MCP Security Cheat Sheet",
+    "url": "https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html",
+    "type": "security_guidance",
+    "scope": "MCP security controls covering tool poisoning, authentication, authorization, secrets, sandboxing, and monitoring.",
+    "why_useful": "Independent security checklist for risk badges and reviewer guidance.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Malicious Agent Skills in the Wild study",
+    "url": "https://arxiv.org/abs/2602.06547",
+    "type": "security_research",
+    "scope": "Large-scale empirical study of malicious Agent Skills and released analysis artifacts.",
+    "why_useful": "Evidence that SKILL.md and bundled resources must be treated as an executable supply-chain surface, not harmless documentation.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  },
+  {
+    "name": "Skill-Inject benchmark",
+    "url": "https://arxiv.org/abs/2602.20156",
+    "type": "security_research",
+    "scope": "Benchmark and analysis of prompt-injection attacks embedded in agent skill files.",
+    "why_useful": "Supports explicit prompt-injection review and cautions against relying only on conventional malware scanners.",
+    "trust_level": "high",
+    "last_checked": "2026-07-26"
+  }
+]
