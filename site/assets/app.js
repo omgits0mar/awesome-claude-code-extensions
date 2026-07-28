@@ -712,9 +712,17 @@
 
   function createCard(entry) {
     const meta = metadataFor(entry);
+    const targetUrl = safeGitHubUrl(entry.url);
     const article = document.createElement("article");
     article.className = "extension-card";
     article.dataset.kind = entry.kind;
+
+    const cardLink = document.createElement("a");
+    cardLink.className = "card-link";
+    cardLink.href = targetUrl;
+    cardLink.target = "_blank";
+    cardLink.rel = "noopener noreferrer";
+    cardLink.setAttribute("aria-label", `Open ${entry.name} on GitHub`);
 
     const head = document.createElement("div");
     head.className = "card-head";
@@ -758,11 +766,8 @@
 
     const titleWrap = document.createElement("div");
     titleWrap.className = "card-title-wrap";
-    const title = document.createElement("a");
+    const title = document.createElement("span");
     title.className = "card-title";
-    title.href = safeGitHubUrl(entry.url);
-    title.target = "_blank";
-    title.rel = "noopener noreferrer";
     title.textContent = entry.name;
     title.title = entry.name;
     const repository = document.createElement("span");
@@ -771,12 +776,9 @@
     repository.title = entry._repositoryLabel || entry.repository_url;
     titleWrap.append(title, repository);
 
-    const external = document.createElement("a");
+    const external = document.createElement("span");
     external.className = "external-link";
-    external.href = safeGitHubUrl(entry.url);
-    external.target = "_blank";
-    external.rel = "noopener noreferrer";
-    external.setAttribute("aria-label", `Open ${entry.name} on GitHub`);
+    external.setAttribute("aria-hidden", "true");
     external.append(makeIcon("external"));
     head.append(avatar, titleWrap, external);
 
@@ -863,11 +865,12 @@
       copy.type = "button";
       copy.dataset.command = installCommand;
       copy.setAttribute("aria-label", `Copy install command for ${entry.name}`);
-      copy.append(makeIcon("copy"), document.createTextNode("Copy install"));
+      copy.title = installCommand;
+      copy.append(makeIcon("copy"), document.createTextNode("Copy command"));
       footer.append(copy);
     }
 
-    article.append(head, description, badges, topics, footer);
+    article.append(cardLink, head, description, badges, topics, footer);
     return article;
   }
 
@@ -1141,8 +1144,9 @@
       const button = event.target.closest(".copy-install");
       if (!button) return;
       try {
-        await copyText(button.dataset.command || "");
-        showToast("Install command copied");
+        const command = button.dataset.command || "";
+        await copyText(command);
+        showToast(`Copied: ${command}`);
       } catch {
         showToast("Could not copy the install command");
       }
