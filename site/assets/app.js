@@ -84,6 +84,10 @@
     "art & culture": "Art & culture",
   };
 
+  function defaultSortForKind(kind) {
+    return kind === "all" ? "stars" : "featured";
+  }
+
   const state = {
     query: "",
     kind: "all",
@@ -92,7 +96,7 @@
     stars: "all",
     officialOnly: false,
     licenseOnly: false,
-    sort: "featured",
+    sort: defaultSortForKind("all"),
     visibleCount: PAGE_SIZE,
   };
 
@@ -346,7 +350,7 @@
     state.licenseOnly = params.get("license") === "1";
     state.sort = ["featured", "stars", "name", "updated"].includes(sort)
       ? sort
-      : "featured";
+      : defaultSortForKind(state.kind);
   }
 
   function syncUrl() {
@@ -358,7 +362,9 @@
     if (state.stars !== "all") params.set("stars", state.stars);
     if (state.officialOnly) params.set("official", "1");
     if (state.licenseOnly) params.set("license", "1");
-    if (state.sort !== "featured") params.set("sort", state.sort);
+    if (state.sort !== defaultSortForKind(state.kind)) {
+      params.set("sort", state.sort);
+    }
     const query = params.toString();
     const target = `${window.location.pathname}${query ? `?${query}` : ""}`;
     try {
@@ -1008,13 +1014,21 @@
 
   function clearFilter(key) {
     if (key === "query") state.query = "";
-    if (key === "kind") state.kind = "all";
+    if (key === "kind") setKind("all");
     if (key === "tier") state.tier = "all";
     if (key === "category") state.category = "all";
     if (key === "stars") state.stars = "all";
     if (key === "official") state.officialOnly = false;
     if (key === "license") state.licenseOnly = false;
     scheduleRender(true);
+  }
+
+  function setKind(kind) {
+    const usingDefaultSort = state.sort === defaultSortForKind(state.kind);
+    state.kind = kind;
+    if (usingDefaultSort) {
+      state.sort = defaultSortForKind(kind);
+    }
   }
 
   function resetState() {
@@ -1026,7 +1040,7 @@
       stars: "all",
       officialOnly: false,
       licenseOnly: false,
-      sort: "featured",
+      sort: defaultSortForKind("all"),
       visibleCount: PAGE_SIZE,
     });
     scheduleRender(true);
@@ -1094,7 +1108,7 @@
     elements.kindChips.addEventListener("click", (event) => {
       const button = event.target.closest("[data-kind]");
       if (!button || !Object.hasOwn(KIND_GROUPS, button.dataset.kind)) return;
-      state.kind = button.dataset.kind;
+      setKind(button.dataset.kind);
       scheduleRender(true);
     });
 
