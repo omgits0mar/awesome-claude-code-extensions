@@ -1,6 +1,6 @@
 # Skills, Commands & Hooks
 
-158 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-26.
+159 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -200,6 +200,10 @@
 
 - [ai-agent-notifier](https://github.com/DevinoSolutions/ai-agent-notifier) — A zero-dependency, cross-platform notifier that fires a desktop toast and a free phone push (via ntfy) the moment Claude Code (or Codex/Cursor/Gemini) finishes a task or needs input, wired up by a one-command setup. <sub>command · remote-control · curated</sub>
 - [Telegram-Claude (tg-claude)](https://github.com/Imolatte/tg-claude) — A feature-rich Telegram bot that turns your machine into a remote Claude Code terminal driven from your phone: streaming tool progress, voice input, a git panel, Mac remote control, and 30+ commands. <sub>command · remote-control · curated</sub>
+
+## browser-automation
+
+- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>skill · browser-automation · curated</sub> Install: `npx skills add D4Vinci/Scrapling --skill scrapling-official`
 
 ## client-and-gui
 

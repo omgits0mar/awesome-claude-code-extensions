@@ -1,6 +1,6 @@
 # Collections & Awesome Lists
 
-20 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-26.
+21 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -31,3 +31,7 @@
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) — Curated Claude Skills list with progressive-disclosure architecture explained. <sub>collection · Skills & Plugins · popular</sub>
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — 200+ agent skills from official dev teams, compatible with 10+ coding agents. <sub>collection · Skills & Plugins · popular</sub>
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — Curated awesome-list of 3,002 OpenClaw agent skills. <sub>collection · Skills & Plugins · popular</sub>
+
+## multi-agent-orchestration
+
+- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>collection · multi-agent-orchestration · curated</sub> Install: `npx skills add amElnagdy/delegate-skills`

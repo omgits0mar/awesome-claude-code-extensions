@@ -8,7 +8,7 @@ Checked: 2026-07-26
 
 Build this as a curated, source-linked catalog with a reproducible discovery pipeline, not as a mirror of other projects and not as a raw dump of search results. The useful promise is:
 
-> Open-source extensions that work with Claude Code, classified by what they add, verified against their upstream repository, and kept current with transparent freshness and safety signals.
+> Open-source extensions that work with Claude Code or Codex, classified by what they add, verified against their upstream repository, and kept current with transparent freshness and safety signals.
 
 “Public on GitHub” is not the same as “open source.” A repository without a license grants no general right to copy, modify, or redistribute its contents. The implemented repository therefore labels inherited records as unverified and separates entries with dated open-source license evidence into a strict view; it does not imply that every discovery record is reusable.
 

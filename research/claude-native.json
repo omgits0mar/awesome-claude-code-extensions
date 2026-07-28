@@ -6187,5 +6187,78 @@
     ],
     "source_list_url": "https://github.com/composio-community/awesome-claude-plugins",
     "evidence_note": "The original discovery URL moved to this public repository under the same owner; its README contains current Claude Code plugin installation instructions."
+  },
+  {
+    "name": "Scrapling MCP Server",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "description": "MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control.",
+    "kind": "mcp-server",
+    "category": "browser-automation",
+    "tags": [
+      "browser-automation",
+      "claude-code",
+      "codex",
+      "license-bsd-3-clause",
+      "mcp",
+      "web-scraping"
+    ],
+    "compatibility": [
+      "claude-code",
+      "codex",
+      "mcp"
+    ],
+    "install": "pip install \"scrapling[ai]\"",
+    "author": "D4Vinci",
+    "source_list_url": "https://github.com/D4Vinci/Scrapling",
+    "evidence_note": "The README documents a built-in MCP server and AI extra; it performs network requests, launches or remotely controls browsers, preserves sessions, takes screenshots, uses proxies, and automates anti-bot flows, so review site terms, privacy rules, credentials, and browser access before use."
+  },
+  {
+    "name": "Scrapling Agent Skill",
+    "url": "https://github.com/D4Vinci/Scrapling/tree/main/agent-skill",
+    "description": "Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code.",
+    "kind": "skill",
+    "category": "browser-automation",
+    "tags": [
+      "agent-skills",
+      "browser-automation",
+      "claude-code",
+      "codex",
+      "license-bsd-3-clause",
+      "web-scraping"
+    ],
+    "compatibility": [
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "install": "npx skills add D4Vinci/Scrapling --skill scrapling-official",
+    "author": "D4Vinci",
+    "source_list_url": "https://github.com/D4Vinci/Scrapling/tree/main/agent-skill",
+    "evidence_note": "The component README identifies an Agent Skills-compatible package, documents Claude Code testing, and provides a Skills CLI install command; the skill teaches network scraping and browser automation, so review generated code and target-site rules before execution."
+  },
+  {
+    "name": "delegate-skills",
+    "url": "https://github.com/amElnagdy/delegate-skills",
+    "description": "Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result.",
+    "kind": "collection",
+    "category": "multi-agent-orchestration",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "delegation",
+      "license-mit",
+      "multi-agent",
+      "workflow"
+    ],
+    "compatibility": [
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "install": "npx skills add amElnagdy/delegate-skills",
+    "author": "amElnagdy",
+    "source_list_url": "https://github.com/amElnagdy/delegate-skills",
+    "evidence_note": "The repository contains seven SKILL.md packages, including claude-delegate and codex-delegate, with Skills CLI installation and an MIT license; each includes a Node relay that launches an authenticated agent CLI and git and can modify the workspace, so review its scripts, sandbox, diff, and result artifacts."
   }
 ]

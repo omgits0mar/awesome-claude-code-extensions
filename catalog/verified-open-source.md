@@ -1,6 +1,6 @@
 # License-verified open-source projects
 
-226 entries have artifact-level license evidence from research passes dated 2026-07-26.
+229 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-07-28.
 
 > License verification means the linked artifact had a recognized open-source license at the checked revision. It is not a security, maintenance, or compatibility endorsement.
 
@@ -25,7 +25,13 @@
 
 - [zscaler](https://github.com/zscaler/zscaler-mcp-server) — Manage Zscaler cloud security platform including ZPA (private access), ZIA (internet access), ZDX (digital experience), ZCC (client connector), EASM (attack surface), and Z-Insights (analytics). <sub>MIT · checked 2026-07-26 · official</sub>
 
-## MCP Servers (219)
+## Skill (1)
+
+### browser-automation
+
+- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+
+## MCP Servers (220)
 
 ### Developer Tools
 
@@ -309,6 +315,10 @@
 
 - [Hyperbrowser](https://github.com/hyperbrowserai/mcp) — Hyperbrowser MCP provides cloud-browser automation, scraping, and structured extraction tools. <sub>MIT · checked 2026-07-26 · curated</sub>
 
+### browser-automation
+
+- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+
 ### 🎮 Gaming
 
 - [Unity Engine](https://github.com/IvanMurzak/Unity-MCP) — Tools for Unity Editor and for a game made with Unity. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
@@ -344,3 +354,9 @@
 ### infrastructure-and-proxy
 
 - [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server) — The power of Claude Code + Gemini / OpenAI / Grok / OpenRouter / Ollama / Custom Model working as one. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
+
+## Collection (1)
+
+### multi-agent-orchestration
+
+- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>MIT · checked 2026-07-28 · curated</sub>

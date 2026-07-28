@@ -10,7 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_catalog import csv_safe_cell, parse_anthropic_marketplace  # noqa: E402
+from build_catalog import (  # noqa: E402
+    csv_safe_cell,
+    parse_anthropic_marketplace,
+    parse_manual_research,
+)
 from catalog_lib import merge_entries  # noqa: E402
 
 
@@ -80,6 +84,68 @@ class CsvSafetyTests(unittest.TestCase):
         self.assertEqual(csv_safe_cell("=HYPERLINK(\"bad\")"), "'=HYPERLINK(\"bad\")")
         self.assertEqual(csv_safe_cell("@SUM(A1:A2)"), "'@SUM(A1:A2)")
         self.assertEqual(csv_safe_cell("normal text"), "normal text")
+
+
+class ManualResearchTests(unittest.TestCase):
+    def test_explicit_kind_compatibility_and_install_are_preserved(self) -> None:
+        payload = [
+            {
+                "name": "Cross-agent example",
+                "url": "https://github.com/example/cross-agent",
+                "description": "Portable example extension for parser testing.",
+                "kind": "collection",
+                "category": "workflow-tooling",
+                "compatibility": ["agent-skills", "claude-code", "codex"],
+                "install": "npx skills add example/cross-agent",
+                "author": "Example",
+                "tags": ["license-mit"],
+            }
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "research").mkdir()
+            (root / "research" / "claude-native.json").write_text(
+                json.dumps(payload),
+                encoding="utf-8",
+            )
+            entries = parse_manual_research(
+                root,
+                {"claude-native.json": {"checked_at": "2026-07-28"}},
+            )
+        self.assertEqual(entries[0]["kind"], "collection")
+        self.assertEqual(
+            entries[0]["compatibility"],
+            ["agent-skills", "claude-code", "codex"],
+        )
+        self.assertEqual(
+            entries[0]["install"],
+            "npx skills add example/cross-agent",
+        )
+        self.assertEqual(entries[0]["author"], "Example")
+        self.assertIn("codex", entries[0]["tags"])
+
+    def test_legacy_record_without_kind_still_infers_from_tags(self) -> None:
+        payload = [
+            {
+                "name": "Tagged plugin",
+                "url": "https://github.com/example/tagged-plugin",
+                "description": "Plugin-shaped example for parser regression testing.",
+                "category": "developer-tools",
+                "tags": ["plugin"],
+            }
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "research").mkdir()
+            (root / "research" / "claude-native.json").write_text(
+                json.dumps(payload),
+                encoding="utf-8",
+            )
+            entries = parse_manual_research(
+                root,
+                {"claude-native.json": {"checked_at": "2026-07-28"}},
+            )
+        self.assertEqual(entries[0]["kind"], "plugin")
 
 
 if __name__ == "__main__":

@@ -477,7 +477,7 @@ main {
 
 .filter-panel {
   display: grid;
-  grid-template-columns: repeat(4, minmax(140px, 1fr)) repeat(2, minmax(175px, auto)) auto;
+  grid-template-columns: repeat(5, minmax(130px, 1fr));
   grid-column: 1 / -1;
   gap: 10px;
   align-items: end;
@@ -1018,6 +1018,24 @@ main {
   border-color: rgba(52, 211, 153, 0.14);
 }
 
+.entry-badge.compatibility {
+  color: var(--muted-strong);
+  background: rgba(148, 160, 192, 0.07);
+  border-color: rgba(148, 160, 192, 0.16);
+}
+
+.entry-badge.compatibility-codex {
+  color: #74e5b8;
+  background: rgba(52, 211, 153, 0.075);
+  border-color: rgba(52, 211, 153, 0.17);
+}
+
+.entry-badge.compatibility-claude-code {
+  color: #f2b58d;
+  background: rgba(237, 128, 184, 0.07);
+  border-color: rgba(242, 181, 141, 0.17);
+}
+
 .entry-badge.archived {
   color: var(--danger);
   background: rgba(251, 113, 133, 0.08);
@@ -1310,17 +1328,17 @@ main {
   }
 
   .filter-panel.is-open {
-    max-height: 95px;
+    max-height: 160px;
   }
 }
 
 @media (max-width: 1100px) {
   .filter-panel {
-    grid-template-columns: repeat(4, minmax(130px, 1fr)) repeat(2, minmax(150px, auto));
+    grid-template-columns: repeat(4, minmax(130px, 1fr));
   }
 
   .clear-filters {
-    grid-column: 6;
+    grid-column: auto;
   }
 }
 

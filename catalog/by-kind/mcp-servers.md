@@ -1,6 +1,6 @@
 # MCP Servers
 
-1,642 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-26.
+1,643 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -1832,6 +1832,10 @@
 ## Browser Automation
 
 - [Hyperbrowser](https://github.com/hyperbrowserai/mcp) — Hyperbrowser MCP provides cloud-browser automation, scraping, and structured extraction tools. <sub>mcp-server · Browser Automation · curated</sub>
+
+## browser-automation
+
+- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>mcp-server · browser-automation · curated</sub> Install: `pip install "scrapling[ai]"`
 
 ## 🆔 Identity
 

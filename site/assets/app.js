@@ -60,8 +60,17 @@
     community: 3,
   };
 
+  const COMPATIBILITY_LABELS = {
+    "agent-skills": "Agent Skills",
+    "claude-code": "Claude Code",
+    codex: "Codex",
+    mcp: "MCP clients",
+  };
+
   const IGNORED_TOPIC_TAGS = new Set([
+    "agent-skills",
     "claude-code",
+    "codex",
     "mcp",
     "plugin",
     "plugins",
@@ -91,6 +100,7 @@
   const state = {
     query: "",
     kind: "all",
+    compatibility: "all",
     tier: "all",
     category: "all",
     stars: "all",
@@ -129,6 +139,7 @@
     filterToggle: document.querySelector("#filter-toggle"),
     filterPanel: document.querySelector("#filter-panel"),
     filterCount: document.querySelector("#filter-count"),
+    compatibility: document.querySelector("#compatibility-filter"),
     tier: document.querySelector("#tier-filter"),
     category: document.querySelector("#category-filter"),
     stars: document.querySelector("#stars-filter"),
@@ -325,6 +336,7 @@
       _repositoryLabel: repository.label,
       _categoryKey: category.key,
       _categoryLabel: category.label,
+      _compatibility: compatibility,
     };
   }
 
@@ -338,9 +350,13 @@
     const tier = params.get("tier");
     const stars = params.get("stars");
     const sort = params.get("sort");
+    const compatibility = params.get("platform");
 
     state.query = params.get("q") || "";
     state.kind = Object.hasOwn(KIND_GROUPS, kind) ? kind : "all";
+    state.compatibility = Object.hasOwn(COMPATIBILITY_LABELS, compatibility)
+      ? compatibility
+      : "all";
     state.tier = Object.hasOwn(TIER_LABELS, tier) ? tier : "all";
     state.category = params.get("category") || "all";
     state.stars = ["10", "100", "1000", "10000"].includes(stars)
@@ -357,6 +373,9 @@
     const params = new URLSearchParams();
     if (state.query) params.set("q", state.query);
     if (state.kind !== "all") params.set("kind", state.kind);
+    if (state.compatibility !== "all") {
+      params.set("platform", state.compatibility);
+    }
     if (state.tier !== "all") params.set("tier", state.tier);
     if (state.category !== "all") params.set("category", state.category);
     if (state.stars !== "all") params.set("stars", state.stars);
@@ -620,6 +639,12 @@
         return false;
       }
       if (kinds && !kinds.includes(entry.kind)) return false;
+      if (
+        state.compatibility !== "all" &&
+        !entry._compatibility.includes(state.compatibility)
+      ) {
+        return false;
+      }
       if (state.tier !== "all" && entry.source_tier !== state.tier) return false;
       if (
         state.category !== "all" &&
@@ -808,6 +833,16 @@
     if (entry.license_verified) {
       badges.append(makeBadge("License checked", "verified"));
     }
+    entry._compatibility
+      .filter((value) => value === "claude-code" || value === "codex")
+      .forEach((value) => {
+        badges.append(
+          makeBadge(
+            COMPATIBILITY_LABELS[value],
+            `compatibility compatibility-${value}`,
+          ),
+        );
+      });
     if (meta?.archived || meta?.disabled) {
       badges.append(makeBadge(meta.disabled ? "Disabled" : "Archived", "archived"));
     }
@@ -942,6 +977,7 @@
       elements.search.value = state.query;
     }
     elements.tier.value = state.tier;
+    elements.compatibility.value = state.compatibility;
     elements.category.value = state.category;
     elements.stars.value = state.stars;
     elements.sort.value = state.sort;
@@ -956,6 +992,7 @@
 
     const filterCount = [
       state.kind !== "all",
+      state.compatibility !== "all",
       state.tier !== "all",
       state.category !== "all",
       state.stars !== "all",
@@ -973,6 +1010,12 @@
     }
     if (state.kind !== "all") {
       filters.push({ key: "kind", label: KIND_GROUP_LABELS[state.kind] });
+    }
+    if (state.compatibility !== "all") {
+      filters.push({
+        key: "compatibility",
+        label: `Works with ${COMPATIBILITY_LABELS[state.compatibility]}`,
+      });
     }
     if (state.tier !== "all") {
       filters.push({ key: "tier", label: TIER_LABELS[state.tier] });
@@ -1015,6 +1058,7 @@
   function clearFilter(key) {
     if (key === "query") state.query = "";
     if (key === "kind") setKind("all");
+    if (key === "compatibility") state.compatibility = "all";
     if (key === "tier") state.tier = "all";
     if (key === "category") state.category = "all";
     if (key === "stars") state.stars = "all";
@@ -1035,6 +1079,7 @@
     Object.assign(state, {
       query: "",
       kind: "all",
+      compatibility: "all",
       tier: "all",
       category: "all",
       stars: "all",
@@ -1114,6 +1159,10 @@
 
     elements.tier.addEventListener("change", (event) => {
       state.tier = event.target.value;
+      scheduleRender(true);
+    });
+    elements.compatibility.addEventListener("change", (event) => {
+      state.compatibility = event.target.value;
       scheduleRender(true);
     });
     elements.category.addEventListener("change", (event) => {

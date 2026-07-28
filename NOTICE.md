@@ -14,4 +14,4 @@ The complete source inventory and discovery rationale is in [`research/ecosystem
 
 Required upstream notices and the scope of redistributed snapshots are recorded in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-All product names, project names, logos, and trademarks belong to their respective owners. Inclusion does not imply endorsement by an upstream project, Anthropic, or this catalog.
+All product names, project names, logos, and trademarks belong to their respective owners. Inclusion does not imply endorsement by an upstream project, Anthropic, OpenAI, or this catalog.

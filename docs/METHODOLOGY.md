@@ -4,13 +4,13 @@ Initial manual research pass: **2026-07-26**. Current per-dataset dates are reco
 
 ## Goal
 
-The catalog is a broad, source-linked discovery layer for open/public-source projects that extend Claude Code directly or through the Model Context Protocol. It is built as a reproducible index, not a mirror of upstream code and not a claim that every listed project is safe.
+The catalog is a broad, source-linked discovery layer for open/public-source projects that extend Claude Code, Codex, portable Agent Skills hosts, or MCP-compatible clients. It is built as a reproducible index, not a mirror of upstream code and not a claim that every listed project is safe.
 
 ## Source order
 
 Research uses sources in descending authority:
 
-1. Anthropic’s official repositories, manifests, and Claude Code documentation.
+1. Anthropic’s official repositories, manifests, and Claude Code documentation, plus OpenAI’s official Codex documentation.
 2. The official Agent Skills and MCP specifications and registries.
 3. Canonical repositories referenced by those manifests.
 4. Maintained, focused awesome lists.
@@ -24,7 +24,7 @@ The checked source inventory is in [`research/ecosystem-sources.json`](../resear
 - Anthropic’s machine-readable official marketplace manifest.
 - A popularity-filtered Claude Code repository list.
 - Two maintained MCP server indexes.
-- A parallel manual research pass over Claude-native projects.
+- A parallel manual research pass over Claude Code, Codex, and cross-agent projects.
 
 Build inputs are committed under [`research/snapshots`](../research/snapshots) with source URLs, a research date, and SHA-256 checksums in its manifest. A normal build is therefore deterministic and needs no network access. The fetch script stages a complete refresh, writes nothing on a network failure, and updates the committed snapshots plus manifest only after every fetch validates. Generated records retain source provenance and per-dataset check dates.
 
@@ -52,7 +52,7 @@ Availability is not equivalent to safety, maintenance, or license approval.
 
 ## Inclusion and license status
 
-The ideal main-list entry has explicit Claude Code relevance, canonical public source, usable documentation, an OSI-approved license, and basic safety triage. Large inherited community indexes do not provide artifact-level license verification, so records expose `license_verified` rather than pretending public source is automatically open source.
+The ideal main-list entry has explicit Claude Code or Codex relevance, canonical public source, usable documentation, an OSI-approved license, and basic safety triage. Large inherited community indexes do not provide artifact-level license verification, so records expose `license_verified` rather than pretending public source is automatically open source.
 
 Unknown-license entries remain discoverable with a visible warning while license enrichment is pending. The [license-verified view](../catalog/verified-open-source.md) contains only records with dated artifact-level evidence.
 
@@ -62,7 +62,9 @@ Popularity is a dated signal, not a quality score. The `popular` tier comes from
 
 ## MCP scope
 
-Any standards-compliant MCP server can be configured for Claude Code, so the MCP section is intentionally broad. MCP clients, SDKs, registries, gateways, and scanners are classified as `mcp-tooling` unless they also expose a server.
+Any standards-compliant MCP server can be configured for Claude Code or Codex, so the MCP section is intentionally broad. MCP clients, SDKs, registries, gateways, and scanners are classified as `mcp-tooling` unless they also expose a server.
+
+Portable Agent Skills and MCP servers receive both `claude-code` and `codex` compatibility when their format or transport supplies direct evidence. Client-native plugins, hooks, commands, interfaces, and monitoring tools keep only the compatibility explicitly documented upstream.
 
 The official MCP Registry is not imported directly into the published catalog because it is deliberately unopinionated, permits closed-source services, and contains deleted or stale records. [`scripts/import_mcp_registry.py`](../scripts/import_mcp_registry.py) creates a review queue restricted to active records with a public GitHub repository.
 

@@ -1,5 +1,5 @@
 name: Add a project
-description: Propose an open-source Claude Code extension, skill, agent, hook, MCP server, or related tool.
+description: Propose an open-source extension for Claude Code, Codex, Agent Skills, or MCP.
 title: "[Add]: "
 labels: ["catalog:add", "needs-review"]
 body:
@@ -34,6 +34,16 @@ body:
         - Collection
     validations:
       required: true
+  - type: checkboxes
+    id: compatibility
+    attributes:
+      label: Supported clients and standards
+      description: Select only surfaces backed by the upstream evidence you link below.
+      options:
+        - label: Claude Code
+        - label: Codex
+        - label: Agent Skills
+        - label: Model Context Protocol (MCP)
   - type: input
     id: license
     attributes:
@@ -50,8 +60,8 @@ body:
   - type: textarea
     id: evidence
     attributes:
-      label: Claude Code compatibility and installation evidence
-      description: Link to the relevant manifest, SKILL.md, docs, MCP configuration, or README section.
+      label: Compatibility and installation evidence
+      description: Link to the relevant Claude Code or Codex docs, manifest, SKILL.md, MCP configuration, install guide, or README section.
     validations:
       required: true
   - type: checkboxes

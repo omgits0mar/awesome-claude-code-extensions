@@ -790,5 +790,23 @@
     "why_useful": "Supports explicit prompt-injection review and cautions against relying only on conventional malware scanners.",
     "trust_level": "high",
     "last_checked": "2026-07-26"
+  },
+  {
+    "name": "OpenAI Codex customization",
+    "url": "https://developers.openai.com/codex/concepts/customization",
+    "type": "official_documentation",
+    "scope": "Codex customization through AGENTS.md, skills, MCP servers, plugins, and subagents.",
+    "why_useful": "Defines the Codex extension surfaces used to decide compatibility without assuming every Claude-native artifact is portable.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-28"
+  },
+  {
+    "name": "OpenAI Codex MCP",
+    "url": "https://developers.openai.com/codex/mcp",
+    "type": "official_documentation",
+    "scope": "Configuring Model Context Protocol servers for Codex clients.",
+    "why_useful": "Establishes direct Codex compatibility for standards-compliant MCP servers while keeping MCP tooling classified separately.",
+    "trust_level": "authoritative",
+    "last_checked": "2026-07-28"
   }
 ]

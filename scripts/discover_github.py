@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Discover candidate Claude Code extension repositories with GitHub Code Search.
+"""Discover candidate Claude Code and Codex extension repositories with GitHub Code Search.
 
 This intentionally writes to a review queue. Search hits are never auto-published
 into the curated catalog.
@@ -21,6 +21,8 @@ QUERIES = [
     'path:.claude-plugin filename:plugin.json "claude"',
     'path:.claude-plugin filename:marketplace.json "plugins"',
     'filename:SKILL.md "Claude Code"',
+    'filename:SKILL.md "Codex"',
+    'filename:SKILL.md "agent-skills"',
     'path:.claude/commands extension:md "description"',
     'path:.claude/agents extension:md "tools"',
     'path:.claude/hooks extension:json',

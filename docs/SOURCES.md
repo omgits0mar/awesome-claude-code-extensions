@@ -1,6 +1,6 @@
 # Research sources
 
-88 discovery, specification, registry, licensing, and security sources with record-level check dates (2026-07-26).
+90 discovery, specification, registry, licensing, and security sources with record-level check dates (2026-07-26, 2026-07-28).
 
 These pages generate leads and evidence; a directory listing is never treated as a security or license guarantee.
 
@@ -112,6 +112,8 @@ These pages generate leads and evidence; a directory listing is never treated as
 | [Claude Code: Hooks reference](https://code.claude.com/docs/en/hooks) | Hook events, matchers, JSON input/output, exit codes, plugin hooks, MCP hooks, and asynchronous behavior. | Canonical validation and security reference for hooks.json and settings-based hook declarations. | authoritative |
 | [Claude Code: Plugins reference](https://code.claude.com/docs/en/plugins-reference) | Detailed plugin manifest, component, path, CLI, MCP, LSP, hook, and troubleshooting reference. | Primary source for parsing plugin.json and for detecting invalid or obsolete plugin layouts. | authoritative |
 | [Claude unified skills, connectors, and plugins directory help](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) | Claude account directory behavior across skills, connectors, plugins, organizations, and supported surfaces. | Helps label Claude-wide entries that are not necessarily local open-source Claude Code extensions. | authoritative |
+| [OpenAI Codex customization](https://developers.openai.com/codex/concepts/customization) | Codex customization through AGENTS.md, skills, MCP servers, plugins, and subagents. | Defines the Codex extension surfaces used to decide compatibility without assuming every Claude-native artifact is portable. | authoritative |
+| [OpenAI Codex MCP](https://developers.openai.com/codex/mcp) | Configuring Model Context Protocol servers for Codex clients. | Establishes direct Codex compatibility for standards-compliant MCP servers while keeping MCP tooling classified separately. | authoritative |
 
 ## Official_Manifest
 

@@ -300,12 +300,15 @@ def new_entry(
     source = SOURCE_DEFINITIONS[source_id]
     cleaned_name = strip_markdown(name).strip() or normalized.rsplit("/", 1)[-1]
     cleaned_description = concise_description(description)
+    compatibility_values = set(compatibility)
     all_tags = set(tags)
     all_tags.update(infer_tags(cleaned_name, cleaned_description, category))
     if kind == "mcp-server":
         all_tags.add("mcp")
-    if kind in {"plugin", "skill", "command", "hook", "agent", "workflow"}:
+    if "claude-code" in compatibility_values:
         all_tags.add("claude-code")
+    if "codex" in compatibility_values:
+        all_tags.add("codex")
 
     entry: dict[str, Any] = {
         "id": stable_id(cleaned_name, normalized),
@@ -317,7 +320,7 @@ def new_entry(
         "kind": kind if kind in KIND_ORDER else "tool",
         "category": strip_markdown(category) or "Other",
         "tags": sorted(tag for tag in all_tags if tag),
-        "compatibility": sorted(set(compatibility)),
+        "compatibility": sorted(compatibility_values),
         "source_tier": source["tier"],
         "official": bool(official),
         "install": install,

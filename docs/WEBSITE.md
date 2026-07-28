@@ -1,6 +1,6 @@
 # Website
 
-The searchable catalog is a dependency-free static site in `site/`. It follows the same generated-data rule as the rest of the repository: the browser reads `catalog/catalog.json`; frontend files do not duplicate or hand-edit catalog records.
+The searchable Claude Code and Codex catalog is a dependency-free static site in `site/`. It follows the same generated-data rule as the rest of the repository: the browser reads `catalog/catalog.json`; frontend files do not duplicate or hand-edit catalog records.
 
 ## Data flow
 
@@ -10,6 +10,8 @@ The searchable catalog is a dependency-free static site in `site/`. It follows t
 4. The browser joins that dated metadata to catalog entries by `repository_url`.
 
 Stars stay outside the catalog schema because they change continuously. The interface labels them as dated discovery signals, never as security or quality scores. Multiple extensions from one repository share one metadata record.
+
+The “Works with” filter reads each entry’s evidence-backed `compatibility` values. Portable Agent Skills and MCP servers can appear for both Claude Code and Codex, while client-native artifacts stay scoped to their documented host.
 
 Repository icons use the GitHub owner avatar returned by the metadata build, with a deterministic initials tile when no avatar is available. Arbitrary README images are not scraped or hotlinked: those assets can be badges, screenshots, or third-party trademarks and need separate provenance review.
 

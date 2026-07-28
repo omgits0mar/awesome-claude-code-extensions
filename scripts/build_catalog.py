@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the human- and machine-readable Claude Code extension catalog."""
+"""Build the human- and machine-readable Claude Code and Codex extension catalog."""
 
 from __future__ import annotations
 
@@ -274,8 +274,10 @@ def parse_subinium(path: Path) -> list[dict[str, Any]]:
                 kind = "skill"
         category = f"{section} / {subsection}" if subsection else section
         if kind == "skill":
-            compatibility = ("agent-skills", "claude-code")
-        elif kind in {"mcp-server", "mcp-tooling"}:
+            compatibility = ("agent-skills", "claude-code", "codex")
+        elif kind == "mcp-server":
+            compatibility = ("claude-code", "codex", "mcp")
+        elif kind == "mcp-tooling":
             compatibility = ("claude-code", "mcp")
         else:
             compatibility = ("claude-code",)
@@ -360,7 +362,7 @@ def parse_punkpeye(path: Path) -> list[dict[str, Any]]:
             category=category,
             source_id="punkpeye-mcp",
             tags=tags,
-            compatibility=("mcp", "claude-code"),
+            compatibility=("claude-code", "codex", "mcp"),
             official="official" in tags,
             verification="community-awesome-list",
             license_name="See upstream repository",
@@ -401,7 +403,7 @@ def parse_appcypher(path: Path) -> list[dict[str, Any]]:
             kind=kind,
             category=category,
             source_id="appcypher-mcp",
-            compatibility=("mcp", "claude-code"),
+            compatibility=("claude-code", "codex", "mcp"),
             official="⭐" in line,
             verification="curated-list",
             license_name="See upstream repository",
@@ -431,7 +433,8 @@ def parse_manual_research(
             url = normalize_github_url(str(item.get("url") or ""))
             if not url:
                 continue
-            raw_kind = str(item.get("kind") or default_kind).lower()
+            declared_kind = str(item.get("kind") or "").lower()
+            raw_kind = declared_kind or default_kind
             category = str(item.get("category") or "Community research")
             item_tags = [str(tag).lower() for tag in (item.get("tags") or ())]
             kind_haystack = " ".join([raw_kind, category.lower(), *item_tags])
@@ -472,7 +475,9 @@ def parse_manual_research(
                     tag for tag in item_tags if not tag.startswith("license-")
                 ]
                 item_tags.append(f"license-{slugify(license_name)}")
-            if default_kind == "mcp-server":
+            if declared_kind in KIND_ORDER:
+                kind = declared_kind
+            elif default_kind == "mcp-server":
                 kind = "mcp-server"
             elif "marketplace" in kind_haystack or "awesome-list" in kind_haystack:
                 kind = "collection"
@@ -508,12 +513,18 @@ def parse_manual_research(
                 or "https://github.com/topics/claude-code"
             )
             source_id = "manual-research"
-            if kind == "mcp-server":
-                compatibility = ("claude-code", "mcp")
+            declared_compatibility = item.get("compatibility")
+            if isinstance(declared_compatibility, list) and declared_compatibility:
+                compatibility = tuple(str(value) for value in declared_compatibility)
+            elif kind == "mcp-server":
+                compatibility = ("claude-code", "codex", "mcp")
             elif kind == "skill":
-                compatibility = ("agent-skills", "claude-code")
+                compatibility = ("agent-skills", "claude-code", "codex")
             else:
                 compatibility = ("claude-code",)
+            install = item.get("install")
+            if install is not None:
+                install = str(install)
             entry = new_entry(
                 name=str(item.get("name") or url.rsplit("/", 1)[-1]),
                 url=url,
@@ -523,6 +534,9 @@ def parse_manual_research(
                 source_id=source_id,
                 tags=item_tags,
                 compatibility=compatibility,
+                official=bool(item.get("official", False)),
+                install=install,
+                author=str(item["author"]) if item.get("author") else None,
                 verification="manually-researched",
                 license_name=license_name,
                 notes=str(item.get("evidence_note") or ""),
@@ -615,13 +629,20 @@ def calculate_counts(entries: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def latest_checked_date(entries: list[dict[str, Any]]) -> str:
+    return max(
+        (str(entry.get("last_checked") or CHECKED_DATE) for entry in entries),
+        default=CHECKED_DATE,
+    )
+
+
 def write_json_catalog(entries: list[dict[str, Any]], counts: dict[str, Any]) -> None:
     payload = {
         "schema_version": "1.0.0",
-        "generated_at": CHECKED_DATE,
+        "generated_at": latest_checked_date(entries),
         "description": (
-            "A source-backed catalog of open/public-source Claude Code extensions, "
-            "plugins, skills, agents, hooks, workflows, MCP servers, and related tools."
+            "A source-backed catalog of open/public-source extensions for Claude Code, "
+            "Codex, Agent Skills, and MCP-compatible coding agents."
         ),
         "counts": counts,
         "entries": entries,
@@ -711,6 +732,7 @@ def write_kind_pages(entries: list[dict[str, Any]]) -> dict[str, int]:
     output_dir = ROOT / "catalog" / "by-kind"
     output_dir.mkdir(parents=True, exist_ok=True)
     counts: dict[str, int] = {}
+    catalog_date = latest_checked_date(entries)
     for page, title in page_titles.items():
         page_entries = grouped.get(page, [])
         counts[page] = len(page_entries)
@@ -720,7 +742,7 @@ def write_kind_pages(entries: list[dict[str, Any]]) -> dict[str, int]:
         lines = [
             f"# {title}",
             "",
-            f"{len(page_entries):,} source-backed entries. Generated from `catalog/catalog.json` on {CHECKED_DATE}.",
+            f"{len(page_entries):,} source-backed entries. Generated from `catalog/catalog.json` on {catalog_date}.",
             "",
             "> Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.",
             "",

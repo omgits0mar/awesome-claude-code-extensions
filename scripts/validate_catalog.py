@@ -32,6 +32,7 @@ ALLOWED_KINDS = {
     "tool",
     "collection",
 }
+ALLOWED_COMPATIBILITY = {"agent-skills", "claude-code", "codex", "mcp"}
 REQUIRED_FIELDS = {
     "id",
     "name",
@@ -155,6 +156,8 @@ def main() -> int:
             or entry["compatibility"] != sorted(set(entry["compatibility"]))
         ):
             fail(errors, f"{label} compatibility must be a sorted unique array")
+        elif not set(entry["compatibility"]).issubset(ALLOWED_COMPATIBILITY):
+            fail(errors, f"{label} has unsupported compatibility values")
         if (
             not isinstance(entry["install_commands"], list)
             or entry["install_commands"] != sorted(set(entry["install_commands"]))
