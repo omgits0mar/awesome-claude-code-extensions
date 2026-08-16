@@ -1,12 +1,12 @@
 {
-  "total": 2465,
+  "total": 2466,
   "official_directory": 268,
   "official_provider": 400,
-  "license_verified": 229,
-  "github_repositories": 2382,
+  "license_verified": 230,
+  "github_repositories": 2383,
   "by_kind": {
     "agent": 99,
-    "collection": 21,
+    "collection": 22,
     "command": 12,
     "hook": 7,
     "interface": 44,
@@ -22,7 +22,7 @@
   "by_tier": {
     "official": 268,
     "popular": 302,
-    "curated": 654,
+    "curated": 655,
     "community": 1241
   },
   "by_category": {
@@ -81,6 +81,7 @@
     "📊 Data Visualization": 10,
     "🤝 AI Services": 10,
     "statusline": 9,
+    "Commerce & Marketing": 8,
     "Deployment": 8,
     "guide-and-example": 8,
     "ide-integration": 8,
@@ -88,7 +89,6 @@
     "💹 Finance": 8,
     "📝 Note Taking": 8,
     "🔒 Security": 8,
-    "Commerce & Marketing": 7,
     "Design": 7,
     "Monitoring & Analytics": 7,
     "Monitoring & Observability": 7,

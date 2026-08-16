@@ -1,6 +1,6 @@
 # Learning & Reference
 
-14 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
+14 source-backed entries. Generated from `catalog/catalog.json` on 2026-08-16.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
