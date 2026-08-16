@@ -1,6 +1,6 @@
 # Collections & Awesome Lists
 
-21 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
+22 source-backed entries. Generated from `catalog/catalog.json` on 2026-08-16.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -31,6 +31,10 @@
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) — Curated Claude Skills list with progressive-disclosure architecture explained. <sub>collection · Skills & Plugins · popular</sub>
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — 200+ agent skills from official dev teams, compatible with 10+ coding agents. <sub>collection · Skills & Plugins · popular</sub>
 - [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) — Curated awesome-list of 3,002 OpenClaw agent skills. <sub>collection · Skills & Plugins · popular</sub>
+
+## Commerce & Marketing
+
+- [NotFair Plugin](https://github.com/nowork-studio/notfair-plugin) — Collection of 45 portable SEO, GEO, paid-media, and analytics skills for Claude Code and Codex, with an optional hosted MCP connection for live marketing platforms. <sub>collection · Commerce & Marketing · curated</sub> Install: `codex plugin marketplace add nowork-studio/notfair-plugin --json && codex plugin add notfair@nowork-studio --json && codex mcp login NotFair`
 
 ## multi-agent-orchestration
 

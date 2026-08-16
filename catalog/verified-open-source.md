@@ -1,6 +1,6 @@
 # License-verified open-source projects
 
-229 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-07-28.
+230 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-08-16.
 
 > License verification means the linked artifact had a recognized open-source license at the checked revision. It is not a security, maintenance, or compatibility endorsement.
 
@@ -29,7 +29,7 @@
 
 ### browser-automation
 
-- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-08-16 · curated</sub>
 
 ## MCP Servers (220)
 
@@ -317,7 +317,7 @@
 
 ### browser-automation
 
-- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>BSD-3-Clause · checked 2026-08-16 · curated</sub>
 
 ### 🎮 Gaming
 
@@ -355,8 +355,12 @@
 
 - [zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server) — The power of Claude Code + Gemini / OpenAI / Grok / OpenRouter / Ollama / Custom Model working as one. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
 
-## Collection (1)
+## Collection (2)
+
+### Commerce & Marketing
+
+- [NotFair Plugin](https://github.com/nowork-studio/notfair-plugin) — Collection of 45 portable SEO, GEO, paid-media, and analytics skills for Claude Code and Codex, with an optional hosted MCP connection for live marketing platforms. <sub>MIT · checked 2026-08-16 · curated</sub>
 
 ### multi-agent-orchestration
 
-- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>MIT · checked 2026-07-28 · curated</sub>
+- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>MIT · checked 2026-08-16 · curated</sub>

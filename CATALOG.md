@@ -1,6 +1,6 @@
 # Catalog
 
-Browse **2,465 entries** spanning **2,382 GitHub repositories**. The JSON and CSV files are the canonical datasets; these pages are generated views.
+Browse **2,466 entries** spanning **2,383 GitHub repositories**. The JSON and CSV files are the canonical datasets; these pages are generated views.
 
 | View | Entries |
 | --- | ---: |
@@ -11,11 +11,11 @@ Browse **2,465 entries** spanning **2,382 GitHub repositories**. The JSON and CS
 | [MCP tooling](catalog/by-kind/mcp-tooling.md) | 31 |
 | [Tools & interfaces](catalog/by-kind/tools-interfaces.md) | 134 |
 | [Learning & reference](catalog/by-kind/learning.md) | 14 |
-| [Collections](catalog/by-kind/collections.md) | 21 |
+| [Collections](catalog/by-kind/collections.md) | 22 |
 
 ## License-verified view
 
-[Browse 229 entries with artifact-level open-source license evidence](catalog/verified-open-source.md). The larger catalog keeps license status explicit rather than treating public source as automatic permission to reuse.
+[Browse 230 entries with artifact-level open-source license evidence](catalog/verified-open-source.md). The larger catalog keeps license status explicit rather than treating public source as automatic permission to reuse.
 
 ## Trust tiers
 
@@ -23,10 +23,10 @@ Browse **2,465 entries** spanning **2,382 GitHub repositories**. The JSON and CS
 | --- | --- | ---: |
 | Official | Listed in Anthropic's official Claude Code plugin directory. | 268 |
 | Popular | Listed by a source whose snapshot required 1,000+ GitHub stars. | 302 |
-| Curated | Selected by a focused community list or manual research pass. | 654 |
+| Curated | Selected by a focused community list or manual research pass. | 655 |
 | Community | Included in a large community-maintained MCP index. | 1,241 |
 
-**229 entries currently have artifact-level license evidence.** All other records remain explicitly unverified.
+**230 entries currently have artifact-level license evidence.** All other records remain explicitly unverified.
 
 A tier describes provenance, not safety. See [Methodology](docs/METHODOLOGY.md).
 

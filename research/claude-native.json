@@ -6260,5 +6260,34 @@
     "author": "amElnagdy",
     "source_list_url": "https://github.com/amElnagdy/delegate-skills",
     "evidence_note": "The repository contains seven SKILL.md packages, including claude-delegate and codex-delegate, with Skills CLI installation and an MIT license; each includes a Node relay that launches an authenticated agent CLI and git and can modify the workspace, so review its scripts, sandbox, diff, and result artifacts."
+  },
+  {
+    "name": "NotFair Plugin",
+    "url": "https://github.com/nowork-studio/notfair-plugin",
+    "description": "Collection of 45 portable SEO, GEO, paid-media, and analytics skills for Claude Code and Codex, with an optional hosted MCP connection for live marketing platforms.",
+    "kind": "collection",
+    "category": "Commerce & Marketing",
+    "tags": [
+      "agent-skills",
+      "analytics",
+      "claude-code",
+      "codex",
+      "google-ads",
+      "license-mit",
+      "marketing",
+      "meta-ads",
+      "mcp",
+      "seo"
+    ],
+    "compatibility": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "mcp"
+    ],
+    "install": "codex plugin marketplace add nowork-studio/notfair-plugin --json && codex plugin add notfair@nowork-studio --json && codex mcp login NotFair",
+    "author": "nowork-studio",
+    "source_list_url": "https://github.com/nowork-studio/notfair-plugin",
+    "evidence_note": "MIT source ships 45 portable SKILL.md workflows plus Claude Code and Codex plugin installs and one hosted MCP connection; live workflows require OAuth credentials and can read or mutate Google Ads, Meta Ads, X Ads, LinkedIn Ads, Search Console, and GA4, with approval and read-back rules for writes."
   }
 ]
