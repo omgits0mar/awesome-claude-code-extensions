@@ -87,6 +87,13 @@ def load_research_manifest() -> dict[str, dict[str, str]]:
             raise ValueError(f"Research checksum mismatch for {filename}")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", checked_at):
             raise ValueError(f"Invalid research checked_at date for {filename}")
+        default_entry_checked_at = str(
+            (metadata or {}).get("default_entry_checked_at") or checked_at
+        )
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", default_entry_checked_at):
+            raise ValueError(
+                f"Invalid default_entry_checked_at date for {filename}"
+            )
     return datasets
 
 
@@ -425,7 +432,10 @@ def parse_manual_research(
         path = root / "research" / filename
         if not path.exists():
             continue
-        checked_at = research_manifest[filename]["checked_at"]
+        metadata = research_manifest[filename]
+        default_entry_checked_at = metadata.get(
+            "default_entry_checked_at", metadata["checked_at"]
+        )
         payload = load_json(path)
         if isinstance(payload, dict):
             payload = payload.get("entries", [])
@@ -433,6 +443,13 @@ def parse_manual_research(
             url = normalize_github_url(str(item.get("url") or ""))
             if not url:
                 continue
+            item_checked_at = str(
+                item.get("checked_at") or default_entry_checked_at
+            )
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", item_checked_at):
+                raise ValueError(
+                    f"Invalid checked_at date for manually researched entry {url}"
+                )
             declared_kind = str(item.get("kind") or "").lower()
             raw_kind = declared_kind or default_kind
             category = str(item.get("category") or "Community research")
@@ -540,12 +557,14 @@ def parse_manual_research(
                 verification="manually-researched",
                 license_name=license_name,
                 notes=str(item.get("evidence_note") or ""),
-                checked_at=checked_at,
+                checked_at=item_checked_at,
             )
             if entry:
                 entry["source_tier"] = tier
                 entry["license_verified"] = license_verified
-                entry["license_checked_at"] = checked_at if license_verified else None
+                entry["license_checked_at"] = (
+                    item_checked_at if license_verified else None
+                )
                 entry["sources"] = [
                     {
                         "name": "Parallel web/GitHub research",

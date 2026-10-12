@@ -1,9 +1,9 @@
 {
-  "total": 2465,
+  "total": 2466,
   "official_directory": 268,
   "official_provider": 400,
-  "license_verified": 229,
-  "github_repositories": 2382,
+  "license_verified": 230,
+  "github_repositories": 2383,
   "by_kind": {
     "agent": 99,
     "collection": 21,
@@ -11,7 +11,7 @@
     "hook": 7,
     "interface": 44,
     "learning": 14,
-    "mcp-server": 1643,
+    "mcp-server": 1644,
     "mcp-tooling": 31,
     "monitoring": 45,
     "plugin": 311,
@@ -22,7 +22,7 @@
   "by_tier": {
     "official": 268,
     "popular": 302,
-    "curated": 654,
+    "curated": 655,
     "community": 1241
   },
   "by_category": {
@@ -67,10 +67,10 @@
     "📟 Embedded System": 15,
     "Learning & Reference": 14,
     "Cloud & DevOps": 13,
+    "Data & AI": 13,
     "infrastructure-and-proxy": 13,
     "Other": 13,
     "security": 13,
-    "Data & AI": 12,
     "client-and-gui": 11,
     "Finance": 11,
     "plugin-marketplace": 11,

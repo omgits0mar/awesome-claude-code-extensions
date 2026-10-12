@@ -1,6 +1,6 @@
 # License-verified open-source projects
 
-229 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-07-28.
+230 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-07-28, 2026-10-12.
 
 > License verification means the linked artifact had a recognized open-source license at the checked revision. It is not a security, maintenance, or compatibility endorsement.
 
@@ -31,7 +31,7 @@
 
 - [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
 
-## MCP Servers (220)
+## MCP Servers (221)
 
 ### Developer Tools
 
@@ -176,6 +176,22 @@
 - [Render](https://github.com/render-oss/render-mcp-server) — Render MCP lets agents inspect and manage services and resources hosted on Render. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
 - [Tigris Data](https://github.com/tigrisdata/tigris-mcp-server) — Tigris is a globally distributed S3-compatible object storage service that provides low latency anywhere in the world, enabling developers to store and access any amount of data for a wide range of use cases. <sub>MIT · checked 2026-07-26 · curated</sub>
 
+### Data & AI
+
+- [data.gouv.fr MCP](https://github.com/datagouv/datagouv-mcp) — The official data.gouv.fr MCP server lets agents search, explore, and analyze French public datasets. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [dbt MCP](https://github.com/dbt-labs/dbt-mcp) — The dbt MCP server lets agents interact with dbt projects, metadata, metrics, and development workflows. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
+- [FunASR](https://github.com/modelscope/FunASR) — FunASR provides speech recognition, voice activity detection, punctuation, and diarization pipelines with MCP serving support. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [glif.app](https://github.com/glifxyz/glif-mcp-server) — Glif MCP lets agents discover and run AI workflows hosted on glif.app. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Humanitarian Data Exchange](https://github.com/dividor/hdx-mcp) — HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Invokely MCP Connector](https://github.com/estevecastells/invokely-mcp-connector) — Local stdio MCP connector for querying cited official statistics through Invokely's hosted service. <sub>MIT · checked 2026-10-12 · curated</sub>
+- [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) — Jupyter MCP Server lets agents interact with Jupyter notebooks and execute notebook code through MCP. <sub>BSD-3-Clause · checked 2026-07-26 · curated</sub>
+- [Keboola](https://github.com/keboola/mcp-server) — Keboola MCP connects agents to Keboola projects, data, components, transformations, and workflows. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Metabase](https://github.com/easecloudio/mcp-metabase-server) — Metabase MCP exposes dashboard, question, database, and analytics operations through more than 70 tools. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [MiniMax MCP](https://github.com/MiniMax-AI/MiniMax-MCP) — The official MiniMax MCP server exposes text-to-speech, image-generation, and video-generation APIs. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Novita](https://github.com/novitalabs/novita-mcp-server) — Novita MCP exposes Novita AI platform resources to MCP clients. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Program Integrity Alliance](https://github.com/Program-Integrity-Alliance/pia-mcp-local) — An MCP server to help make U.S. <sub>MIT · checked 2026-07-26 · curated</sub>
+- [Vizro](https://github.com/mckinsey/vizro) — Provides tools and templates to create a functioning Vizro chart or dashboard step by step. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
+
 ### Productivity
 
 - [Alfresco](https://github.com/AlfrescoLabs/alfresco-mcp-server) — A minimal Model Context Protocol (MCP) server for Alfresco providing tools via the Alfresco REST API. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
@@ -191,21 +207,6 @@
 - [SimpleCheckList](https://github.com/DevMayur/SimpleCheckList) — SimpleCheckList exposes hierarchical projects, task lists, tasks, and subtasks through MCP. <sub>MIT · checked 2026-07-26 · curated</sub>
 - [Task Orchestrator](https://github.com/jpicklyk/task-orchestrator) — Task Orchestrator provides structured task, feature, dependency, and project-context management through MCP. <sub>MIT · checked 2026-07-26 · curated</sub>
 - [Teamwork](https://github.com/teamwork/mcp) — Tools for Teamwork.com products. <sub>MIT · checked 2026-07-26 · curated</sub>
-
-### Data & AI
-
-- [data.gouv.fr MCP](https://github.com/datagouv/datagouv-mcp) — The official data.gouv.fr MCP server lets agents search, explore, and analyze French public datasets. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [dbt MCP](https://github.com/dbt-labs/dbt-mcp) — The dbt MCP server lets agents interact with dbt projects, metadata, metrics, and development workflows. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
-- [FunASR](https://github.com/modelscope/FunASR) — FunASR provides speech recognition, voice activity detection, punctuation, and diarization pipelines with MCP serving support. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [glif.app](https://github.com/glifxyz/glif-mcp-server) — Glif MCP lets agents discover and run AI workflows hosted on glif.app. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Humanitarian Data Exchange](https://github.com/dividor/hdx-mcp) — HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) — Jupyter MCP Server lets agents interact with Jupyter notebooks and execute notebook code through MCP. <sub>BSD-3-Clause · checked 2026-07-26 · curated</sub>
-- [Keboola](https://github.com/keboola/mcp-server) — Keboola MCP connects agents to Keboola projects, data, components, transformations, and workflows. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Metabase](https://github.com/easecloudio/mcp-metabase-server) — Metabase MCP exposes dashboard, question, database, and analytics operations through more than 70 tools. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [MiniMax MCP](https://github.com/MiniMax-AI/MiniMax-MCP) — The official MiniMax MCP server exposes text-to-speech, image-generation, and video-generation APIs. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Novita](https://github.com/novitalabs/novita-mcp-server) — Novita MCP exposes Novita AI platform resources to MCP clients. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Program Integrity Alliance](https://github.com/Program-Integrity-Alliance/pia-mcp-local) — An MCP server to help make U.S. <sub>MIT · checked 2026-07-26 · curated</sub>
-- [Vizro](https://github.com/mckinsey/vizro) — Provides tools and templates to create a functioning Vizro chart or dashboard step by step. <sub>Apache-2.0 · checked 2026-07-26 · curated</sub>
 
 ### Finance
 

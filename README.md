@@ -10,7 +10,7 @@
 A large, source-backed index of extensions for Claude Code and Codex: plugins, Agent Skills, agents, commands, hooks, workflows, MCP servers, interfaces, and supporting tools.
 
 <!-- catalog-stats:start -->
-**2,465 entries** · **2,382 GitHub repositories** · **311 plugins** · **1,643 MCP servers** · **268 official-directory entries**
+**2,466 entries** · **2,383 GitHub repositories** · **311 plugins** · **1,644 MCP servers** · **268 official-directory entries**
 <!-- catalog-stats:end -->
 
 ## [🔎 Open the searchable web catalog →](https://omgits0mar.github.io/awesome-claude-code-extensions/)

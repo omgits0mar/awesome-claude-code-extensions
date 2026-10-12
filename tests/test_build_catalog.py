@@ -87,6 +87,73 @@ class CsvSafetyTests(unittest.TestCase):
 
 
 class ManualResearchTests(unittest.TestCase):
+    def test_entry_check_date_override_preserves_dataset_default(self) -> None:
+        payload = [
+            {
+                "name": "Reviewed example",
+                "url": "https://github.com/example/reviewed",
+                "description": "Example with a separately recorded review date.",
+                "kind": "mcp-server",
+                "tags": ["license-mit"],
+                "checked_at": "2026-10-12",
+            },
+            {
+                "name": "Unchanged example",
+                "url": "https://github.com/example/unchanged",
+                "description": "Example that keeps the previous review date.",
+                "kind": "mcp-server",
+                "tags": ["license-mit"],
+            },
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "research").mkdir()
+            (root / "research" / "claude-native.json").write_text(
+                json.dumps(payload),
+                encoding="utf-8",
+            )
+            entries = parse_manual_research(
+                root,
+                {
+                    "claude-native.json": {
+                        "checked_at": "2026-10-12",
+                        "default_entry_checked_at": "2026-07-28",
+                    }
+                },
+            )
+
+        self.assertEqual(entries[0]["last_checked"], "2026-10-12")
+        self.assertEqual(entries[0]["license_checked_at"], "2026-10-12")
+        self.assertEqual(entries[1]["last_checked"], "2026-07-28")
+        self.assertEqual(entries[1]["license_checked_at"], "2026-07-28")
+
+    def test_invalid_per_entry_check_date_is_rejected(self) -> None:
+        payload = [
+            {
+                "name": "Invalid date example",
+                "url": "https://github.com/example/invalid-date",
+                "description": "Example with an invalid review date.",
+                "checked_at": "yesterday",
+            }
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "research").mkdir()
+            (root / "research" / "claude-native.json").write_text(
+                json.dumps(payload),
+                encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "Invalid checked_at date"):
+                parse_manual_research(
+                    root,
+                    {
+                        "claude-native.json": {
+                            "checked_at": "2026-10-12",
+                            "default_entry_checked_at": "2026-07-28",
+                        }
+                    },
+                )
+
     def test_explicit_kind_compatibility_and_install_are_preserved(self) -> None:
         payload = [
             {

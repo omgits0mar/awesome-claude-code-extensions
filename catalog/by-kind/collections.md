@@ -1,6 +1,6 @@
 # Collections & Awesome Lists
 
-21 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
+21 source-backed entries. Generated from `catalog/catalog.json` on 2026-10-12.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
