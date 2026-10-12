@@ -2,8 +2,9 @@
   "schema_version": "1.0.0",
   "datasets": {
     "claude-native.json": {
-      "checked_at": "2026-07-28",
-      "sha256": "92a67d232af55fcc5957bca478cc891832f0c8c5d14a1e2aca5545316e5193dd"
+      "checked_at": "2026-10-12",
+      "default_entry_checked_at": "2026-07-28",
+      "sha256": "d7bb1a8519bdd2d47113d2f26ecb05e021400aff49073682fc7aa74e222dea56"
     },
     "mcp-servers.json": {
       "checked_at": "2026-07-26",

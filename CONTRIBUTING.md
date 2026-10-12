@@ -50,6 +50,8 @@ Portable Agent Skills and standards-compliant MCP servers can list both Claude C
 4. Run `make all`. The build regenerates JSON, CSV, statistics, Markdown indexes, source documentation, and README counts.
 5. Review every generated diff, then open a pull request using the checklist below.
 
+`checked_at` dates the dataset revision. For a manually researched dataset, if only some entries were reviewed, set `checked_at` on each reviewed entry and set the manifest's optional `default_entry_checked_at` to the previous dataset date. The build uses that fallback for unchanged entries so their `last_checked` dates are not advanced without a review. Leave the fallback unset when every entry was rechecked.
+
 Do not hand-edit `catalog/catalog.json`, `catalog/catalog.csv`, `catalog/stats.json`, `catalog/by-kind/`, `catalog/verified-open-source.md`, `CATALOG.md`, or `docs/SOURCES.md`.
 
 ### Source record example

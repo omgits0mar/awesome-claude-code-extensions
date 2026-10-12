@@ -6260,5 +6260,30 @@
     "author": "amElnagdy",
     "source_list_url": "https://github.com/amElnagdy/delegate-skills",
     "evidence_note": "The repository contains seven SKILL.md packages, including claude-delegate and codex-delegate, with Skills CLI installation and an MIT license; each includes a Node relay that launches an authenticated agent CLI and git and can modify the workspace, so review its scripts, sandbox, diff, and result artifacts."
+  },
+  {
+    "name": "Invokely MCP Connector",
+    "url": "https://github.com/estevecastells/invokely-mcp-connector",
+    "description": "Local stdio MCP connector for querying cited official statistics through Invokely's hosted service.",
+    "kind": "mcp-server",
+    "category": "Data & AI",
+    "tags": [
+      "claude-code",
+      "codex",
+      "license-mit",
+      "mcp",
+      "mcp-stdio",
+      "official-statistics"
+    ],
+    "compatibility": [
+      "claude-code",
+      "codex",
+      "mcp"
+    ],
+    "install": "npx -y github:estevecastells/invokely-mcp-connector",
+    "author": "estevecastells",
+    "source_list_url": "https://github.com/estevecastells/invokely-mcp-connector",
+    "evidence_note": "MIT covers this connector, not the hosted backend. The npx GitHub install downloads and runs it; requests go to fixed Invokely endpoints. An optional API key is sent as Bearer auth and not stored. The hosted server exposes workspace_delete, which permanently removes an item and requires user confirmation.",
+    "checked_at": "2026-10-12"
   }
 ]

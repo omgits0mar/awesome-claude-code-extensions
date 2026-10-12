@@ -1,6 +1,6 @@
 # MCP Servers
 
-1,643 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
+1,644 source-backed entries. Generated from `catalog/catalog.json` on 2026-10-12.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -1506,6 +1506,22 @@
 - [Render](https://github.com/render-oss/render-mcp-server) — Render MCP lets agents inspect and manage services and resources hosted on Render. <sub>mcp-server · Cloud & DevOps · curated</sub>
 - [Tigris Data](https://github.com/tigrisdata/tigris-mcp-server) — Tigris is a globally distributed S3-compatible object storage service that provides low latency anywhere in the world, enabling developers to store and access any amount of data for a wide range of use cases. <sub>mcp-server · Cloud & DevOps · curated</sub>
 
+## Data & AI
+
+- [data.gouv.fr MCP](https://github.com/datagouv/datagouv-mcp) — The official data.gouv.fr MCP server lets agents search, explore, and analyze French public datasets. <sub>mcp-server · Data & AI · curated</sub>
+- [dbt MCP](https://github.com/dbt-labs/dbt-mcp) — The dbt MCP server lets agents interact with dbt projects, metadata, metrics, and development workflows. <sub>mcp-server · Data & AI · official, curated</sub>
+- [FunASR](https://github.com/modelscope/FunASR) — FunASR provides speech recognition, voice activity detection, punctuation, and diarization pipelines with MCP serving support. <sub>mcp-server · Data & AI · curated</sub>
+- [glif.app](https://github.com/glifxyz/glif-mcp-server) — Glif MCP lets agents discover and run AI workflows hosted on glif.app. <sub>mcp-server · Data & AI · curated</sub>
+- [Humanitarian Data Exchange](https://github.com/dividor/hdx-mcp) — HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. <sub>mcp-server · Data & AI · curated</sub>
+- [Invokely MCP Connector](https://github.com/estevecastells/invokely-mcp-connector) — Local stdio MCP connector for querying cited official statistics through Invokely's hosted service. <sub>mcp-server · Data & AI · curated</sub> Install: `npx -y github:estevecastells/invokely-mcp-connector`
+- [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) — Jupyter MCP Server lets agents interact with Jupyter notebooks and execute notebook code through MCP. <sub>mcp-server · Data & AI · curated</sub>
+- [Keboola](https://github.com/keboola/mcp-server) — Keboola MCP connects agents to Keboola projects, data, components, transformations, and workflows. <sub>mcp-server · Data & AI · curated</sub>
+- [Metabase](https://github.com/easecloudio/mcp-metabase-server) — Metabase MCP exposes dashboard, question, database, and analytics operations through more than 70 tools. <sub>mcp-server · Data & AI · curated</sub>
+- [MiniMax MCP](https://github.com/MiniMax-AI/MiniMax-MCP) — The official MiniMax MCP server exposes text-to-speech, image-generation, and video-generation APIs. <sub>mcp-server · Data & AI · curated</sub>
+- [Novita](https://github.com/novitalabs/novita-mcp-server) — Novita MCP exposes Novita AI platform resources to MCP clients. <sub>mcp-server · Data & AI · curated</sub>
+- [Program Integrity Alliance](https://github.com/Program-Integrity-Alliance/pia-mcp-local) — An MCP server to help make U.S. <sub>mcp-server · Data & AI · curated</sub>
+- [Vizro](https://github.com/mckinsey/vizro) — Provides tools and templates to create a functioning Vizro chart or dashboard step by step. <sub>mcp-server · Data & AI · curated</sub>
+
 ## Productivity
 
 - [Alfresco](https://github.com/AlfrescoLabs/alfresco-mcp-server) — A minimal Model Context Protocol (MCP) server for Alfresco providing tools via the Alfresco REST API. <sub>mcp-server · Productivity · curated</sub>
@@ -1521,21 +1537,6 @@
 - [SimpleCheckList](https://github.com/DevMayur/SimpleCheckList) — SimpleCheckList exposes hierarchical projects, task lists, tasks, and subtasks through MCP. <sub>mcp-server · Productivity · curated</sub>
 - [Task Orchestrator](https://github.com/jpicklyk/task-orchestrator) — Task Orchestrator provides structured task, feature, dependency, and project-context management through MCP. <sub>mcp-server · Productivity · curated</sub>
 - [Teamwork](https://github.com/teamwork/mcp) — Tools for Teamwork.com products. <sub>mcp-server · Productivity · curated</sub>
-
-## Data & AI
-
-- [data.gouv.fr MCP](https://github.com/datagouv/datagouv-mcp) — The official data.gouv.fr MCP server lets agents search, explore, and analyze French public datasets. <sub>mcp-server · Data & AI · curated</sub>
-- [dbt MCP](https://github.com/dbt-labs/dbt-mcp) — The dbt MCP server lets agents interact with dbt projects, metadata, metrics, and development workflows. <sub>mcp-server · Data & AI · official, curated</sub>
-- [FunASR](https://github.com/modelscope/FunASR) — FunASR provides speech recognition, voice activity detection, punctuation, and diarization pipelines with MCP serving support. <sub>mcp-server · Data & AI · curated</sub>
-- [glif.app](https://github.com/glifxyz/glif-mcp-server) — Glif MCP lets agents discover and run AI workflows hosted on glif.app. <sub>mcp-server · Data & AI · curated</sub>
-- [Humanitarian Data Exchange](https://github.com/dividor/hdx-mcp) — HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. <sub>mcp-server · Data & AI · curated</sub>
-- [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) — Jupyter MCP Server lets agents interact with Jupyter notebooks and execute notebook code through MCP. <sub>mcp-server · Data & AI · curated</sub>
-- [Keboola](https://github.com/keboola/mcp-server) — Keboola MCP connects agents to Keboola projects, data, components, transformations, and workflows. <sub>mcp-server · Data & AI · curated</sub>
-- [Metabase](https://github.com/easecloudio/mcp-metabase-server) — Metabase MCP exposes dashboard, question, database, and analytics operations through more than 70 tools. <sub>mcp-server · Data & AI · curated</sub>
-- [MiniMax MCP](https://github.com/MiniMax-AI/MiniMax-MCP) — The official MiniMax MCP server exposes text-to-speech, image-generation, and video-generation APIs. <sub>mcp-server · Data & AI · curated</sub>
-- [Novita](https://github.com/novitalabs/novita-mcp-server) — Novita MCP exposes Novita AI platform resources to MCP clients. <sub>mcp-server · Data & AI · curated</sub>
-- [Program Integrity Alliance](https://github.com/Program-Integrity-Alliance/pia-mcp-local) — An MCP server to help make U.S. <sub>mcp-server · Data & AI · curated</sub>
-- [Vizro](https://github.com/mckinsey/vizro) — Provides tools and templates to create a functioning Vizro chart or dashboard step by step. <sub>mcp-server · Data & AI · curated</sub>
 
 ## Finance
 

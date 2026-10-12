@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-10-12",
   "description": "A source-backed catalog of open/public-source extensions for Claude Code, Codex, Agent Skills, and MCP-compatible coding agents.",
   "counts": {
-    "total": 2465,
+    "total": 2466,
     "official_directory": 268,
     "official_provider": 400,
-    "license_verified": 229,
-    "github_repositories": 2382,
+    "license_verified": 230,
+    "github_repositories": 2383,
     "by_kind": {
       "agent": 99,
       "collection": 21,
@@ -15,7 +15,7 @@
       "hook": 7,
       "interface": 44,
       "learning": 14,
-      "mcp-server": 1643,
+      "mcp-server": 1644,
       "mcp-tooling": 31,
       "monitoring": 45,
       "plugin": 311,
@@ -26,7 +26,7 @@
     "by_tier": {
       "official": 268,
       "popular": 302,
-      "curated": 654,
+      "curated": 655,
       "community": 1241
     },
     "by_category": {
@@ -71,10 +71,10 @@
       "📟 Embedded System": 15,
       "Learning & Reference": 14,
       "Cloud & DevOps": 13,
+      "Data & AI": 13,
       "infrastructure-and-proxy": 13,
       "Other": 13,
       "security": 13,
-      "Data & AI": 12,
       "client-and-gui": 11,
       "Finance": 11,
       "plugin-marketplace": 11,
@@ -32521,6 +32521,49 @@
         }
       ],
       "notes": "Docker's curated MCP Registry lists this repository as the source and pins source commit c625bf9ae120; a pinned-revision audit found mit license text in LICENSE."
+    },
+    {
+      "id": "estevecastells-invokely-mcp-connector-ac16dc84",
+      "name": "Invokely MCP Connector",
+      "aliases": [],
+      "url": "https://github.com/estevecastells/invokely-mcp-connector",
+      "repository_url": "https://github.com/estevecastells/invokely-mcp-connector",
+      "description": "Local stdio MCP connector for querying cited official statistics through Invokely's hosted service.",
+      "kind": "mcp-server",
+      "category": "Data & AI",
+      "tags": [
+        "claude-code",
+        "codex",
+        "data",
+        "license-mit",
+        "mcp",
+        "mcp-stdio",
+        "official-statistics"
+      ],
+      "compatibility": [
+        "claude-code",
+        "codex",
+        "mcp"
+      ],
+      "source_tier": "curated",
+      "official": false,
+      "install": "npx -y github:estevecastells/invokely-mcp-connector",
+      "install_commands": [
+        "npx -y github:estevecastells/invokely-mcp-connector"
+      ],
+      "author": "estevecastells",
+      "license": "MIT",
+      "license_verified": true,
+      "license_checked_at": "2026-10-12",
+      "verification": "manually-researched",
+      "last_checked": "2026-10-12",
+      "sources": [
+        {
+          "name": "Parallel web/GitHub research",
+          "url": "https://github.com/estevecastells/invokely-mcp-connector"
+        }
+      ],
+      "notes": "MIT covers this connector, not the hosted backend."
     },
     {
       "id": "datalayer-jupyter-mcp-server-9f62881a",
