@@ -1,6 +1,6 @@
 # License-verified open-source projects
 
-229 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-07-28.
+231 entries have artifact-level license evidence from research passes dated 2026-07-26, 2026-11-19.
 
 > License verification means the linked artifact had a recognized open-source license at the checked revision. It is not a security, maintenance, or compatibility endorsement.
 
@@ -25,11 +25,16 @@
 
 - [zscaler](https://github.com/zscaler/zscaler-mcp-server) — Manage Zscaler cloud security platform including ZPA (private access), ZIA (internet access), ZDX (digital experience), ZCC (client connector), EASM (attack surface), and Z-Insights (analytics). <sub>MIT · checked 2026-07-26 · official</sub>
 
-## Skill (1)
+## Skill (3)
+
+### web-and-search
+
+- [Firecrawl Agent Skills](https://github.com/firecrawl/skills) — Official Firecrawl Agent Skills for web search, scraping, crawling, and research workflows, installable in Claude Code and Codex. <sub>ISC · checked 2026-11-19 · curated</sub>
+- [Firecrawl Alexandria skill](https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria) — Portable Agent Skill that lets agents query structured data from Firecrawl Alexandria, Firecrawl's catalog of data providers and indexes, through Firecrawl search and scrape. <sub>ISC · checked 2026-11-19 · curated</sub>
 
 ### browser-automation
 
-- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+- [Scrapling Agent Skill](https://github.com/D4Vinci/Scrapling/tree/main/agent-skill) — Portable Agent Skill that gives coding agents current Scrapling API and usage guidance for writing web-scraping and browser-automation code. <sub>BSD-3-Clause · checked 2026-11-19 · curated</sub>
 
 ## MCP Servers (220)
 
@@ -317,7 +322,7 @@
 
 ### browser-automation
 
-- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>BSD-3-Clause · checked 2026-07-28 · curated</sub>
+- [Scrapling MCP Server](https://github.com/D4Vinci/Scrapling) — MCP server for targeted web extraction with adaptive parsing, HTTP and browser fetchers, persistent sessions, screenshots, and remote CDP browser control. <sub>BSD-3-Clause · checked 2026-11-19 · curated</sub>
 
 ### 🎮 Gaming
 
@@ -359,4 +364,4 @@
 
 ### multi-agent-orchestration
 
-- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>MIT · checked 2026-07-28 · curated</sub>
+- [delegate-skills](https://github.com/amElnagdy/delegate-skills) — Collection of Agent Skills for dispatching bounded implementation work to Claude Code, Codex, and other CLI agents while the orchestrator reviews and lands the result. <sub>MIT · checked 2026-11-19 · curated</sub>

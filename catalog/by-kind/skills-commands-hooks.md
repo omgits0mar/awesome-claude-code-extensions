@@ -1,6 +1,6 @@
 # Skills, Commands & Hooks
 
-159 source-backed entries. Generated from `catalog/catalog.json` on 2026-07-28.
+161 source-backed entries. Generated from `catalog/catalog.json` on 2026-11-19.
 
 > Inclusion is not an endorsement or security audit. Review upstream code, permissions, credentials, and licenses before installation.
 
@@ -200,6 +200,11 @@
 
 - [ai-agent-notifier](https://github.com/DevinoSolutions/ai-agent-notifier) — A zero-dependency, cross-platform notifier that fires a desktop toast and a free phone push (via ntfy) the moment Claude Code (or Codex/Cursor/Gemini) finishes a task or needs input, wired up by a one-command setup. <sub>command · remote-control · curated</sub>
 - [Telegram-Claude (tg-claude)](https://github.com/Imolatte/tg-claude) — A feature-rich Telegram bot that turns your machine into a remote Claude Code terminal driven from your phone: streaming tool progress, voice input, a git panel, Mac remote control, and 30+ commands. <sub>command · remote-control · curated</sub>
+
+## web-and-search
+
+- [Firecrawl Agent Skills](https://github.com/firecrawl/skills) — Official Firecrawl Agent Skills for web search, scraping, crawling, and research workflows, installable in Claude Code and Codex. <sub>skill · web-and-search · curated</sub> Install: `npx skills add firecrawl/skills`
+- [Firecrawl Alexandria skill](https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria) — Portable Agent Skill that lets agents query structured data from Firecrawl Alexandria, Firecrawl's catalog of data providers and indexes, through Firecrawl search and scrape. <sub>skill · web-and-search · curated</sub> Install: `npx skills add firecrawl/skills --skill firecrawl-alexandria`
 
 ## browser-automation
 

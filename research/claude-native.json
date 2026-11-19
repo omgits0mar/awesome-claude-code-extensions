@@ -6260,5 +6260,58 @@
     "author": "amElnagdy",
     "source_list_url": "https://github.com/amElnagdy/delegate-skills",
     "evidence_note": "The repository contains seven SKILL.md packages, including claude-delegate and codex-delegate, with Skills CLI installation and an MIT license; each includes a Node relay that launches an authenticated agent CLI and git and can modify the workspace, so review its scripts, sandbox, diff, and result artifacts."
+  },
+  {
+    "name": "Firecrawl Agent Skills",
+    "url": "https://github.com/firecrawl/skills",
+    "description": "Official Firecrawl Agent Skills for web search, scraping, crawling, and research workflows, installable in Claude Code and Codex.",
+    "kind": "skill",
+    "category": "web-and-search",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "crawling",
+      "firecrawl",
+      "license-isc",
+      "search",
+      "web-and-search",
+      "web-scraping"
+    ],
+    "compatibility": [
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "install": "npx skills add firecrawl/skills",
+    "author": "firecrawl",
+    "source_list_url": "https://github.com/firecrawl/skills",
+    "evidence_note": "The skills run Firecrawl CLI shell commands that make network requests to the Firecrawl API, and the README lists a Firecrawl API key in FIRECRAWL_API_KEY as a prerequisite. Setup can install firecrawl-cli globally through npm, output goes to a local .firecrawl/ directory, the onboarding skill can add the key to .env, the interact skill drives a remote browser, and the monitor skill creates recurring jobs. The repository ships an .mcp.json that runs firecrawl-mcp through npx, the Claude Code and Codex plugin manifests bundle the core and build skills, and the workflow skills install through npx skills. The README install section, root ISC LICENSE, and SKILL.md packages were checked."
+  },
+  {
+    "name": "Firecrawl Alexandria skill",
+    "url": "https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria",
+    "description": "Portable Agent Skill that lets agents query structured data from Firecrawl Alexandria, Firecrawl's catalog of data providers and indexes, through Firecrawl search and scrape.",
+    "kind": "skill",
+    "category": "web-and-search",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "firecrawl",
+      "firecrawl-alexandria",
+      "license-isc",
+      "structured-data",
+      "web-and-search"
+    ],
+    "compatibility": [
+      "agent-skills",
+      "claude-code",
+      "codex"
+    ],
+    "install": "npx skills add firecrawl/skills --skill firecrawl-alexandria",
+    "author": "firecrawl",
+    "source_list_url": "https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria",
+    "evidence_note": "The skill makes network requests to the Firecrawl API through the Firecrawl CLI and requires a Firecrawl API key, and after Firecrawl Alexandria calls it has the agent send feedback (the website, the data requested, and the session goal) to Firecrawl unless FIRECRAWL_NO_ENDPOINT_FEEDBACK=1 is set. It builds on the firecrawl-search and firecrawl-scrape skills, and it installs through npx skills because the Claude Code plugin manifest does not list it, while the Codex manifest includes all of skills/core. The linked SKILL.md and root ISC LICENSE were checked."
   }
 ]
