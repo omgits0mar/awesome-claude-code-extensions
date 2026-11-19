@@ -1,9 +1,9 @@
 {
-  "total": 2465,
+  "total": 2467,
   "official_directory": 268,
   "official_provider": 400,
-  "license_verified": 229,
-  "github_repositories": 2382,
+  "license_verified": 231,
+  "github_repositories": 2383,
   "by_kind": {
     "agent": 99,
     "collection": 21,
@@ -15,14 +15,14 @@
     "mcp-tooling": 31,
     "monitoring": 45,
     "plugin": 311,
-    "skill": 140,
+    "skill": 142,
     "tool": 45,
     "workflow": 53
   },
   "by_tier": {
     "official": 268,
     "popular": 302,
-    "curated": 654,
+    "curated": 656,
     "community": 1241
   },
   "by_category": {
@@ -125,6 +125,7 @@
     "IoT & Hardware": 2,
     "Location": 2,
     "Testing": 2,
+    "web-and-search": 2,
     "⚙️ Workflow Automation": 2,
     "🚀 Aerospace & Astrodynamics": 2,
     "🤝 Agreements & Coordination": 2,

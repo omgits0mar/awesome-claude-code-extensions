@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-11-19",
   "description": "A source-backed catalog of open/public-source extensions for Claude Code, Codex, Agent Skills, and MCP-compatible coding agents.",
   "counts": {
-    "total": 2465,
+    "total": 2467,
     "official_directory": 268,
     "official_provider": 400,
-    "license_verified": 229,
-    "github_repositories": 2382,
+    "license_verified": 231,
+    "github_repositories": 2383,
     "by_kind": {
       "agent": 99,
       "collection": 21,
@@ -19,14 +19,14 @@
       "mcp-tooling": 31,
       "monitoring": 45,
       "plugin": 311,
-      "skill": 140,
+      "skill": 142,
       "tool": 45,
       "workflow": 53
     },
     "by_tier": {
       "official": 268,
       "popular": 302,
-      "curated": 654,
+      "curated": 656,
       "community": 1241
     },
     "by_category": {
@@ -129,6 +129,7 @@
       "IoT & Hardware": 2,
       "Location": 2,
       "Testing": 2,
+      "web-and-search": 2,
       "⚙️ Workflow Automation": 2,
       "🚀 Aerospace & Astrodynamics": 2,
       "🤝 Agreements & Coordination": 2,
@@ -22765,7 +22766,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22806,7 +22807,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22847,7 +22848,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22883,7 +22884,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22918,7 +22919,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22956,7 +22957,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -22992,7 +22993,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23028,7 +23029,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23063,7 +23064,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23100,7 +23101,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23138,7 +23139,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23178,7 +23179,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23213,7 +23214,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23249,7 +23250,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23285,7 +23286,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23320,7 +23321,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23357,7 +23358,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23395,7 +23396,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23431,7 +23432,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23466,7 +23467,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23502,7 +23503,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23537,7 +23538,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23572,7 +23573,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23607,7 +23608,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23644,7 +23645,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23685,7 +23686,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23725,7 +23726,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23763,7 +23764,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23801,7 +23802,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23840,7 +23841,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23878,7 +23879,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23915,7 +23916,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23953,7 +23954,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -23993,7 +23994,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24034,7 +24035,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24072,7 +24073,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24115,9 +24116,9 @@
       "author": "D4Vinci",
       "license": "BSD-3-Clause",
       "license_verified": true,
-      "license_checked_at": "2026-07-28",
+      "license_checked_at": "2026-11-19",
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24160,7 +24161,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24199,7 +24200,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24243,7 +24244,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24284,7 +24285,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24324,7 +24325,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24366,7 +24367,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24406,7 +24407,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24445,7 +24446,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24484,7 +24485,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24523,7 +24524,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24564,7 +24565,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24603,7 +24604,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24643,7 +24644,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24684,7 +24685,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24724,7 +24725,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24763,7 +24764,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24805,7 +24806,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24846,7 +24847,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24886,7 +24887,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24923,7 +24924,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -24963,7 +24964,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25002,7 +25003,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25042,7 +25043,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25082,7 +25083,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25120,7 +25121,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25160,7 +25161,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25199,7 +25200,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25237,7 +25238,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25276,7 +25277,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25315,7 +25316,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25355,7 +25356,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25394,7 +25395,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25433,7 +25434,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25471,7 +25472,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25509,7 +25510,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25549,7 +25550,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25588,7 +25589,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25633,7 +25634,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25672,7 +25673,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25711,7 +25712,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25750,7 +25751,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25789,7 +25790,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25829,7 +25830,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25868,7 +25869,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25908,7 +25909,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25946,7 +25947,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -25985,7 +25986,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26023,7 +26024,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26062,7 +26063,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26101,7 +26102,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26140,7 +26141,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26178,7 +26179,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26218,7 +26219,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26256,7 +26257,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26296,7 +26297,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26337,7 +26338,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26376,7 +26377,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26417,7 +26418,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26455,7 +26456,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26493,7 +26494,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26534,7 +26535,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26575,7 +26576,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26613,7 +26614,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26651,7 +26652,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26690,7 +26691,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26730,7 +26731,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26769,7 +26770,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26809,7 +26810,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26849,7 +26850,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26887,7 +26888,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26926,7 +26927,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -26967,7 +26968,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27005,7 +27006,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27046,7 +27047,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27086,7 +27087,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27125,7 +27126,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27162,7 +27163,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27204,7 +27205,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27245,7 +27246,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27283,7 +27284,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27321,7 +27322,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27361,7 +27362,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27400,7 +27401,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27438,7 +27439,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27478,7 +27479,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27517,7 +27518,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27557,7 +27558,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27565,6 +27566,98 @@
         }
       ],
       "notes": "The 🤖 Agents & Orchestration section of jqueryscript/awesome-claude-code lists this GitHub project and summarizes its Claude Code use."
+    },
+    {
+      "id": "firecrawl-skills-aa97c487",
+      "name": "Firecrawl Agent Skills",
+      "aliases": [],
+      "url": "https://github.com/firecrawl/skills",
+      "repository_url": "https://github.com/firecrawl/skills",
+      "description": "Official Firecrawl Agent Skills for web search, scraping, crawling, and research workflows, installable in Claude Code and Codex.",
+      "kind": "skill",
+      "category": "web-and-search",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "crawling",
+        "data",
+        "firecrawl",
+        "license-isc",
+        "productivity",
+        "search",
+        "web-and-search",
+        "web-scraping"
+      ],
+      "compatibility": [
+        "agent-skills",
+        "claude-code",
+        "codex"
+      ],
+      "source_tier": "curated",
+      "official": false,
+      "install": "npx skills add firecrawl/skills",
+      "install_commands": [
+        "npx skills add firecrawl/skills"
+      ],
+      "author": "firecrawl",
+      "license": "ISC",
+      "license_verified": true,
+      "license_checked_at": "2026-11-19",
+      "verification": "manually-researched",
+      "last_checked": "2026-11-19",
+      "sources": [
+        {
+          "name": "Parallel web/GitHub research",
+          "url": "https://github.com/firecrawl/skills"
+        }
+      ],
+      "notes": "The skills run Firecrawl CLI shell commands that make network requests to the Firecrawl API, and the README lists a Firecrawl API key in FIRECRAWL_API_KEY as a prerequisite."
+    },
+    {
+      "id": "firecrawl-skills-tree-main-skills-core-firecrawl-alexandria-d11856ff",
+      "name": "Firecrawl Alexandria skill",
+      "aliases": [],
+      "url": "https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria",
+      "repository_url": "https://github.com/firecrawl/skills",
+      "description": "Portable Agent Skill that lets agents query structured data from Firecrawl Alexandria, Firecrawl's catalog of data providers and indexes, through Firecrawl search and scrape.",
+      "kind": "skill",
+      "category": "web-and-search",
+      "tags": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data",
+        "firecrawl",
+        "firecrawl-alexandria",
+        "license-isc",
+        "structured-data",
+        "web-and-search"
+      ],
+      "compatibility": [
+        "agent-skills",
+        "claude-code",
+        "codex"
+      ],
+      "source_tier": "curated",
+      "official": false,
+      "install": "npx skills add firecrawl/skills --skill firecrawl-alexandria",
+      "install_commands": [
+        "npx skills add firecrawl/skills --skill firecrawl-alexandria"
+      ],
+      "author": "firecrawl",
+      "license": "ISC",
+      "license_verified": true,
+      "license_checked_at": "2026-11-19",
+      "verification": "manually-researched",
+      "last_checked": "2026-11-19",
+      "sources": [
+        {
+          "name": "Parallel web/GitHub research",
+          "url": "https://github.com/firecrawl/skills/tree/main/skills/core/firecrawl-alexandria"
+        }
+      ],
+      "notes": "The skill makes network requests to the Firecrawl API through the Firecrawl CLI and requires a Firecrawl API key, and after Firecrawl Alexandria calls it has the agent send feedback (the website, the data requested, and the session goal) to Firecrawl unless FIRECRAWL_NO_ENDPOINT_FEEDBACK=1 is set."
     },
     {
       "id": "luongnv89-asm-516fcf79",
@@ -27597,7 +27690,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27640,7 +27733,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27681,7 +27774,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27721,7 +27814,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27761,7 +27854,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27798,7 +27891,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27836,7 +27929,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27874,7 +27967,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27912,7 +28005,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27950,7 +28043,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -27987,7 +28080,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28023,7 +28116,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28058,7 +28151,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28095,7 +28188,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28133,7 +28226,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28172,7 +28265,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28208,7 +28301,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28242,7 +28335,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28277,7 +28370,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28317,7 +28410,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28354,7 +28447,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28390,7 +28483,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28426,7 +28519,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28463,7 +28556,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28499,7 +28592,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28535,7 +28628,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28572,7 +28665,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28609,7 +28702,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28645,7 +28738,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28683,7 +28776,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28720,7 +28813,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28756,7 +28849,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28791,7 +28884,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28828,7 +28921,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28872,7 +28965,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28911,7 +29004,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28946,7 +29039,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -28982,7 +29075,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29021,7 +29114,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29056,7 +29149,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29095,7 +29188,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29131,7 +29224,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29166,7 +29259,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29201,7 +29294,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29236,7 +29329,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29271,7 +29364,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29308,7 +29401,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29343,7 +29436,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29378,7 +29471,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29414,7 +29507,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29449,7 +29542,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29486,7 +29579,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29522,7 +29615,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29558,7 +29651,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29593,7 +29686,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29628,7 +29721,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29663,7 +29756,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29699,7 +29792,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29736,7 +29829,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29771,7 +29864,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29805,7 +29898,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29842,7 +29935,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29879,7 +29972,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29915,7 +30008,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29950,7 +30043,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -29985,7 +30078,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30020,7 +30113,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30056,7 +30149,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30092,7 +30185,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30126,7 +30219,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30161,7 +30254,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30195,7 +30288,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30229,7 +30322,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30266,7 +30359,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30300,7 +30393,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30335,7 +30428,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30371,7 +30464,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30407,7 +30500,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30445,7 +30538,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30481,7 +30574,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30518,7 +30611,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30554,7 +30647,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30593,7 +30686,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30630,7 +30723,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30666,7 +30759,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30701,7 +30794,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30736,7 +30829,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30771,7 +30864,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30808,7 +30901,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30843,7 +30936,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30878,7 +30971,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30913,7 +31006,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30950,7 +31043,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -30985,7 +31078,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31022,7 +31115,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31057,7 +31150,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31093,7 +31186,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31130,7 +31223,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31167,7 +31260,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31204,7 +31297,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -31290,9 +31383,9 @@
       "author": "D4Vinci",
       "license": "BSD-3-Clause",
       "license_verified": true,
-      "license_checked_at": "2026-07-28",
+      "license_checked_at": "2026-11-19",
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45764,7 +45857,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45799,7 +45892,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45834,7 +45927,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45874,7 +45967,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45909,7 +46002,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45944,7 +46037,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -45979,7 +46072,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46014,7 +46107,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46050,7 +46143,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46085,7 +46178,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46122,7 +46215,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46157,7 +46250,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46192,7 +46285,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46227,7 +46320,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46262,7 +46355,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46297,7 +46390,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46334,7 +46427,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46371,7 +46464,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46418,7 +46511,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46457,7 +46550,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46491,7 +46584,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46525,7 +46618,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46559,7 +46652,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46593,7 +46686,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46628,7 +46721,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46663,7 +46756,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46697,7 +46790,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46732,7 +46825,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46766,7 +46859,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46802,7 +46895,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46837,7 +46930,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46872,7 +46965,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46906,7 +46999,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46941,7 +47034,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -46975,7 +47068,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47009,7 +47102,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47043,7 +47136,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47079,7 +47172,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47116,7 +47209,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47153,7 +47246,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47188,7 +47281,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47222,7 +47315,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47256,7 +47349,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47291,7 +47384,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47325,7 +47418,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47360,7 +47453,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47395,7 +47488,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47431,7 +47524,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47467,7 +47560,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47502,7 +47595,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47537,7 +47630,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47572,7 +47665,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47608,7 +47701,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47645,7 +47738,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47680,7 +47773,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47714,7 +47807,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47748,7 +47841,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47782,7 +47875,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47824,7 +47917,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47863,7 +47956,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47900,7 +47993,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47935,7 +48028,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -47983,7 +48076,7 @@
       "license_verified": true,
       "license_checked_at": "2026-07-26",
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48022,7 +48115,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48056,7 +48149,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48091,7 +48184,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48126,7 +48219,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48160,7 +48253,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48194,7 +48287,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48228,7 +48321,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48263,7 +48356,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48297,7 +48390,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48331,7 +48424,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48366,7 +48459,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48400,7 +48493,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48435,7 +48528,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48471,7 +48564,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48505,7 +48598,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48539,7 +48632,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48576,7 +48669,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48617,9 +48710,9 @@
       "author": "amElnagdy",
       "license": "MIT",
       "license_verified": true,
-      "license_checked_at": "2026-07-28",
+      "license_checked_at": "2026-11-19",
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48658,7 +48751,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48694,7 +48787,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48733,7 +48826,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48773,7 +48866,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48812,7 +48905,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48854,7 +48947,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48894,7 +48987,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48935,7 +49028,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -48975,7 +49068,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -49017,7 +49110,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",
@@ -49052,7 +49145,7 @@
       "license_verified": false,
       "license_checked_at": null,
       "verification": "manually-researched",
-      "last_checked": "2026-07-28",
+      "last_checked": "2026-11-19",
       "sources": [
         {
           "name": "Parallel web/GitHub research",

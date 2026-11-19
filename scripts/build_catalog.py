@@ -444,6 +444,7 @@ def parse_manual_research(
                 "license-bsd-3-clause": "BSD-3-Clause",
                 "license-agpl-3-0": "AGPL-3.0",
                 "license-gpl-3-0": "GPL-3.0",
+                "license-isc": "ISC",
             }
             detected_license = next(
                 (license_map[tag] for tag in item_tags if tag in license_map),

@@ -147,6 +147,32 @@ class ManualResearchTests(unittest.TestCase):
             )
         self.assertEqual(entries[0]["kind"], "plugin")
 
+    def test_isc_license_tag_is_recognized(self) -> None:
+        payload = [
+            {
+                "name": "ISC example",
+                "url": "https://github.com/example/isc-skill",
+                "description": "Portable example skill for license parser testing.",
+                "kind": "skill",
+                "category": "developer-tools",
+                "tags": ["license-isc"],
+            }
+        ]
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "research").mkdir()
+            (root / "research" / "claude-native.json").write_text(
+                json.dumps(payload),
+                encoding="utf-8",
+            )
+            entries = parse_manual_research(
+                root,
+                {"claude-native.json": {"checked_at": "2026-07-28"}},
+            )
+        self.assertEqual(entries[0]["license"], "ISC")
+        self.assertTrue(entries[0]["license_verified"])
+        self.assertEqual(entries[0]["license_checked_at"], "2026-07-28")
+
 
 if __name__ == "__main__":
     unittest.main()
